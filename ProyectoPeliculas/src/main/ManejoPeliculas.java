@@ -58,7 +58,14 @@ Cuando busquemos una pelicula por titulo deberemos de mostrar toda la informació
 				break;
 				
 			case 3:
-				buscarPeliculaPorTitulo(listaPeliculas);
+				System.out.println("Introduce el titulo a buscar : ");
+				String titulo = sc.next();
+				ArrayList<Pelicula> peliculas = buscarPeliculaPorTitulo(titulo, listaPeliculas);
+				if (peliculas != null) {
+					System.out.println(peliculas);
+				}
+				else
+					System.out.println("No se ha encontrado la película de título " + titulo);
 				break;
 				
 			default:
@@ -75,21 +82,20 @@ Cuando busquemos una pelicula por titulo deberemos de mostrar toda la informació
 
 	}
 
-	private static void buscarPeliculaPorTitulo(ArrayList<Pelicula> listaPeliculas) {
+	private static ArrayList<Pelicula> buscarPeliculaPorTitulo(String titulo, ArrayList<Pelicula> listaPeliculas) {
+	
 		
-		System.out.println("Introduce el titulo a buscar : ");
-		String titulo = sc.next();
+		ArrayList<Pelicula> miListaEncontrada = new ArrayList<Pelicula>();
 		
 		for (Pelicula pelicula : listaPeliculas) {
 			
-			if (pelicula.getTitulo().contentEquals(titulo))
+			if (pelicula.getTitulo().contains(titulo))
 			{
-				System.out.println("La película es : " + pelicula);
-				return;
+				miListaEncontrada.add(pelicula);
 			}
 		}
 		
-		System.out.println("Película de título " + titulo + " no encontrada");
+		return miListaEncontrada;
 		
 	}
 
