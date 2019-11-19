@@ -117,15 +117,16 @@ Cuando busquemos una pelicula por titulo deberemos de mostrar toda la informació
 		System.out.println("Introduce el género de la película ");
 		String genero = sc.next();
 		System.out.println("Introduce el año de la película ");
-		Integer anioEstreno = Integer.valueOf(sc.next());
+		int anioEstreno = validarEnteroPorConsola();
+		//Integer anioEstreno = Integer.valueOf(sc.next());
 		pelicula.setTitulo(titulo);
 		pelicula.setGenero(genero);
 		pelicula.setAnioEstreno(anioEstreno);
 		
 		System.out.println("Introduce el nombre del director");
-		String nombre = sc.next();
+		String nombre = sc.next();		
 		System.out.println("Introduce la edad del director");
-		Integer edad = Integer.valueOf(sc.next());
+		int edad = validarEnteroPorConsola();
 		director.setNombre(nombre);
 		director.setEdad(edad);
 		
@@ -137,19 +138,57 @@ Cuando busquemos una pelicula por titulo deberemos de mostrar toda la informació
 
 	private static int mostrarMenu() {
 		
-		int opcion = 0;
+		int opcion = -1;
 		
 		System.out.println("1- Introducir los datos de una película");
 		System.out.println("2- Listar todas las películas");
 		System.out.println("3- Buscar una película por su título");
 		System.out.println("0- Terminar la aplicación");
 		
-		opcion = sc.nextInt();
+		boolean valido = false;
+		while (!valido)
+		{
+			try {
+				String lectura = sc.next();
+				opcion = Integer.parseInt(lectura);
+				
+				if (opcion < 0 || opcion > 3)
+				{
+					System.out.println("Introduce un entero entre 0 y 3 (0, 1, 2, 3) ");
+				}
+				else				
+					valido = true;
+			} catch (Exception ex){
+				System.out.println("Introduce un entero");
+			}
+		}
+		
+		//opcion = sc.nextInt();
 	
 		
 		return opcion;
 	}
 
+	
+	public static int validarEnteroPorConsola() {
+		
+		int valor = 0;
+		boolean valido = false;
+
+		while (!valido)
+		{
+			try {
+				String lectura = sc.next();
+				valor = Integer.parseInt(lectura);
+				valido = true;
+			} catch (Exception ex){
+				System.out.println("Introduce un entero");
+			}
+		}
+		
+		return valor;
+		
+	}
 
 
 }
