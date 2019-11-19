@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;main.MainCollecciones&apos; to &apos;MainColecciones&apos;&#x0D;&#x0A;- Original project: &apos;10_Colecciones&apos;&#x0D;&#x0A;- Original element: &apos;main.MainCollecciones&apos;&#x0D;&#x0A;- Renamed element: &apos;main.MainColecciones&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MainCollecciones&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;main{MainCollecciones.java[MainCollecciones" matchStrategy="1" name="MainColecciones" qualified="false" references="true" similarDeclarations="false" stamp="1573817640788" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,31 @@
+package main;
+
+import bean.Persona;
+
+public class MainPersona {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Persona p1 = new Persona();
+		Persona pAux = p1;
+		p1.setNombre("Bud Spencer");
+		p1.setEdad(89);
+		p1.setPeso(120);
+		
+		Persona p2 = new Persona("Terence Hill", 67, 70);
+		
+		pAux.setEdad(33);
+		
+		System.out.println(p1.getEdad());
+		
+		cambiarEdad(p1);
+
+	}
+	
+	
+	public static void cambiarEdad(Persona p) {
+		p.setEdad(45);
+	}
+
+}

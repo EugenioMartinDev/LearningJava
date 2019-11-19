@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.rmi.registry.LocateRegistry"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="Ejercicio16ExplicacionArrays"/>
+<fullyQualifiedTypeName name="Empleado"/>
+<fullyQualifiedTypeName name="com.core.javaps.beans.Empleado"/>
+<fullyQualifiedTypeName name="testbeans.testEmpleadoConDepartamento"/>
+<fullyQualifiedTypeName name="beans.Cliente"/>
+<fullyQualifiedTypeName name="beans.Pedido"/>
+<fullyQualifiedTypeName name="beans.Animal"/>
+<fullyQualifiedTypeName name="beans.Gato"/>
+<fullyQualifiedTypeName name="beans.Empleado"/>
+<fullyQualifiedTypeName name="beans.Departamento"/>
+<fullyQualifiedTypeName name="beans.Director"/>
+<fullyQualifiedTypeName name="beans.Gerente"/>
+<fullyQualifiedTypeName name="beans.Operativo"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="bean.Direccion"/>
+<fullyQualifiedTypeName name="bean.Habitacion"/>
+<fullyQualifiedTypeName name="bean.Casa"/>
+<fullyQualifiedTypeName name="bean.Persona"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="bean.Coche"/>
+</qualifiedTypeNameHistroy>

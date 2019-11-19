@@ -1,0 +1,96 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import bean.Coche;
+
+public class TestCoche {
+	
+	ArrayList<Coche> listaCoches = new ArrayList<Coche>();
+	
+	public void añadirCoche(Scanner sc) {
+		
+		System.out.println(" Añadiendo un nuevo coche ");
+		
+		Coche nuevoCoche = new Coche();
+		
+		System.out.println(" Introducir marca : ");
+		nuevoCoche.setMarca(sc.next());
+		
+		System.out.println(" Introducir modelo : ");
+		nuevoCoche.setModelo(sc.next());
+		
+		System.out.println(" Introducir matrícula : ");
+		nuevoCoche.setMatricula(sc.next());
+
+		listaCoches.add(nuevoCoche);
+					
+	}
+	
+	public void listarCoches() {
+		
+		for (Coche coche : listaCoches) {
+			System.out.println();
+			System.out.println(coche);
+			System.out.println();
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		
+		TestCoche miTest = new TestCoche();
+
+		boolean menuActivo = true;
+		
+		/* Menú para añadir coches, listar coches y salir (1, 2 y  0)
+		 * El menú está siempre disponible.
+		 * La opción 1 añade un nuevo coche (marca, modelo y matrícula) a la memoria
+		 * La opción 2 lista todos los coches añadidos
+		 * La opción 0 termina el programa
+		 */
+		
+		
+		
+		Integer opcion = 0;
+		Scanner sc = new Scanner(System.in);
+
+		do {
+
+				
+			System.out.println("Incluir un noche nuevo : 1 ");
+			System.out.println("Lista de coches nuevos : 2 ");
+			System.out.println("Acabar programa coches : 0 ");
+			System.out.println("\tIntroducir opción 0, 1 ó 2 ");
+
+			if (sc.hasNextInt()) {
+				opcion = sc.nextInt();
+				
+				switch(opcion) {		
+				case 1:
+					miTest.añadirCoche(sc);
+
+					break;
+				case 2:
+					miTest.listarCoches();
+					break;
+				case 0:
+					System.out.println(" Terminado ");
+					menuActivo = false;
+					break;	
+				default:
+					System.out.println("\tPor favor, introducir opción 0, 1 ó 2 ");
+					System.out.println();
+				}
+			} else System.out.println("\tPor favor, introducir opción 0, 1 ó 2 ");
+				
+		
+
+		} while (menuActivo);
+		
+		sc.close();
+		
+	}
+
+}

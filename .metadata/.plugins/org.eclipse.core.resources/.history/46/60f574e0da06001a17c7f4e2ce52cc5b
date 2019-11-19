@@ -1,0 +1,13 @@
+package bean;
+
+public class Direccion {
+
+	private String tipoVia;
+	private String nombreVia;
+	private String ciudad;
+	private String cp;
+	
+	
+	
+	
+}

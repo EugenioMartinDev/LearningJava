@@ -1,0 +1,100 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import bean.Coche;
+
+public class TestCoche {
+	
+	ArrayList<Coche> listaCoches = new ArrayList<Coche>();
+	
+	public void añadirCoche() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println(" Añadiendo un nuevo coche ");
+		
+		Coche nuevoCoche = new Coche();
+		
+		System.out.println(" Introducir marca : ");
+		nuevoCoche.setMarca(sc.next());
+		
+		System.out.println(" Introducir modelo : ");
+		nuevoCoche.setModelo(sc.next());
+		
+		System.out.println(" Introducir matrícula : ");
+		nuevoCoche.setMatricula(sc.next());
+
+		sc.close();
+		
+		listaCoches.add(nuevoCoche);
+					
+	}
+	
+	public void listarCoches() {
+		
+		for (Coche coche : listaCoches) {
+			System.out.println(coche);
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		
+		TestCoche miTest = new TestCoche();
+
+		boolean menuActivo = true;
+		
+		/* Menú para añadir coches, listar coches y salir (1, 2 y  0)
+		 * El menú está siempre disponible.
+		 * La opción 1 añade un nuevo coche (marca, modelo y matrícula) a la memoria
+		 * La opción 2 lista todos los coches añadidos
+		 * La opción 0 termina el programa
+		 */
+		
+		int opcion = 0;
+		Scanner sc = new Scanner(System.in);
+
+		do {
+				
+			System.out.println("Introduce 1 para añadir un coche nuevo ");
+			System.out.println("Introduce 2 para listar los coches añadidos ");
+			System.out.println("Introduce 0 para terminar ");
+
+			boolean validOption = false;
+			while (!validOption ) {
+				if (sc.hasNextLine())
+				{
+					if (sc.hasNextInt()) {
+						opcion = sc.nextInt();
+						validOption = true;
+					}
+					else sc.next();
+				}
+				else System.out.println("no hay nueva linea");
+			}
+	
+			switch(opcion) {		
+			case 1:
+				miTest.añadirCoche();
+				break;
+			case 2:
+				miTest.listarCoches();
+				break;
+			case 0:
+				System.out.println(" Terminado ");
+				menuActivo = false;
+				break;
+			default:
+				System.out.println("Introducir opción 0, 1 ó 2 ");
+			
+			}
+
+		} while (menuActivo);
+		
+		sc.close();
+		
+	}
+
+}
