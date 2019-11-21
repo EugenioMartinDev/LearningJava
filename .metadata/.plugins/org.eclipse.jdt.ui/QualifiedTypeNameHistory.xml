@@ -31,9 +31,12 @@
 <fullyQualifiedTypeName name="entidad.Director"/>
 <fullyQualifiedTypeName name="entidad.Pelicula"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="modelo.negocioFelix.GestorPeliculasFelix"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="vistaFelix.PeliculaFelix"/>
 <fullyQualifiedTypeName name="vistaFelix.DirectorFelix"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="modelo.entidad.Libreria"/>
+<fullyQualifiedTypeName name="modelo.negocio.GestorLibreria"/>
+<fullyQualifiedTypeName name="modelo.entidad.Libro"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
