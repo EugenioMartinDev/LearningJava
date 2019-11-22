@@ -1,0 +1,35 @@
+PRUEBA 1 - PRUEBAS EN CLASES INDIVIDUALES
+*****************************************
+PRUEBA 1.1 - ASIGNACION E IMPRESION
+___________________________________
+// Se muestran los datos.
+		// De Alumno se imprime sus datos propios. Del curso solo se imprime la
+		// identidad del curso y su nombre
+		// De Curso se imprime sus datos propios y la lista de alumnos. Del profesor
+		// solo se imprime el DNI y el nombre.
+		// De Profesor se imprime sus datos propios y la lista de cursos que imparte, y por cada curso, la lista de alumnos. 
+Profesor 1 : Profesor [dNI=11111111A, nombre=Jose Antonio, edad=45, salario=40000.57, sexo=H, listaCursos=[Curso [idCurso=UF1111, nombreCurso=Desarrollo Uno, horas=90, precio=257.32, profesor=Jose Antonio de nombre Jose Antonio, listaAlumnos=[Alumno [dNI=44444444D, nombreCompleto=Juan Gómez Pérez, sexo=H, edad=27, curso=UF1111 de nombre= Desarrollo Uno], Alumno [dNI=55555555D, nombreCompleto=José Martínez López, sexo=H, edad=24, curso=UF1111 de nombre= Desarrollo Uno]]], Curso [idCurso=UF2222, nombreCurso=Implementación Uno, horas=60, precio=159.63, profesor=Jose Antonio de nombre Jose Antonio, listaAlumnos=[Alumno [dNI=66666666E, nombreCompleto=Ana Sánchez Del Olmo, sexo=M, edad=31, curso=UF2222 de nombre= Implementación Uno]]]]]
+Profesor 2 : Profesor [dNI=22222222B, nombre=María Rosa, edad=32, salario=30000.48, sexo=M, listaCursos=[Curso [idCurso=UF3333, nombreCurso=Desarrollo Dos, horas=90, precio=307.26, profesor=María Rosa de nombre María Rosa, listaAlumnos=[Alumno [dNI=77777777F, nombreCompleto=Lidia Jiménez Luarca, sexo=M, edad=19, curso=UF3333 de nombre= Desarrollo Dos]]]]]
+Profesor 3 : Profesor [dNI=33333333C, nombre=Ana Julia, edad=52, salario=50000.92, sexo=M, listaCursos=[Curso [idCurso=UF4444, nombreCurso=Implementación Dos, horas=60, precio=101.33, profesor=Ana Julia de nombre Ana Julia, listaAlumnos=[Alumno [dNI=88888888G, nombreCompleto=Emilio Martín Rodríguez, sexo=H, edad=20, curso=UF4444 de nombre= Implementación Dos]]]]]
+Alumno 1 : Alumno [dNI=44444444D, nombreCompleto=Juan Gómez Pérez, sexo=H, edad=27, curso=UF1111 de nombre= Desarrollo Uno]
+Alumno 2 : Alumno [dNI=55555555D, nombreCompleto=José Martínez López, sexo=H, edad=24, curso=UF1111 de nombre= Desarrollo Uno]
+Alumno 3 : Alumno [dNI=66666666E, nombreCompleto=Ana Sánchez Del Olmo, sexo=M, edad=31, curso=UF2222 de nombre= Implementación Uno]
+Alumno 4 : Alumno [dNI=77777777F, nombreCompleto=Lidia Jiménez Luarca, sexo=M, edad=19, curso=UF3333 de nombre= Desarrollo Dos]
+Alumno 5 : Alumno [dNI=88888888G, nombreCompleto=Emilio Martín Rodríguez, sexo=H, edad=20, curso=UF4444 de nombre= Implementación Dos]
+Curso 1 : Curso [idCurso=UF1111, nombreCurso=Desarrollo Uno, horas=90, precio=257.32, profesor=Jose Antonio de nombre Jose Antonio, listaAlumnos=[Alumno [dNI=44444444D, nombreCompleto=Juan Gómez Pérez, sexo=H, edad=27, curso=UF1111 de nombre= Desarrollo Uno], Alumno [dNI=55555555D, nombreCompleto=José Martínez López, sexo=H, edad=24, curso=UF1111 de nombre= Desarrollo Uno]]]
+Curso 2 : Curso [idCurso=UF2222, nombreCurso=Implementación Uno, horas=60, precio=159.63, profesor=Jose Antonio de nombre Jose Antonio, listaAlumnos=[Alumno [dNI=66666666E, nombreCompleto=Ana Sánchez Del Olmo, sexo=M, edad=31, curso=UF2222 de nombre= Implementación Uno]]]
+Curso 3 : Curso [idCurso=UF3333, nombreCurso=Desarrollo Dos, horas=90, precio=307.26, profesor=María Rosa de nombre María Rosa, listaAlumnos=[Alumno [dNI=77777777F, nombreCompleto=Lidia Jiménez Luarca, sexo=M, edad=19, curso=UF3333 de nombre= Desarrollo Dos]]]
+Curso 4 : Curso [idCurso=UF4444, nombreCurso=Implementación Dos, horas=60, precio=101.33, profesor=Ana Julia de nombre Ana Julia, listaAlumnos=[Alumno [dNI=88888888G, nombreCompleto=Emilio Martín Rodríguez, sexo=H, edad=20, curso=UF4444 de nombre= Implementación Dos]]]
+PRUEBA 1.2 - BAJAS E IMPRESION
+______________________________
+Curso 4 : Curso [idCurso=UF4444, nombreCurso=Implementación Dos, horas=60, precio=101.33, profesor=Ana Julia de nombre Ana Julia, listaAlumnos=[]]
+Profesor 3 : Profesor [dNI=33333333C, nombre=Ana Julia, edad=52, salario=50000.92, sexo=M, listaCursos=[]]
+PRUEBA 2 - PRUEBAS EN CLASES INDIVIDUALES
+*****************************************
+PRUEBA 2.1 - OBTENER LA LISTA DE ALUMNOS PARA UN PROFESOR Y UN CURSO
+____________________________________________________________________
+Introduce el nombre del profesor
+Jose Antonio
+Introduce el curso
+Desarrollo Uno
+[Alumno [dNI=44444444D, nombreCompleto=Juan Gómez Pérez, sexo=H, edad=27, curso=UF1111 de nombre= Desarrollo Uno], Alumno [dNI=55555555D, nombreCompleto=José Martínez López, sexo=H, edad=24, curso=UF1111 de nombre= Desarrollo Uno]]
