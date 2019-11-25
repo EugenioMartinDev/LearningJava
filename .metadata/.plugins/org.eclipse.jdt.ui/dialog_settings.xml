@@ -144,6 +144,7 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\aula2m\git\WorkspaceCursoCore\Examen1EugenioMartin.jar"/>
 			<item value="RRHH_ejemplo_portar_clases.jar"/>
 			<item value="20191030_save_packages_Project_03_HerenciasAnimales.jar"/>
 			<item value="20191030_save_packages_Project_02_ProyectoCliente.jar"/>
