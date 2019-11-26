@@ -23,7 +23,8 @@ public class MainEstatico {
 		
 		//El método imprimirDinamico se debe llamar desde un objeto (new MainEstatico)
 		//porque el método estático main no ve a los métodos dinámicos directamente.
-		new MainEstatico().imprimirDinamico(p1);
+		MainEstatico mainEstatico = new MainEstatico();
+		mainEstatico.imprimirDinamico(p1);
 		
 		System.out.println("Número de personas : " + Persona.numeroPersonas);
 

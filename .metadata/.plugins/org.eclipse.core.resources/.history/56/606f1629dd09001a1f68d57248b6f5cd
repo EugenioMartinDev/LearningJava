@@ -1,7 +1,0 @@
-package bean;
-
-public class coche {
-
-	
-	/* Clase coche con los atributos marca, modelo y matrícula */
-}

@@ -46,4 +46,6 @@
 <fullyQualifiedTypeName name="entidad.Curso"/>
 <fullyQualifiedTypeName name="entidad.Profesor"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="modelo.entidad.Persona"/>
+<fullyQualifiedTypeName name="modelo.entidad.Personaje"/>
 </qualifiedTypeNameHistroy>
