@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Director extends Empleado {
 
-	ArrayList<Empleado> listaEmpleados = new ArrayList<Empleado>();
+	private ArrayList<Empleado> listaEmpleados;
+	public static final double VARIABLE_POR_EMPLEADO = 100.00;
 
 	/**
 	 * @return the listaEmpleados
@@ -22,8 +23,8 @@ public class Director extends Empleado {
 
 	@Override
 	public String toString() {
-		return "Director [listaEmpleados=" + listaEmpleados + ", getDni()=" + getDni() + ", getNombre()=" + getNombre()
-				+ ", getSalarioBase()=" + getSalarioBase() + ", getEdad()=" + getEdad() + "]";
+		return "Director [getDni()=" + getDni() + ", getNombre()=" + getNombre()
+				+ ", getSalarioBase()=" + getSalarioBase() + ", getEdad()=" + getEdad() +  ", listaEmpleados=" + listaEmpleados + "]";
 	}
 
 	@Override

@@ -28,7 +28,6 @@
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="bean.Coche"/>
-<fullyQualifiedTypeName name="entidad.Director"/>
 <fullyQualifiedTypeName name="entidad.Pelicula"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="modelo.negocioFelix.GestorPeliculasFelix"/>
@@ -45,7 +44,18 @@
 <fullyQualifiedTypeName name="entidad.Alumno"/>
 <fullyQualifiedTypeName name="entidad.Curso"/>
 <fullyQualifiedTypeName name="entidad.Profesor"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="modelo.entidad.Persona"/>
 <fullyQualifiedTypeName name="modelo.entidad.Personaje"/>
+<fullyQualifiedTypeName name="entidad.Placton"/>
+<fullyQualifiedTypeName name="entidad.Tiburon"/>
+<fullyQualifiedTypeName name="entidad.Animal"/>
+<fullyQualifiedTypeName name="entidad.Pez"/>
+<fullyQualifiedTypeName name="entidad.PezPayaso"/>
+<fullyQualifiedTypeName name="entidad.Trucha"/>
+<fullyQualifiedTypeName name="entidad.Oso"/>
+<fullyQualifiedTypeName name="entidad.Empleado"/>
+<fullyQualifiedTypeName name="entidad.Programador"/>
+<fullyQualifiedTypeName name="entidad.JefeProyecto"/>
+<fullyQualifiedTypeName name="entidad.Director"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
