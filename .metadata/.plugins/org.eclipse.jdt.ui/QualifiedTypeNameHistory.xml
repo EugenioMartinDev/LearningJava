@@ -39,7 +39,6 @@
 <fullyQualifiedTypeName name="beans.Alumno"/>
 <fullyQualifiedTypeName name="beans.Curso"/>
 <fullyQualifiedTypeName name="beans.Profesor"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.CharSequence"/>
 <fullyQualifiedTypeName name="entidad.Alumno"/>
 <fullyQualifiedTypeName name="entidad.Curso"/>
@@ -53,9 +52,11 @@
 <fullyQualifiedTypeName name="entidad.PezPayaso"/>
 <fullyQualifiedTypeName name="entidad.Trucha"/>
 <fullyQualifiedTypeName name="entidad.Oso"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="entidad.Empleado"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="entidad.Programador"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="entidad.JefeProyecto"/>
 <fullyQualifiedTypeName name="entidad.Director"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

@@ -8,4 +8,9 @@ public class Programador extends Empleado {
 		return getSalarioBase();
 	}
 
+	@Override
+	public String toString() {
+		return "Programador [" + super.toString() + "]";
+	}
+
 }

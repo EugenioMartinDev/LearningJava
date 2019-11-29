@@ -1,17 +1,11 @@
-package entidad;
+package negocio;
 
 import java.util.ArrayList;
 
-public class Director extends Empleado {
+import entidad.Empleado;
 
+public class GestorEmpleados {
 	private ArrayList<Empleado> listaEmpleados;
-	public static final double VARIABLE_POR_EMPLEADO = 100.00;
-	
-	@Override
-	public double calcularSalario() {
-		
-		return getSalarioBase() + (listaEmpleados.size()*VARIABLE_POR_EMPLEADO);
-	}
 
 	/**
 	 * @return the listaEmpleados
@@ -27,11 +21,8 @@ public class Director extends Empleado {
 		this.listaEmpleados = listaEmpleados;
 	}
 
-	@Override
-	public String toString() {
-		return "Director [" + super.toString() + " listaEmpleados=" + listaEmpleados + "]";
+	public void alta(Empleado empleado) {
+		listaEmpleados.add(empleado);
 	}
 	
-	
-
 }

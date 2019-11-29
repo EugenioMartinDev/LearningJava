@@ -23,6 +23,11 @@ public class JefeProyecto extends Empleado {
 	public void setIncentivo(double incentivo) {
 		this.incentivo = incentivo;
 	}
+
+	@Override
+	public String toString() {
+		return "JefeProyecto [" + super.toString() + " incentivo="  + incentivo + "]";
+	}
 	
 	
 

@@ -63,6 +63,11 @@ public abstract class Empleado {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+
+	@Override
+	public String toString() {
+		return "nombre=" + nombre + ", dni=" + dni + ", salarioBase=" + salarioBase + ", edad=" + edad;
+	}
 	
 	
 }
