@@ -7,6 +7,7 @@ import entidad.Director;
 import entidad.Empleado;
 import entidad.JefeProyecto;
 import entidad.Programador;
+import excepcionempleado.ExcepcionEmpleado;
 import negocio.GestorEmpleados;
 
 public class VistaEmpleados {
@@ -29,7 +30,7 @@ public class VistaEmpleados {
 			switch (opcion) {
 			case "1":
 				Empleado e = pedirEmpleado();
-				ge.alta(e);
+				if (e != null) ge.alta(e);
 				break;
 			case "2":
 				for (Empleado empleado : ge.getListaEmpleados()) {
@@ -38,10 +39,11 @@ public class VistaEmpleados {
 				break;
 			case "3":
 				for (Empleado empleado : ge.getListaEmpleados()) {
-					System.out.println(empleado.getNombre() + " - " + empleado.calcularSalario());
+					System.out.println(empleado.getClass().getSimpleName() + " - " + empleado.getNombre() + " - " + empleado.calcularSalario() + " € ");
 				}
 				break;
 			default:
+				if (!opcion.equals("0")) System.out.println(" Introduce 1, 2 ó 3");
 				break;
 			}
 
@@ -52,39 +54,47 @@ public class VistaEmpleados {
 	}
 
 	private static Empleado pedirEmpleado() {
-		String opcion = mostrarMenuTipoEmpleado();
+		String opcion = "";
 		Empleado empleado = null;
-		switch (opcion) {
-		case "1":
-			empleado = pedirProgramador();
-			break;
-		case "2":
-			empleado = pedirJefeProyecto();
-			break;
-		case "3":
-			empleado = pedirDirector();
-			break;
-		default:
-			System.out.println("Opciones 1, 2 ó 3");
-			break;
+		do {
+			opcion = mostrarMenuTipoEmpleado();
+			switch (opcion) {
+			case "1":
+				empleado = pedirProgramador();
+				break;
+			case "2":
+				empleado = pedirJefeProyecto();
+				break;
+			case "3":
+				try {
+					empleado = pedirDirector();
+				} catch (ExcepcionEmpleado e) {
+					System.out.println("No se puede crear un director por falta de empleados");
+				}
+				break;
+			default:
+				System.out.println("Opciones 1, 2 ó 3");
+				break;
 
-		}
+			}
+		} while (!(opcion.equals("1") || opcion.equals("2") || opcion.equals("3")));
+				
 		return empleado;
 	}
 
-	private static Empleado pedirDirector() {
-		Director director = new Director();
-		String nombre = pedirDato("nombre");
-		String dni = pedirDato("dni");
-		String edad = pedirDato("edad");
-		String salarioBase = pedirDato("salarioBase");
+	private static Empleado pedirDirector()  throws ExcepcionEmpleado {
 
+		if (ge.getListaEmpleados().size() == 0) throw new ExcepcionEmpleado();
+		
+		Director director = new Director();
+
+		director.setNombre(validarString("nombre"));
+		director.setDni(validarString("dni"));
+		director.setEdad(validarInt("edad"));
+		director.setSalarioBase(validarDouble("salarioBase"));
+	
 		ArrayList<Empleado> listaEmpleadosDelDirector = pedirEmpleadosDelDirector();
 
-		director.setNombre(nombre);
-		director.setDni(dni);
-		director.setEdad(Integer.parseInt(edad));
-		director.setSalarioBase(Double.parseDouble(salarioBase));
 		director.setListaEmpleados(listaEmpleadosDelDirector);
 
 		return director;
@@ -92,23 +102,19 @@ public class VistaEmpleados {
 
 	private static Empleado pedirJefeProyecto() {
 		JefeProyecto jefeProyecto = new JefeProyecto();
-		String nombre = pedirDato("nombre");
-		String dni = pedirDato("dni");
-		String edad = pedirDato("edad");
-		String salarioBase = pedirDato("salarioBase");
-		String incentivo = pedirDato("incentivo");
 
-		jefeProyecto.setNombre(nombre);
-		jefeProyecto.setDni(dni);
-		jefeProyecto.setEdad(Integer.parseInt(edad));
-		jefeProyecto.setSalarioBase(Double.parseDouble(salarioBase));
-		jefeProyecto.setIncentivo(Double.parseDouble(incentivo));
+		jefeProyecto.setNombre(validarString("nombre"));		
+		jefeProyecto.setDni(validarString("dni"));
+		jefeProyecto.setEdad(validarInt("edad"));
+		jefeProyecto.setIncentivo(validarDouble("incentivo"));
+		jefeProyecto.setSalarioBase(validarDouble("salarioBase"));
 
 		return jefeProyecto;
 	}
 
-	private static ArrayList<Empleado> pedirEmpleadosDelDirector() {
-		ArrayList<Empleado> listaEmpleados = ge.getListaEmpleados();
+	private static ArrayList<Empleado> pedirEmpleadosDelDirector(){
+		ArrayList<Empleado> listaEmpleados = new ArrayList<Empleado>();
+		listaEmpleados.addAll(ge.getListaEmpleados());		
 		ArrayList<Empleado> listaEmpleadosDelDirector = new ArrayList<Empleado>();
 
 		String posicionEmpleado = null;
@@ -120,10 +126,25 @@ public class VistaEmpleados {
 				System.out.println(indice + " - " + empleado);
 				indice++;
 			}
-			posicionEmpleado = sc.nextLine();
-			if (!posicionEmpleado.equals("-1")) {
-				listaEmpleadosDelDirector.add(listaEmpleados.get(Integer.parseInt(posicionEmpleado)));
-			}
+
+			boolean repetir = true;
+			do {
+				posicionEmpleado = sc.nextLine();
+				if (!posicionEmpleado.equals("-1")) {
+					try {						
+						listaEmpleadosDelDirector.add(listaEmpleados.get(Integer.parseInt(posicionEmpleado)));
+						listaEmpleados.remove(Integer.parseInt(posicionEmpleado));						
+						repetir = false;
+					} catch (NumberFormatException e) {
+						System.out.println("La posición no puede ser un carácter");
+						System.out.println("Elija el índice de un empleado (-1 para salir)");
+					} catch (IndexOutOfBoundsException ex) {
+						System.out.println("El índice es superior al número de empleados");
+					}
+				} else {
+					repetir = false;
+				}
+			} while (repetir);
 		} while (!posicionEmpleado.equals("-1"));
 
 		return listaEmpleadosDelDirector;
@@ -131,17 +152,72 @@ public class VistaEmpleados {
 
 	private static Empleado pedirProgramador() {
 		Programador programador = new Programador();
-		String nombre = pedirDato("nombre");
-		String dni = pedirDato("dni");
-		String edad = pedirDato("edad");
-		String salarioBase = pedirDato("salarioBase");
 
-		programador.setNombre(nombre);
-		programador.setDni(dni);
-		programador.setEdad(Integer.parseInt(edad));
-		programador.setSalarioBase(Double.parseDouble(salarioBase));
+		programador.setNombre(validarString("nombre"));
+		programador.setDni(validarString("dni"));				
+		programador.setEdad(validarInt("edad"));		
+		programador.setSalarioBase(validarDouble("salarioBase"));
 
 		return programador;
+	}
+
+	private static String validarString(String stringType) {
+		String string = "";
+		boolean repMenu = true;
+		do  {
+			string = pedirDato(stringType);	
+			if (!(string.isEmpty())) {
+				repMenu = false;
+			} else {
+				System.out.println("Necesitas meter " + stringType);
+			}	
+
+		} while (repMenu);
+		
+		return string;
+	}
+
+	private static int validarInt(String sIntType) {
+		Integer iInt = 0;
+		boolean repetir = true;
+		do {
+			String sInt = pedirDato(sIntType);		
+			try {
+				Double dInt = Double.parseDouble(sInt);
+				
+				try {
+					iInt = Integer.parseInt(sInt);
+					repetir = false;
+				} catch (NumberFormatException e) {
+					// TODO Auto-generated catch block
+					System.out.println("No se admiten double");
+				}
+				
+			} catch (NumberFormatException e) {
+				// TODO Auto-generated catch block
+				System.out.println("No se admiten caracteres");
+			}
+
+		
+		} while (repetir);
+		return iInt;
+	}
+
+	private static double validarDouble(String sDoubleType) {
+		Double dDouble = 0.0;
+		boolean repetir = true;
+		do {
+			String sDouble = pedirDato(sDoubleType);		
+			try {
+				dDouble = Double.parseDouble(sDouble);
+				repetir = false;
+			} catch (NumberFormatException e) {
+				// TODO Auto-generated catch block
+				System.out.println("No se admiten caracteres");
+			}
+		
+		}while (repetir);
+		return dDouble;
 	}
 
 	private static String pedirDato(String dato) {
