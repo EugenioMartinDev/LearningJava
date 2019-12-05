@@ -12,14 +12,14 @@ public class PruebaObtener {
 		if (daoCoche.abrirConexion()) {
 			System.out.println("conexión establecida");
 			
-			int id = 3;
+			int id = 1;
 
 			Coche coche = daoCoche.obtener(id);
 			
 			if (coche != null ) { 		
 				System.out.println(coche);
 			} else {
-				System.out.println("No se encontrado el coche de identidad " + id);
+				System.out.println("No se encontrado el coche de identidad: " + id);
 			}
 			
 		} else {

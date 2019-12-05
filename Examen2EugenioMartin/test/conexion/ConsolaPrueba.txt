@@ -1,0 +1,26 @@
+conexión establecida
+PRUEBA DE ALTA
+______________
+Inserción completada
+Dado de alta la película El árbol
+Inserción completada
+Dado de alta la película El misil
+Inserción completada
+Dado de alta la película La jauria
+PRUEBA DE BAJA
+______________
+Borrado completado
+Se ha borrado la pelicula: Pelicula [id=17, titulo=El misil, director=Juan, genero=Guerra, anioPublicacion=2015]
+PRUEBA DE MODIFICAR
+___________________
+Actualización completada
+Modificada la película: Pelicula [id=18, titulo=La jauria, director=Pablo, genero=Terror, anioPublicacion=1998] con la nueva:  Pelicula [id=18, titulo=El jaguar, director=Luis, genero=Documental, anioPublicacion=2018]
+PRUEBA DE BUSCAR
+________________
+Se ha encontrado la película: Pelicula [id=16, titulo=El árbol, director=Jose, genero=Humor, anioPublicacion=2007]
+PRUEBA DE LISTAR
+________________
+Se han encontrado 2 películas
+Pelicula [id=16, titulo=El árbol, director=Jose, genero=Humor, anioPublicacion=2007]
+Pelicula [id=18, titulo=El jaguar, director=Luis, genero=Documental, anioPublicacion=2018]
+conexión borrada

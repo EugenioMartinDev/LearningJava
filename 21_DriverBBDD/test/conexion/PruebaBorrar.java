@@ -12,10 +12,16 @@ public class PruebaBorrar {
 		if (daoCoche.abrirConexion()) {
 			System.out.println("conexión establecida");
 			
-			Coche coche = new Coche();
-			
-			coche.setId(6);
-			daoCoche.borrar(coche);
+			Coche coche = null;
+
+			int id = 2;
+			coche = daoCoche.obtener(id);
+			if (coche != null) {
+				daoCoche.borrar(coche);
+				System.out.println("Se ha borrado el coche: " + coche);
+			} else {
+				System.out.println("No existe un coche de identidad: " + id);
+			}
 			
 		} else {
 			System.out.println("fallo de conexión");
