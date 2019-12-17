@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="beans.Gerente"/>
-<fullyQualifiedTypeName name="beans.Operativo"/>
-<fullyQualifiedTypeName name="bean.Direccion"/>
-<fullyQualifiedTypeName name="bean.Habitacion"/>
-<fullyQualifiedTypeName name="bean.Casa"/>
-<fullyQualifiedTypeName name="bean.Persona"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="bean.Coche"/>
 <fullyQualifiedTypeName name="entidad.Pelicula"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="modelo.negocioFelix.GestorPeliculasFelix"/>
 <fullyQualifiedTypeName name="vistaFelix.PeliculaFelix"/>
 <fullyQualifiedTypeName name="vistaFelix.DirectorFelix"/>
-<fullyQualifiedTypeName name="modelo.entidad.Libro"/>
 <fullyQualifiedTypeName name="modelo.entidad.Libreria"/>
 <fullyQualifiedTypeName name="modelo.negocio.GestorLibreria"/>
 <fullyQualifiedTypeName name="beans.Alumno"/>
@@ -43,7 +32,6 @@
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="org.omg.IOP.CodecPackage.TypeMismatch"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="negocio.GestorCalculadora"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
@@ -57,7 +45,19 @@
 <fullyQualifiedTypeName name="modelo.persistencia.DaoCoche"/>
 <fullyQualifiedTypeName name="java.util.TimeZone"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="modelo.entidad.Coche"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="modelo.negocio.GestorPeliculas"/>
+<fullyQualifiedTypeName name="modelo.negocio.Pelicula"/>
+<fullyQualifiedTypeName name="vista.vistaPeliculas"/>
+<fullyQualifiedTypeName name="vista.VistaPeliculas"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="modelo.negocio.GestorPelicula"/>
+<fullyQualifiedTypeName name="modelo.persistencia.DaoPelicula"/>
+<fullyQualifiedTypeName name="modelo.entidad.Pelicula"/>
+<fullyQualifiedTypeName name="modelo.entidad.Libro"/>
+<fullyQualifiedTypeName name="modelo.negocio.GestorLibreriaPersistente"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="utils.Constantes"/>
+<fullyQualifiedTypeName name="modelo.persistencia.DaoLibreria"/>
 </qualifiedTypeNameHistroy>
