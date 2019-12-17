@@ -1,6 +1,14 @@
 package basico;
 
 public class LanzadorHilos {
+	
+	//Ejercicio que queremos simular un procesamiento
+	//simultáneo de cálculo de números primos.
+	//Queremos abrir 5 hilos que calculen si un número
+	//es primo o no. El número se pasa al hilo para que 
+	//pueda analizar si es primo.
+	//Cada hilo, cuando acabe, dirá si su número pasado es 
+	//o no primo.
 
 	public static void main(String[] args) {
 		 
