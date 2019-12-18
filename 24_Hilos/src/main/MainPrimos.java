@@ -48,7 +48,7 @@ public class MainPrimos {
 				@Override
 				public void run()
 				{
-					for (int i=2; i<=valor/2; i++) {
+					for (int i=2; i<=Math.sqrt(valor); i++) {
 						if (valor%i == 0) {
 							return;
 						}
