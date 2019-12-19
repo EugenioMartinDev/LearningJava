@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="modelo.negocioFelix.GestorPeliculasFelix"/>
-<fullyQualifiedTypeName name="vistaFelix.PeliculaFelix"/>
-<fullyQualifiedTypeName name="vistaFelix.DirectorFelix"/>
-<fullyQualifiedTypeName name="modelo.entidad.Libreria"/>
-<fullyQualifiedTypeName name="modelo.negocio.GestorLibreria"/>
-<fullyQualifiedTypeName name="beans.Alumno"/>
-<fullyQualifiedTypeName name="beans.Curso"/>
-<fullyQualifiedTypeName name="beans.Profesor"/>
 <fullyQualifiedTypeName name="java.lang.CharSequence"/>
 <fullyQualifiedTypeName name="entidad.Alumno"/>
 <fullyQualifiedTypeName name="entidad.Curso"/>
@@ -21,7 +13,6 @@
 <fullyQualifiedTypeName name="entidad.PezPayaso"/>
 <fullyQualifiedTypeName name="entidad.Trucha"/>
 <fullyQualifiedTypeName name="entidad.Oso"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="negocio.GestorEmpleados"/>
 <fullyQualifiedTypeName name="entidad.Programador"/>
 <fullyQualifiedTypeName name="entidad.JefeProyecto"/>
@@ -49,7 +40,6 @@
 <fullyQualifiedTypeName name="modelo.negocio.Pelicula"/>
 <fullyQualifiedTypeName name="vista.vistaPeliculas"/>
 <fullyQualifiedTypeName name="vista.VistaPeliculas"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="modelo.negocio.GestorPelicula"/>
 <fullyQualifiedTypeName name="modelo.persistencia.DaoPelicula"/>
 <fullyQualifiedTypeName name="modelo.entidad.Pelicula"/>
@@ -60,4 +50,14 @@
 <fullyQualifiedTypeName name="modelo.persistencia.DaoLibreria"/>
 <fullyQualifiedTypeName name="basico.HiloThread"/>
 <fullyQualifiedTypeName name="basico.HiloRunnable"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="hilo.HiloCalculoPrimo"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.net.UnknownHostException"/>
+<fullyQualifiedTypeName name="java.net.ServerSocket"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
 </qualifiedTypeNameHistroy>
