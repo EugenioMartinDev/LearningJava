@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.CharSequence"/>
 <fullyQualifiedTypeName name="entidad.Alumno"/>
 <fullyQualifiedTypeName name="entidad.Curso"/>
 <fullyQualifiedTypeName name="entidad.Profesor"/>
@@ -34,7 +33,6 @@
 <fullyQualifiedTypeName name="modelo.persistencia.DaoCoche"/>
 <fullyQualifiedTypeName name="java.util.TimeZone"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="modelo.entidad.Coche"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="modelo.negocio.GestorPeliculas"/>
 <fullyQualifiedTypeName name="modelo.negocio.Pelicula"/>
@@ -46,7 +44,6 @@
 <fullyQualifiedTypeName name="modelo.entidad.Libro"/>
 <fullyQualifiedTypeName name="modelo.negocio.GestorLibreriaPersistente"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="utils.Constantes"/>
 <fullyQualifiedTypeName name="modelo.persistencia.DaoLibreria"/>
 <fullyQualifiedTypeName name="basico.HiloThread"/>
 <fullyQualifiedTypeName name="basico.HiloRunnable"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="servidor.modelo.persistencia.DaoCoche"/>
+<fullyQualifiedTypeName name="modelo.entidad.Coche"/>
+<fullyQualifiedTypeName name="utils.Constantes"/>
 </qualifiedTypeNameHistroy>

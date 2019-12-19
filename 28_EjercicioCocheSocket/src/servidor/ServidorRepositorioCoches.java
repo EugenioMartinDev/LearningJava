@@ -8,10 +8,9 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 import modelo.entidad.Coche;
-import modelo.negocio.GestorLibreriaPersistente;
-import modelo.persistencia.DaoLibreria;
 import servidor.modelo.negocio.GestorRepositorioCoches;
 import servidor.modelo.persistencia.DaoCoche;
+import utils.Constantes;
 
 
 public class ServidorRepositorioCoches {
@@ -22,28 +21,6 @@ public class ServidorRepositorioCoches {
 	 *  al cliente de si se ha podido o no dar de alta.
 	 */
 
-
-	private String compruebaInfoRecibida(String cadena) {
-		
-		String errorEnRecepcion = "";
-		
-		String[] infoRecibida = cadena.split("-");
-		
-		if (infoRecibida[0] == null) errorEnRecepcion = "No se ha introducido ninguna operación";
-		else operacion = infoRecibida[0];
-		
-		if (infoRecibida[1] != null) {
-			String[] numeros = infoRecibida[1].split("/");	
-			if (numeros[0] == null || numeros[1] == null) errorEnRecepcion = "Falta un número";
-			else {
-				numero1 = numeros[0];
-				numero2 = numeros[1];
-			}
-		} else errorEnRecepcion = "No se han recibido los números";
-		
-		return errorEnRecepcion;
-		
-	}
 	
 	public static void main(String[] args) {
 		
@@ -62,7 +39,9 @@ public class ServidorRepositorioCoches {
 		DaoCoche daoCoche = new DaoCoche();
 		gl.setDaoCoche(daoCoche);
 
-		while (true) {
+		boolean serverLoop = true;
+		
+		while (serverLoop) {
 			System.out.println("Escuchando peticiones...");
 			try (Socket socket = ss.accept();) {
 
@@ -74,33 +53,66 @@ public class ServidorRepositorioCoches {
 				String cadena = bf.readLine();
 				System.out.println("Ha llegado información : " + "\"" + cadena + "\"" + " al servidor");
 				
-				String errorEnInfo = servidorRepositorioCoches.compruebaInfoRecibida(cadena);
 				PrintStream ps = new PrintStream(socket.getOutputStream());
 				String resultado = "";
-								
-				if (errorEnInfo.isEmpty())
-				{			
-					String[] datosCoche = cadena.split("-");
-
+		
+				String[] datosCoche = cadena.split("-");
+				
+				if (datosCoche.length != 3) ps.println("Hay que introducir tres parámetros : matrícula, marca y modelo");
+				else
+				{
 					System.out.println("Se ha pedido el alta del coche ");
 					System.out.println("con matrícula : " + datosCoche[0] + " y marca : " + datosCoche[1] + " y modelo : " + datosCoche[2]);
 					
 					Coche coche = new Coche();
 					coche.setMatricula(datosCoche[0]);
-					coche.setModelo(datosCoche[1]);
-					coche.setMarca(datosCoche[2]);
+					coche.setMarca(datosCoche[1]);
+					coche.setModelo(datosCoche[2]);
 					
-					resultado = gl.alta(coche);					 
+					int erroresAlta = gl.alta(coche);	
+					
+					switch (erroresAlta) {
+					
+					case (Constantes.ERROR_MATRICULA_IS_NULL):
+						resultado = "La matrícula no puede ser nula o estar vacía";
+						break;
+					case (Constantes.ERROR_MARCA_IS_NULL):
+						resultado = "La marca no puede ser nula o estar vacía";					
+						break;
+					case (Constantes.ERROR_MODELO_IS_NULL):
+						resultado = "El modelo no puede ser nulo o estar vacía";
+						break;
+					case (Constantes.ERROR_MATRICULA_IS_DUPLICATED):
+						resultado = "La matrícula ya está dada de alta";
+						break;
+					case (Constantes.ERROR_IN_DDBB):
+						resultado = "Se ha producido un error en la base de datos";
+						break;
+					case (Constantes.SUCCESSFULL_EXECUTION):
+						resultado = "Alta realizada con éxito";
+											
+						for (Coche cocheElemento : gl.listarCoches()) {
+							System.out.println(cocheElemento);
+						}
+						
+					
+						break;
+					default:
+						resultado = "Error sin catalogar";
+					
+					}
+					
 					ps.println(resultado);
-				} else ps.println(resultado);
+				}
 
-				System.out.println("Fin del servidor");
+				
 			} catch (IOException e) {
 				e.printStackTrace();
 			} catch (NumberFormatException nfe) {
 				System.out.println("No es un numero lo que has mandado");
 			}
 		}
+		System.out.println("Fin del servidor");
 	}
 
 
