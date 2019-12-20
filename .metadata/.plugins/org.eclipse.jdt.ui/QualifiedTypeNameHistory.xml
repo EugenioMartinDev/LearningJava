@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="entidad.Alumno"/>
-<fullyQualifiedTypeName name="entidad.Curso"/>
 <fullyQualifiedTypeName name="entidad.Profesor"/>
 <fullyQualifiedTypeName name="modelo.entidad.Persona"/>
 <fullyQualifiedTypeName name="modelo.entidad.Personaje"/>
@@ -19,7 +17,6 @@
 <fullyQualifiedTypeName name="entidad.Empleado"/>
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="org.omg.IOP.CodecPackage.TypeMismatch"/>
-<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="negocio.GestorCalculadora"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
@@ -40,7 +37,6 @@
 <fullyQualifiedTypeName name="vista.VistaPeliculas"/>
 <fullyQualifiedTypeName name="modelo.negocio.GestorPelicula"/>
 <fullyQualifiedTypeName name="modelo.persistencia.DaoPelicula"/>
-<fullyQualifiedTypeName name="modelo.entidad.Pelicula"/>
 <fullyQualifiedTypeName name="modelo.entidad.Libro"/>
 <fullyQualifiedTypeName name="modelo.negocio.GestorLibreriaPersistente"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="servidor.modelo.persistencia.DaoCoche"/>
 <fullyQualifiedTypeName name="modelo.entidad.Coche"/>
 <fullyQualifiedTypeName name="utils.Constantes"/>
+<fullyQualifiedTypeName name="servidor.modelo.negocio.GestorRepositorioPeliculas"/>
+<fullyQualifiedTypeName name="servidor.modelo.persistencia.DaoPelicula"/>
+<fullyQualifiedTypeName name="modelo.entidad.Pelicula"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 </qualifiedTypeNameHistroy>
