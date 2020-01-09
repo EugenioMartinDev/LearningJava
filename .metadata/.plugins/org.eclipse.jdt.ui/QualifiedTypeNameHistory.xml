@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="entidad.Profesor"/>
-<fullyQualifiedTypeName name="modelo.entidad.Persona"/>
-<fullyQualifiedTypeName name="modelo.entidad.Personaje"/>
-<fullyQualifiedTypeName name="entidad.Placton"/>
-<fullyQualifiedTypeName name="entidad.Tiburon"/>
-<fullyQualifiedTypeName name="entidad.Animal"/>
 <fullyQualifiedTypeName name="entidad.Pez"/>
 <fullyQualifiedTypeName name="entidad.PezPayaso"/>
 <fullyQualifiedTypeName name="entidad.Trucha"/>
@@ -30,7 +24,6 @@
 <fullyQualifiedTypeName name="modelo.persistencia.DaoCoche"/>
 <fullyQualifiedTypeName name="java.util.TimeZone"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="modelo.negocio.GestorPeliculas"/>
 <fullyQualifiedTypeName name="modelo.negocio.Pelicula"/>
 <fullyQualifiedTypeName name="vista.vistaPeliculas"/>
@@ -39,16 +32,12 @@
 <fullyQualifiedTypeName name="modelo.persistencia.DaoPelicula"/>
 <fullyQualifiedTypeName name="modelo.entidad.Libro"/>
 <fullyQualifiedTypeName name="modelo.negocio.GestorLibreriaPersistente"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="modelo.persistencia.DaoLibreria"/>
 <fullyQualifiedTypeName name="basico.HiloThread"/>
 <fullyQualifiedTypeName name="basico.HiloRunnable"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="hilo.HiloCalculoPrimo"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.net.UnknownHostException"/>
-<fullyQualifiedTypeName name="java.net.ServerSocket"/>
-<fullyQualifiedTypeName name="java.net.Socket"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="servidor.modelo.persistencia.DaoPelicula"/>
 <fullyQualifiedTypeName name="modelo.entidad.Pelicula"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="java.net.ServerSocket"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="HechizoDeFuego"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="videojuego.FabricaPersonajes"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
 </qualifiedTypeNameHistroy>
