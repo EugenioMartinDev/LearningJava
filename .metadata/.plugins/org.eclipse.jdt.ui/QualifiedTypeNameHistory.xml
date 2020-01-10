@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="entidad.Pez"/>
-<fullyQualifiedTypeName name="entidad.PezPayaso"/>
-<fullyQualifiedTypeName name="entidad.Trucha"/>
 <fullyQualifiedTypeName name="entidad.Oso"/>
 <fullyQualifiedTypeName name="negocio.GestorEmpleados"/>
 <fullyQualifiedTypeName name="entidad.Programador"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="modelo.entidad.Persona"/>
 </qualifiedTypeNameHistroy>
