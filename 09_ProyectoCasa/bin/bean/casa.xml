@@ -1,0 +1,31 @@
+<!-- El fichero xml tiene un nodo raíz o nodo. Es decir, después de </casa> no puede haber otra etiqueta -->
+<casa>
+	<precio>300000</precio>
+	<listaHabitaciones>
+		<habitacion>
+			<m2>40</m2>
+			<tipo>salon</tipo>
+		</habitacion>
+		<habitacion>
+			<m2>20</m2>
+			<tipo>cocina</tipo>
+		</habitacion>
+	</listaHabitaciones>
+	<propietario>
+		<nombre>José</nombre>
+		<edad>40</edad>
+		<peso>80</peso>
+		<direccion>
+			<tipoVia>Calle</tipoVia>
+			<nombreVia>Gran Via</nombreVia>
+			<ciudad>Madrid</ciudad>
+			<cp>20013</cp>
+		</direccion>
+	</propietario>
+	<direccion>
+		<tipoVia>Paseo</tipoVia>
+		<nombreVia>La Castellana</nombreVia>
+		<ciudad>Madrid</ciudad>
+		<cp>20087</cp>
+	</direccion>
+</casa>

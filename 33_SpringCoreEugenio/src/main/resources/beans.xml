@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Tipo de scope Singleton. 
+	     Un objeto gestionado por spring se llaman bean (getters/setters y constructor por defecto)
+	     Se crea con un identificador y una clase. El objeto se inicializa como en Java con new. -->
+	<!-- Constructor con cero argumentos -->
+	<bean id="persona1" class="modelo.entidad.Persona"></bean>
+	<!-- Constructor con todos los argumentos -->
+	<bean id="bud" class="modelo.entidad.Persona">
+		<property name="nombre" value="Bud Spencer"></property>
+		<property name="edad" value="40"></property>
+		<property name="peso" value="150"></property>
+	</bean>
+	
+	<!--  También podemos hacer que los beans al crearlos llamen a un constructor específico -->
+	<bean id="terence" class="modelo.entidad.Persona">
+		<constructor-arg index="0" value="Terence Hill"></constructor-arg>  <!-- primer campo en constructor (index 0) -->
+		<constructor-arg index="1" value="55"></constructor-arg> <!-- segundo campo en constructor (index 1) -->
+		<constructor-arg index="2" value="78.5"></constructor-arg> <!-- tercer campo en constructor (index 2) -->
+	</bean>
+	
+	<bean id="direccion1" class="modelo.entidad.Direccion">
+		<property name="tipoVia" value="calle"></property>
+		<property name="nombreVia" value="Jogüart"></property>
+		<property name="ciudad" value="país de nunca jamás"></property>
+	</bean>
+	<!-- Si queremos inyectar una dependencia por propiedad, se usa el atributo ref para el objeto con id específica -->
+	<bean id="ron" class="modelo.entidad.Persona">
+		<property name="nombre" value="Ron Güeslei"></property>
+		<property name="edad" value="20"></property>
+		<property name="peso" value="67"></property>
+		<property name="direccion" ref="direccion1"></property>
+	</bean>
+	<!-- Si queremos inyectar una dependencia por objeto, se inserta un bean en la propiedad -->
+	<bean id="esneip" class="modelo.entidad.Persona">
+		<property name="nombre" value="Esneip Drako"></property>
+		<property name="edad" value="50"></property>
+		<property name="peso" value="60"></property>
+		<property name="direccion">
+			<bean class="modelo.entidad.Direccion">
+				<property name="tipoVia" value="avenida"></property>
+				<property name="nombreVia" value="Hazcabán"></property>
+				<property name="ciudad" value="país de nunca jamás"></property>
+			</bean>
+		</property>
+	</bean>
+	<!-- Se puede dar de alta cualquier clase que esté en el classpath -->
+	<bean id="listaPersonas" class="java.util.LinkedList"></bean>
+	<bean id="stringBean" class="java.lang.String"></bean>
+	
+	<!-- Podemos meter en una lista objetos que estén en nuestro contexto -->
+	<!-- Si la lista es genérica, se parametriza con la etiqueta value-type -->
+	<bean id="personas" class="java.util.ArrayList">
+		<constructor-arg>
+			<list value-type="modelo.entidad.Persona"> 				
+				<ref bean="bud"/>
+				<ref bean="ron"/>
+					<bean class="modelo.entidad.Persona">
+						<property name="nombre" value="Dambeldor"></property>
+						<property name="edad" value="40"></property>
+						<property name="peso" value="80"></property>
+						<property name="direccion">
+							<bean class="modelo.entidad.Direccion">		<!-- Inner bean -->
+								<property name="tipoVia" value="nisu"></property>
+								<property name="nombreVia" value="donde"></property>
+								<property name="ciudad" value="país de nunca jamás"></property>
+							</bean>
+						</property>
+					</bean>
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	
+	<!--  Ciclo de bida de los objetos en  Spring
+		  1.- SINGLETON
+		  		Arriba se han definido objetos Singleton (de alcance - scope - o ciclo de vida Singleton):
+		  La instancia del objeto es única: sólo existe ese objeto. 
+		  Por ejemplo el objeto con id="bud" es único, y su ciclo de vida es el correspondiente al contexto.
+		  2.- PROTOTYPE 
+		  		Este ciclo de vida dice que cada vez que pidamos ese objeto nos devuelve un clon del mismo
+		  objeto. -->
+		  
+		  <bean id="personaSingleton" 
+		  		class="modelo.entidad.Persona"
+		  		scope="singleton">
+		  		<property name="nombre" value="Asterix"></property>
+		  		<property name="edad" value="39"></property>
+		  		<property name="peso" value="49"></property>
+		  </bean>
+		  <bean id="personaPrototype" 
+		  		class="modelo.entidad.Persona"
+		  		scope="prototype">
+		  		<property name="nombre" value=""></property>  <!-- Es conveniente que los String se inicialicen a cadena vacía -->
+		  		<property name="edad" value="18"></property>  <!-- Valor de inicialización a 18 años -->
+		  		<property name="direccion">		<!-- El objeto inyectado de direccion se clona automáticamente con la persona -->
+		  			<bean class="modelo.entidad.Direccion">
+						<property name="ciudad" value=""></property>
+					</bean>
+		  		</property>
+		  </bean>
+		  
+		  <bean id="listaPersonasSingleton"
+		  		class="java.util.ArrayList">
+		  </bean>
+		  
+</beans>
+
+<!--beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	    http://www.springframework.org/schema/beans/spring-beans.xsd 
+	    http://www.springframework.org/schema/context 
+	    http://www.springframework.org/schema/context/spring-context.xsd">
+</beans-->

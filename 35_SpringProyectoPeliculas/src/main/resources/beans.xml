@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+	<!--  First way to inject a static field (before util use)
+	<bean id="sistemIn" class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean">
+		<property name="staticField" value="java.lang.System.in"/>
+	</bean>
+	<bean id="scanner" class="java.util.Scanner">
+		<constructor-arg ref="sistemIn"></constructor-arg>
+	</bean>
+	-->
+	
+	<!--  Second way to inject static field (util use) 
+			xmlns:util="http://www.springframework.org/schema/util"
+	      	xsi:schemaLocation=http://www.springframework.org/schema/util
+    				http://www.springframework.org/schema/util/spring-util-2.5.xsd"
+	<bean id="scanner" class="java.util.Scanner">
+		<constructor-arg><util:constant static-field="java.lang.System.in"></util:constant></constructor-arg>
+	</bean>
+	-->
+	
+	<!--  Third way to inject static Spring EL --> 
+	<bean id="scanner" class="java.util.Scanner">
+		<constructor-arg value="#{T(java.lang.System).in}"></constructor-arg>
+	</bean>
+	
+	<bean id="gestorPeliculas" class="modelo.negocioFelix.GestorPeliculasFelix">
+		<property name="listaPeliculas" ref="listaPeliculas"></property>
+	</bean>	
+
+	
+	<bean id="listaPeliculas" class="java.util.ArrayList">
+		<constructor-arg>
+			<list value-type="vistaFelix.PeliculaFelix"> 				
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	<bean 
+		id="pelicula" 
+		class="vistaFelix.PeliculaFelix"
+		scope="prototype">
+	</bean>
+	
+	<bean 
+		id="peliculaManejo" 
+		class="entidad.Pelicula"
+		scope="prototype">
+	</bean>
+	
+	<bean
+		id="director"
+		class="vistaFelix.DirectorFelix"
+		scope="prototype">
+	</bean>
+	
+	<bean
+		id="directorManejo"
+		class="entidad.Director"
+		scope="prototype">
+	</bean>
+
+</beans>

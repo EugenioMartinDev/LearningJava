@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="gasolina1" class="modelo.entidad.Motor">
+		<constructor-arg value="gasolina"></constructor-arg>
+		<constructor-arg value="90"></constructor-arg>
+		<constructor-arg value="1499"></constructor-arg>
+	</bean>
+
+	<bean id="gasolina2" class="modelo.entidad.Motor">
+		<constructor-arg index="2" value="1999"></constructor-arg>
+		<constructor-arg index="0" value="gasolina"></constructor-arg>
+		<constructor-arg index="1" value="145"></constructor-arg>
+	</bean>
+
+	<bean id="gasolina3" class="modelo.entidad.Motor">
+		<property name="tipoMotor" value="gasolina"></property>
+		<property name="cv" value="120"></property>
+		<property name="cilindrada" value="1750"></property>
+	</bean>
+
+	<bean id="diesel" class="modelo.entidad.Motor">
+		<property name="tipoMotor" value="diesel"></property>
+		<property name="cv" value="111"></property>
+		<property name="cilindrada" value="1550"></property>
+	</bean>
+
+	<bean id="motoAgua" class="modelo.entidad.Coche">
+		<property name="marca" value="Acuaman"></property>
+		<property name="modelo" value="tormenta"></property>
+		<property name="matricula" value="1234"></property>
+		<property name="motor">
+			<bean class="modelo.entidad.Motor">
+				<property name="tipoMotor" value="agua"></property>
+				<property name="cv" value="35"></property>
+				<property name="cilindrada" value="750"></property>
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="peugeot" class="modelo.entidad.Coche">
+		<property name="marca" value="peugeot"></property>
+		<property name="modelo" value="607"></property>
+		<property name="matricula" value="0987CDF"></property>
+		<property name="motor" ref="gasolina1"></property>
+	</bean>
+	
+	<bean id="renault" class="modelo.entidad.Coche">
+		<property name="marca" value="renault"></property>
+		<property name="modelo" value="megane"></property>
+		<property name="matricula" value="1264CFF"></property>
+		<property name="motor" ref="gasolina2"></property>
+	</bean>
+	
+	<bean id="ferrari" class="modelo.entidad.Coche">
+		<property name="marca" value="ferrari"></property>
+		<property name="modelo" value="testarrosa"></property>
+		<property name="matricula" value="9987FRT"></property>
+		<property name="motor" ref="gasolina3"></property>
+	</bean>
+	
+	<bean id="herbie" class="modelo.entidad.Coche">
+		<property name="marca" value="propia"></property>
+		<property name="modelo" value="Herbie el volante loco"></property>
+		<property name="matricula" value="1112ORT"></property>
+		<property name="motor" ref="diesel"></property>
+	</bean>
+</beans>

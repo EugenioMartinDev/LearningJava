@@ -30,6 +30,9 @@ public class MainSpring {
 		
 		Coche c6 = context.getBean("coche6", Coche.class);
 		System.out.println(c6);
+		
+		Coche c7 = context.getBean("coche7", Coche.class);
+		System.out.println(c7);
 
 		//imprimirCoches();
 	}

@@ -1,6 +1,7 @@
 package modelo.negocio;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import modelo.persistencia.DaoPelicula;
@@ -103,6 +104,16 @@ public class GestorPeliculas {
 		}
 		
 		return false;
+	}
+
+	public ArrayList buscarPeliculaPorTitulo(String titulo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public ArrayList buscarPeliculaPorClave(String text, String campo) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }

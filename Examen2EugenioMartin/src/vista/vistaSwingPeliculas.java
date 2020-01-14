@@ -235,7 +235,7 @@ public class vistaSwingPeliculas extends JPanel
   				ArrayList<Pelicula> listaPeliculas = null;
   				try {
   					listaPeliculas = (ArrayList) gp.buscarPeliculaPorTitulo(documentEvent.getDocument().getText(0, documentEvent.getDocument().getLength()));
-  				} catch (SQLException | BadLocationException e) {
+  				} catch (BadLocationException e) {
   					// TODO Auto-generated catch block
   					e.printStackTrace();
   				}
@@ -687,24 +687,16 @@ public class vistaSwingPeliculas extends JPanel
     			if (anioSelected) campo = Constantes.ANIOPROD;
     			if (tituloSelected) campo = Constantes.TITULO;
 		
-    			try {
-					ArrayList<Pelicula> listaPeliculas = (ArrayList) gp.buscarPeliculaPorClave(claveBusquedaText.getText(), campo);
-					
-					if (listaPeliculas.size() == 0) {
-						textArea.setText("No se ha encontrado ninguna película");
-						textArea.setForeground(Color.RED);
-					} else {					
-						for (Pelicula elementoPelicula : listaPeliculas) {
-							Object[] row = {elementoPelicula.getId(), elementoPelicula.getTitulo(), elementoPelicula.getDirector(), elementoPelicula.getAnioPublicacion()};
-							dtm.addRow(row);
-						}
-					}
-				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-					JOptionPane.showMessageDialog(null, e.getMessage());
-					textArea.setText( e.getMessage());
+    			ArrayList<Pelicula> listaPeliculas = (ArrayList) gp.buscarPeliculaPorClave(claveBusquedaText.getText(), campo);
+				
+				if (listaPeliculas.size() == 0) {
+					textArea.setText("No se ha encontrado ninguna película");
 					textArea.setForeground(Color.RED);
+				} else {					
+					for (Pelicula elementoPelicula : listaPeliculas) {
+						Object[] row = {elementoPelicula.getId(), elementoPelicula.getTitulo(), elementoPelicula.getDirector(), elementoPelicula.getAnioPublicacion()};
+						dtm.addRow(row);
+					}
 				}  		
     		}
     		
@@ -1071,24 +1063,16 @@ public class vistaSwingPeliculas extends JPanel
     			if (anioSelected) campo = Constantes.ANIOPROD;
     			if (tituloSelected) campo = Constantes.TITULO;
 		
-    			try {
-					ArrayList<Pelicula> listaPeliculas = (ArrayList) gp.buscarPeliculaPorClave(claveBusquedaText.getText(), campo);
-					
-					if (listaPeliculas.size() == 0) {
-						textArea.setText("No se ha encontrado ninguna película");
-						textArea.setForeground(Color.RED);
-					} else {	
-						for (Pelicula elementoPelicula : listaPeliculas) {
-							Object[] row = {elementoPelicula.getId(), elementoPelicula.getTitulo(), elementoPelicula.getDirector(), elementoPelicula.getAnioPublicacion()};
-							dtm.addRow(row);
-						}
-					}
-				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-					JOptionPane.showMessageDialog(null, e.getMessage());
-					textArea.setText( e.getMessage());
+    			ArrayList<Pelicula> listaPeliculas = (ArrayList) gp.buscarPeliculaPorClave(claveBusquedaText.getText(), campo);
+				
+				if (listaPeliculas.size() == 0) {
+					textArea.setText("No se ha encontrado ninguna película");
 					textArea.setForeground(Color.RED);
+				} else {	
+					for (Pelicula elementoPelicula : listaPeliculas) {
+						Object[] row = {elementoPelicula.getId(), elementoPelicula.getTitulo(), elementoPelicula.getDirector(), elementoPelicula.getAnioPublicacion()};
+						dtm.addRow(row);
+					}
 				}  		
     		}
     		
