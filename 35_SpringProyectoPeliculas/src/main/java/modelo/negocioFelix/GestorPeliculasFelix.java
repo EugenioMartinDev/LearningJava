@@ -2,6 +2,7 @@ package modelo.negocioFelix;
 
 import java.util.ArrayList;
 
+import modelo.entidadFelix.SpringMainPeliculaFelix;
 import vistaFelix.PeliculaFelix;
 
 
@@ -60,8 +61,9 @@ public class GestorPeliculasFelix {
 	 * @param genero : El género de la película a buscar
 	 * @return : Todas las películas encontradas por género o una lista vacía si no se encuentra ninguna
 	 */
-	public ArrayList<PeliculaFelix> buscarPorGenero(String genero) {		
-		ArrayList<PeliculaFelix> listaEncontrada = new ArrayList<PeliculaFelix>();
+	public ArrayList<PeliculaFelix> buscarPorGenero(String genero) {	
+		ArrayList<PeliculaFelix> listaEncontrada = SpringMainPeliculaFelix.context.getBean("listaPeliculasPorGenero", ArrayList.class);
+		//ArrayList<PeliculaFelix> listaEncontrada = new ArrayList<PeliculaFelix>();
 		for (PeliculaFelix pelicula : listaPeliculas) {
 			if (pelicula.getGenero().equals(genero))
 				listaEncontrada.add(pelicula);

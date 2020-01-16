@@ -1129,3 +1129,422 @@
 2020-01-14 09:13:18,600 [Worker-42: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-01-14 09:13:19,063 [Worker-42: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-01-14 09:13:19,064 [Worker-42: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 09:13:19,095 [Worker-42: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 09:13:19,097 [Worker-42: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 09:57:39,010 [Worker-60: Launching SpringMainPeliculaFelix] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 09:57:39,021 [Worker-60: Launching SpringMainPeliculaFelix] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 09:57:39,027 [Worker-60: Launching SpringMainPeliculaFelix] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 09:57:39,028 [Worker-60: Launching SpringMainPeliculaFelix] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 10:36:14,906 [Worker-63: Creating project "37_Autowired"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:37_Autowired:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\37_Autowired\pom.xml.
+2020-01-14 10:36:15,227 [Worker-63: Creating project "37_Autowired"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /37_Autowired/src/main/java
+2020-01-14 10:36:15,228 [Worker-63: Creating project "37_Autowired"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /37_Autowired/src/main/resources
+2020-01-14 10:36:15,230 [Worker-63: Creating project "37_Autowired"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /37_Autowired/src/test/java
+2020-01-14 10:36:15,230 [Worker-63: Creating project "37_Autowired"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /37_Autowired/src/test/resources
+2020-01-14 10:37:51,942 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-14 10:37:52,669 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:37_Autowired:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\37_Autowired\pom.xml.
+2020-01-14 10:37:52,975 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /37_Autowired/src/main/java
+2020-01-14 10:37:52,975 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /37_Autowired/src/main/resources
+2020-01-14 10:37:52,976 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /37_Autowired/src/test/java
+2020-01-14 10:37:52,976 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /37_Autowired/src/test/resources
+2020-01-14 10:37:53,275 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-01-14 10:58:16,123 [Worker-78: Launching MainAutowire] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 10:58:16,126 [Worker-78: Launching MainAutowire] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 10:58:16,131 [Worker-78: Launching MainAutowire] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 10:58:16,134 [Worker-78: Launching MainAutowire] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 11:00:10,632 [Worker-75: Launching MainAutowire] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 11:00:10,635 [Worker-75: Launching MainAutowire] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 11:00:10,639 [Worker-75: Launching MainAutowire] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 11:00:10,640 [Worker-75: Launching MainAutowire] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 12:03:14,906 [Worker-85: Creating project "38_Annotation"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:38_Annotation:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\38_Annotation\pom.xml.
+2020-01-14 12:03:15,079 [Worker-85: Creating project "38_Annotation"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /38_Annotation/src/main/java
+2020-01-14 12:03:15,080 [Worker-85: Creating project "38_Annotation"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /38_Annotation/src/main/resources
+2020-01-14 12:03:15,081 [Worker-85: Creating project "38_Annotation"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /38_Annotation/src/test/java
+2020-01-14 12:03:15,081 [Worker-85: Creating project "38_Annotation"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /38_Annotation/src/test/resources
+2020-01-14 12:03:49,980 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-14 12:03:50,918 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:38_Annotation:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\38_Annotation\pom.xml.
+2020-01-14 12:03:51,242 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /38_Annotation/src/main/java
+2020-01-14 12:03:51,243 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /38_Annotation/src/main/resources
+2020-01-14 12:03:51,244 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /38_Annotation/src/test/java
+2020-01-14 12:03:51,244 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /38_Annotation/src/test/resources
+2020-01-14 12:03:51,573 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-01-14 12:42:43,651 [Worker-116: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:42:43,653 [Worker-116: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 12:42:43,660 [Worker-116: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:42:43,661 [Worker-116: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 12:43:12,665 [Worker-117: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:43:12,667 [Worker-117: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 12:43:12,669 [Worker-117: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:43:12,671 [Worker-117: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 12:46:06,777 [Worker-122: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:46:06,779 [Worker-122: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 12:46:06,786 [Worker-122: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:46:06,787 [Worker-122: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 12:46:17,270 [Worker-116: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:46:17,272 [Worker-116: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 12:46:17,275 [Worker-116: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:46:17,276 [Worker-116: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 12:48:28,350 [Worker-122: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:48:28,352 [Worker-122: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 12:48:28,354 [Worker-122: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:48:28,356 [Worker-122: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 12:51:00,489 [Worker-116: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:51:00,492 [Worker-116: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 12:51:00,498 [Worker-116: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:51:00,499 [Worker-116: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 12:51:22,813 [Worker-129: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:51:22,816 [Worker-129: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 12:51:22,818 [Worker-129: Launching MainAnotaciones] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:51:22,819 [Worker-129: Launching MainAnotaciones] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 12:54:22,388 [Worker-125: Creating project "38_AnnotationProyectoPeliculas"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:38_AnnotationProyectoPeliculas:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\38_AnnotationProyectoPeliculas\pom.xml.
+2020-01-14 12:54:22,538 [Worker-125: Creating project "38_AnnotationProyectoPeliculas"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /38_AnnotationProyectoPeliculas/src/main/java
+2020-01-14 12:54:22,538 [Worker-125: Creating project "38_AnnotationProyectoPeliculas"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /38_AnnotationProyectoPeliculas/src/main/resources
+2020-01-14 12:54:22,540 [Worker-125: Creating project "38_AnnotationProyectoPeliculas"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /38_AnnotationProyectoPeliculas/src/test/java
+2020-01-14 12:54:22,540 [Worker-125: Creating project "38_AnnotationProyectoPeliculas"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /38_AnnotationProyectoPeliculas/src/test/resources
+2020-01-14 12:56:01,240 [Worker-125: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-14 12:56:01,335 [Worker-125: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:38_AnnotationProyectoPeliculas:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\38_AnnotationProyectoPeliculas\pom.xml.
+2020-01-14 12:56:01,696 [Worker-125: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /38_AnnotationProyectoPeliculas/src/main/java
+2020-01-14 12:56:01,697 [Worker-125: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /38_AnnotationProyectoPeliculas/src/main/resources
+2020-01-14 12:56:01,698 [Worker-125: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /38_AnnotationProyectoPeliculas/src/test/java
+2020-01-14 12:56:01,699 [Worker-125: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /38_AnnotationProyectoPeliculas/src/test/resources
+2020-01-14 12:56:02,008 [Worker-125: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-01-14 12:59:58,536 [Worker-128: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:59:58,538 [Worker-128: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 12:59:58,551 [Worker-128: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 12:59:58,553 [Worker-128: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 13:01:16,596 [Worker-132: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 13:01:16,597 [Worker-132: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 13:01:16,601 [Worker-132: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 13:01:16,603 [Worker-132: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 13:01:43,227 [Worker-128: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 13:01:43,229 [Worker-128: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 13:01:43,230 [Worker-128: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 13:01:43,231 [Worker-128: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 13:02:22,517 [Worker-130: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 13:02:22,519 [Worker-130: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 13:02:22,521 [Worker-130: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 13:02:22,522 [Worker-130: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 13:03:40,101 [Worker-128: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 13:03:40,102 [Worker-128: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 13:03:40,108 [Worker-128: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 13:03:40,110 [Worker-128: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 13:27:17,144 [Worker-142: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 13:27:17,147 [Worker-142: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 13:27:17,152 [Worker-142: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 13:27:17,153 [Worker-142: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-14 14:12:24,855 [Worker-153: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 14:12:24,855 [Worker-153: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-14 14:12:24,855 [Worker-153: Launching SpringMainPeliculaFelix (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-14 14:12:24,855 [Worker-153: Launching SpringMainPeliculaFelix (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 08:38:12,413 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-01-15 09:05:10,318 [Worker-24: Launching ManejoPeliculas] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 09:05:10,324 [Worker-24: Launching ManejoPeliculas] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 09:05:10,331 [Worker-24: Launching ManejoPeliculas] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 09:05:10,332 [Worker-24: Launching ManejoPeliculas] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 09:07:55,735 [Worker-26: Launching ManejoPeliculas] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 09:07:55,742 [Worker-26: Launching ManejoPeliculas] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 09:07:55,753 [Worker-26: Launching ManejoPeliculas] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 09:07:55,754 [Worker-26: Launching ManejoPeliculas] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 09:24:20,383 [Worker-26: Creating project "40_SpringLibrebriaBBDD"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:40_SpringLibrebriaBBDD:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\40_SpringLibrebriaBBDD\pom.xml.
+2020-01-15 09:24:20,712 [Worker-26: Creating project "40_SpringLibrebriaBBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /40_SpringLibrebriaBBDD/src/main/java
+2020-01-15 09:24:20,713 [Worker-26: Creating project "40_SpringLibrebriaBBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /40_SpringLibrebriaBBDD/src/main/resources
+2020-01-15 09:24:20,715 [Worker-26: Creating project "40_SpringLibrebriaBBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /40_SpringLibrebriaBBDD/src/test/java
+2020-01-15 09:24:20,715 [Worker-26: Creating project "40_SpringLibrebriaBBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /40_SpringLibrebriaBBDD/src/test/resources
+2020-01-15 09:27:10,008 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-15 09:27:10,834 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:40_SpringLibrebriaBBDD:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\40_SpringLibrebriaBBDD\pom.xml.
+2020-01-15 09:27:11,165 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /40_SpringLibrebriaBBDD/src/main/java
+2020-01-15 09:27:11,165 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /40_SpringLibrebriaBBDD/src/main/resources
+2020-01-15 09:27:11,166 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /40_SpringLibrebriaBBDD/src/test/java
+2020-01-15 09:27:11,167 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /40_SpringLibrebriaBBDD/src/test/resources
+2020-01-15 09:27:11,744 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-01-15 09:36:38,906 [Worker-43: Launching MainVistaPersistente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 09:36:38,908 [Worker-43: Launching MainVistaPersistente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 09:36:38,913 [Worker-43: Launching MainVistaPersistente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 09:36:38,916 [Worker-43: Launching MainVistaPersistente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 09:47:59,862 [Worker-34: Launching MainVistaPersistente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 09:47:59,873 [Worker-34: Launching MainVistaPersistente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 09:47:59,875 [Worker-34: Launching MainVistaPersistente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 09:47:59,876 [Worker-34: Launching MainVistaPersistente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 09:54:34,402 [Worker-48: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:39_EjercicioPeliculasAnotaciones:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\39_EjercicioPeliculasAnotaciones\pom.xml.
+2020-01-15 09:54:34,708 [Worker-48: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /39_EjercicioPeliculasAnotaciones/src/main/java
+2020-01-15 09:54:34,708 [Worker-48: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /39_EjercicioPeliculasAnotaciones/src/main/resources
+2020-01-15 09:54:34,709 [Worker-48: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /39_EjercicioPeliculasAnotaciones/src/test/java
+2020-01-15 09:54:34,893 [Worker-48: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2020-01-15 10:11:33,610 [Worker-48: Creating project "41_MVCSpringClientes"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:41_MVCSpringClientes:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\41_MVCSpringClientes\pom.xml.
+2020-01-15 10:11:33,743 [Worker-48: Creating project "41_MVCSpringClientes"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /41_MVCSpringClientes/src/main/java
+2020-01-15 10:11:33,743 [Worker-48: Creating project "41_MVCSpringClientes"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /41_MVCSpringClientes/src/main/resources
+2020-01-15 10:11:33,744 [Worker-48: Creating project "41_MVCSpringClientes"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /41_MVCSpringClientes/src/test/java
+2020-01-15 10:11:33,744 [Worker-48: Creating project "41_MVCSpringClientes"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /41_MVCSpringClientes/src/test/resources
+2020-01-15 10:12:25,564 [Worker-54: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-15 10:12:25,659 [Worker-54: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:41_MVCSpringClientes:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\41_MVCSpringClientes\pom.xml.
+2020-01-15 10:12:25,955 [Worker-54: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /41_MVCSpringClientes/src/main/java
+2020-01-15 10:12:25,956 [Worker-54: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /41_MVCSpringClientes/src/main/resources
+2020-01-15 10:12:25,957 [Worker-54: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /41_MVCSpringClientes/src/test/java
+2020-01-15 10:12:25,957 [Worker-54: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /41_MVCSpringClientes/src/test/resources
+2020-01-15 10:12:26,192 [Worker-54: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-01-15 13:05:08,554 [Worker-95: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:05:08,555 [Worker-95: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:05:08,561 [Worker-95: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:05:08,562 [Worker-95: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 13:07:41,749 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-15 13:07:41,851 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:41_MVCSpringClientes:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\41_MVCSpringClientes\pom.xml.
+2020-01-15 13:07:42,012 [Worker-96: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /41_MVCSpringClientes/src/main/java
+2020-01-15 13:07:42,013 [Worker-96: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /41_MVCSpringClientes/src/main/resources
+2020-01-15 13:07:42,014 [Worker-96: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /41_MVCSpringClientes/src/test/java
+2020-01-15 13:07:42,014 [Worker-96: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /41_MVCSpringClientes/src/test/resources
+2020-01-15 13:07:42,220 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-01-15 13:07:58,223 [Worker-94: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:07:58,225 [Worker-94: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:07:58,231 [Worker-94: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:07:58,232 [Worker-94: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 13:10:51,762 [Worker-96: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:10:51,764 [Worker-96: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:10:51,767 [Worker-96: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:10:51,768 [Worker-96: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 13:13:21,567 [Worker-94: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:13:21,570 [Worker-94: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:13:21,572 [Worker-94: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:13:21,574 [Worker-94: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 13:14:55,633 [Worker-97: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:14:55,635 [Worker-97: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:14:55,637 [Worker-97: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:14:55,639 [Worker-97: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 13:18:34,877 [Worker-87: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:18:34,880 [Worker-87: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:18:34,882 [Worker-87: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:18:34,883 [Worker-87: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 13:19:35,048 [Worker-95: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:19:35,051 [Worker-95: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:19:35,053 [Worker-95: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:19:35,055 [Worker-95: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 13:20:32,588 [Worker-87: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:20:32,590 [Worker-87: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:20:32,592 [Worker-87: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:20:32,594 [Worker-87: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 13:22:46,349 [Worker-95: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:22:46,352 [Worker-95: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:22:46,354 [Worker-95: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:22:46,355 [Worker-95: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 13:37:49,707 [Worker-104: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:37:49,709 [Worker-104: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:37:49,711 [Worker-104: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:37:49,712 [Worker-104: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 13:39:41,093 [Worker-100: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:39:41,096 [Worker-100: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 13:39:41,098 [Worker-100: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 13:39:41,099 [Worker-100: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 14:26:05,090 [Worker-126: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 14:26:05,093 [Worker-126: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 14:26:05,095 [Worker-126: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-15 14:26:05,097 [Worker-126: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 08:14:46,758 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-16 08:17:47,992 [Worker-3: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 08:17:48,002 [Worker-3: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 08:17:48,012 [Worker-3: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 08:17:48,017 [Worker-3: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:02:36,330 [Worker-36: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:02:36,357 [Worker-36: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:02:36,360 [Worker-36: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:02:36,363 [Worker-36: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:28:35,176 [Worker-43: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:28:35,179 [Worker-43: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:28:35,181 [Worker-43: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:28:35,184 [Worker-43: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:30:58,569 [Worker-46: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:30:58,571 [Worker-46: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:30:58,573 [Worker-46: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:30:58,574 [Worker-46: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:32:05,857 [Worker-45: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:32:05,859 [Worker-45: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:32:05,860 [Worker-45: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:32:05,862 [Worker-45: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:41:41,818 [Worker-44: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:41:41,821 [Worker-44: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:41:41,823 [Worker-44: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:41:41,825 [Worker-44: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:44:33,874 [Worker-53: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:44:33,877 [Worker-53: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:44:33,879 [Worker-53: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:44:33,881 [Worker-53: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:45:34,872 [Worker-54: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:45:34,875 [Worker-54: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:45:34,877 [Worker-54: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:45:34,879 [Worker-54: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:47:02,005 [Worker-54: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:47:02,007 [Worker-54: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:47:02,009 [Worker-54: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:47:02,010 [Worker-54: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:49:47,124 [Worker-55: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:49:47,127 [Worker-55: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:49:47,129 [Worker-55: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:49:47,131 [Worker-55: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:50:48,632 [Worker-50: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:50:48,635 [Worker-50: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:50:48,637 [Worker-50: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:50:48,639 [Worker-50: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:52:12,634 [Worker-53: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:52:12,637 [Worker-53: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:52:12,639 [Worker-53: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:52:12,641 [Worker-53: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 10:57:10,450 [Worker-55: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:57:10,452 [Worker-55: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 10:57:10,454 [Worker-55: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 10:57:10,456 [Worker-55: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 11:00:05,388 [Worker-58: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 11:00:05,391 [Worker-58: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 11:00:05,393 [Worker-58: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 11:00:05,395 [Worker-58: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 12:27:07,861 [Worker-69: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:27:07,864 [Worker-69: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 12:27:07,866 [Worker-69: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:27:07,867 [Worker-69: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 12:29:27,051 [Worker-71: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:29:27,054 [Worker-71: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 12:29:27,057 [Worker-71: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:29:27,059 [Worker-71: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 12:52:08,456 [Worker-70: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:52:08,458 [Worker-70: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 12:52:08,462 [Worker-70: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:52:08,463 [Worker-70: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 12:53:45,362 [Worker-78: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:53:45,364 [Worker-78: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 12:53:45,367 [Worker-78: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:53:45,369 [Worker-78: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 12:54:29,658 [Worker-80: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:54:29,661 [Worker-80: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 12:54:29,662 [Worker-80: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:54:29,664 [Worker-80: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 12:56:44,784 [Worker-80: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:56:44,784 [Worker-80: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 12:56:44,784 [Worker-80: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 12:56:44,784 [Worker-80: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 13:00:34,970 [Worker-78: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 13:00:34,973 [Worker-78: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 13:00:34,974 [Worker-78: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 13:00:34,975 [Worker-78: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 13:01:00,642 [Worker-84: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 13:01:00,645 [Worker-84: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 13:01:00,646 [Worker-84: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 13:01:00,648 [Worker-84: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 13:01:33,752 [Worker-78: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 13:01:33,754 [Worker-78: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 13:01:33,756 [Worker-78: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 13:01:33,757 [Worker-78: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 13:05:21,666 [Worker-78: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 13:05:21,668 [Worker-78: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 13:05:21,670 [Worker-78: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 13:05:21,671 [Worker-78: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 13:05:48,361 [Worker-89: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 13:05:48,364 [Worker-89: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-16 13:05:48,366 [Worker-89: Launching MainCliente] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 13:05:48,367 [Worker-89: Launching MainCliente] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 13:08:53,269 [Worker-91: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MainCliente references non-existing project 41_MVCSpringClientes.
+org.eclipse.core.runtime.CoreException: Launch configuration MainCliente references non-existing project 41_MVCSpringClientes.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.500.v20190815-1535.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-16 13:08:53,272 [Worker-91: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MainCliente references non-existing project 41_MVCSpringClientes.
+org.eclipse.core.runtime.CoreException: Launch configuration MainCliente references non-existing project 41_MVCSpringClientes.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.500.v20190815-1535.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-16 13:08:53,279 [Worker-91: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MainCliente references non-existing project 41_MVCSpringClientes.
+org.eclipse.core.runtime.CoreException: Launch configuration MainCliente references non-existing project 41_MVCSpringClientes.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.500.v20190815-1535.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:375) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-16 13:15:31,495 [Worker-94: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-16 13:15:32,777 [Worker-94: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:41_MVCSpringClientes:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\41_CapasSpringClientes\pom.xml.
+2020-01-16 13:15:33,343 [Worker-94: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /41_CapasSpringClientes/src/main/java
+2020-01-16 13:15:33,344 [Worker-94: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /41_CapasSpringClientes/src/main/resources
+2020-01-16 13:15:33,345 [Worker-94: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /41_CapasSpringClientes/src/test/java
+2020-01-16 13:15:33,346 [Worker-94: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /41_CapasSpringClientes/src/test/resources
+2020-01-16 13:15:33,607 [Worker-94: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-01-16 13:33:48,002 [Worker-103: Creating project "42_SpringJavaConfig"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:42_SpringJavaConfig:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\42_SpringJavaConfig\pom.xml.
+2020-01-16 13:33:48,503 [Worker-103: Creating project "42_SpringJavaConfig"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /42_SpringJavaConfig/src/main/java
+2020-01-16 13:33:48,503 [Worker-103: Creating project "42_SpringJavaConfig"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /42_SpringJavaConfig/src/main/resources
+2020-01-16 13:33:48,504 [Worker-103: Creating project "42_SpringJavaConfig"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /42_SpringJavaConfig/src/test/java
+2020-01-16 13:33:48,504 [Worker-103: Creating project "42_SpringJavaConfig"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /42_SpringJavaConfig/src/test/resources
+2020-01-16 13:35:46,495 [Worker-104: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-16 13:35:46,600 [Worker-104: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:42_SpringJavaConfig:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\42_SpringJavaConfig\pom.xml.
+2020-01-16 13:35:46,905 [Worker-104: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /42_SpringJavaConfig/src/main/java
+2020-01-16 13:35:46,906 [Worker-104: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /42_SpringJavaConfig/src/main/resources
+2020-01-16 13:35:46,907 [Worker-104: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /42_SpringJavaConfig/src/test/java
+2020-01-16 13:35:46,907 [Worker-104: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /42_SpringJavaConfig/src/test/resources
+2020-01-16 13:35:47,254 [Worker-104: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-01-16 14:01:10,728 [Worker-117: Launching ManejoPeliculas (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 14:01:10,730 [Worker-117: Launching ManejoPeliculas (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 14:01:10,732 [Worker-117: Launching ManejoPeliculas (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 14:01:10,734 [Worker-117: Launching ManejoPeliculas (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 14:04:39,336 [Worker-113: Launching ManejoPeliculas (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 14:04:39,340 [Worker-113: Launching ManejoPeliculas (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 14:04:39,341 [Worker-113: Launching ManejoPeliculas (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 14:04:39,343 [Worker-113: Launching ManejoPeliculas (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 14:08:08,297 [Worker-121: Launching ManejoPeliculas (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 14:08:08,299 [Worker-121: Launching ManejoPeliculas (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 14:08:08,300 [Worker-121: Launching ManejoPeliculas (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 14:08:08,302 [Worker-121: Launching ManejoPeliculas (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 14:08:24,413 [Worker-122: Launching ManejoPeliculas (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 14:08:24,415 [Worker-122: Launching ManejoPeliculas (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 14:08:24,417 [Worker-122: Launching ManejoPeliculas (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 14:08:24,418 [Worker-122: Launching ManejoPeliculas (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 14:09:03,348 [Worker-113: Launching ManejoPeliculas (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 14:09:03,350 [Worker-113: Launching ManejoPeliculas (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 14:09:03,352 [Worker-113: Launching ManejoPeliculas (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-16 14:09:03,353 [Worker-113: Launching ManejoPeliculas (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

@@ -3,6 +3,7 @@
 	<section name="">
 		<item key="org.eclipse.jdt.search.resultpage.limit" value="1000"/>
 		<item key="org.eclipse.jdt.search.resultpage.limit_enabled" value="TRUE"/>
+		<item key="org.eclipse.search.resultpage.limit" value="1000"/>
 	</section>
 	<section name="org.eclipse.jdt.ui.JavaSearchResultPage">
 		<item key="org.eclipse.jdt.search.resultpage.limit" value="1000"/>
@@ -20,6 +21,8 @@
 			<item value="org.eclipse.jdt.ui.JavaSearchPage"/>
 			<item value="org.eclipse.wst.jsdt.ui.JavaSearchPage"/>
 			<item value="org.eclipse.pde.internal.ui.search.SearchPage"/>
+			<item value="org.springframework.ide.eclipse.beans.ui.search.searchPage"/>
+			<item value="org.springframework.ide.eclipse.aop.ui.matcher.matcherPage"/>
 		</list>
 		<list key="Search.enabledPageIds">
 			<item value="org.eclipse.rse.internal.files.ui.search.searchPage"/>
@@ -29,6 +32,8 @@
 			<item value="org.eclipse.jdt.ui.JavaSearchPage"/>
 			<item value="org.eclipse.wst.jsdt.ui.JavaSearchPage"/>
 			<item value="org.eclipse.pde.internal.ui.search.SearchPage"/>
+			<item value="org.springframework.ide.eclipse.beans.ui.search.searchPage"/>
+			<item value="org.springframework.ide.eclipse.aop.ui.matcher.matcherPage"/>
 		</list>
 	</section>
 	<section name="SearchDialog.ScopePart">
@@ -37,14 +42,9 @@
 	<section name="DialogBounds_SearchDialog">
 		<item key="DIALOG_X_ORIGIN" value="451"/>
 		<item key="DIALOG_Y_ORIGIN" value="140"/>
-		<item key="DIALOG_WIDTH" value="715"/>
+		<item key="DIALOG_WIDTH" value="1007"/>
 		<item key="DIALOG_HEIGHT" value="463"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
-	</section>
-	<section name="">
-		<item key="org.eclipse.jdt.search.resultpage.limit" value="1000"/>
-		<item key="org.eclipse.jdt.search.resultpage.limit_enabled" value="TRUE"/>
-		<item key="org.eclipse.search.resultpage.limit" value="1000"/>
 	</section>
 	<section name="TextSearchPage">
 		<item key="CASE_SENSITIVE" value="false"/>

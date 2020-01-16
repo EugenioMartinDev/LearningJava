@@ -17,9 +17,7 @@ public class SpringMainPeliculaFelix {
 	public static void main(String[] args) {
 		
 		context = new ClassPathXmlApplicationContext("beans.xml");
-		
-		
-		
+
 		//Scanner sc = new Scanner(System.in);
 		Scanner sc = context.getBean("scanner", Scanner.class);
 		
@@ -34,6 +32,7 @@ public class SpringMainPeliculaFelix {
 			System.out.println("2- Lista de películas");
 			System.out.println("3- Buscar película por título");
 			System.out.println("4- Buscar película por género");
+			System.out.println("0- Finalizar sesión");
 			opcion = sc.nextLine();
 			
 			if(opcion.equals("1")) {
@@ -54,16 +53,18 @@ public class SpringMainPeliculaFelix {
 				int anioEstreno = Integer.parseInt(sAnioEstreno);
 				
 				//DirectorFelix director = new DirectorFelix();
-				DirectorFelix director = context.getBean("director", DirectorFelix.class);
-				director.setNombre(nombre);
-				director.setEdad(edad);
+				//DirectorFelix director = context.getBean("director", DirectorFelix.class);
+				//director.setNombre(nombre);
+				//director.setEdad(edad);
 				
 				//PeliculaFelix pelicula = new PeliculaFelix();
 				PeliculaFelix pelicula = context.getBean("pelicula", PeliculaFelix.class);
+				pelicula.getDirector().setNombre(nombre);
+				pelicula.getDirector().setEdad(edad);
 				pelicula.setGenero(genero);
 				pelicula.setAnioEstreno(anioEstreno);
 				pelicula.setTitulo(titulo);
-				pelicula.setDirector(director);
+				//pelicula.setDirector(director);
 				
 				if (gpf.alta(pelicula)) {
 					System.out.println("Película aceptada");
