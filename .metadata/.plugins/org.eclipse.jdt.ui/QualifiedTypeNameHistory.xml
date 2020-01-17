@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="basico.HiloThread"/>
 <fullyQualifiedTypeName name="basico.HiloRunnable"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="hilo.HiloCalculoPrimo"/>
@@ -41,14 +40,11 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-<fullyQualifiedTypeName name="modelo.entidad.Cliente"/>
 <fullyQualifiedTypeName name="utils.Constantes"/>
-<fullyQualifiedTypeName name="modelo.negocio.GestorClientes"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-<fullyQualifiedTypeName name="vista.Vista"/>
 <fullyQualifiedTypeName name="main.MainCliente"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="modelo.entidad.Cliente"/>
+<fullyQualifiedTypeName name="modelo.persistencia.DaoClientes"/>
+<fullyQualifiedTypeName name="modelo.negocio.GestorClientes"/>
+<fullyQualifiedTypeName name="vista.Vista"/>
 </qualifiedTypeNameHistroy>
