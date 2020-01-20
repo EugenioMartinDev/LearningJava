@@ -1,14 +1,20 @@
 package modelo.negocio;
 
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Example;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import modelo.entidad.Libro;
 import modelo.persistencia.DaoLibreria;
+import vista.MainLibreria;
 
 @Service
 public class GestorLibreria {
@@ -47,11 +53,36 @@ public class GestorLibreria {
 	
 	@Transactional
 	public Libro buscarPorIsbn(String isbn) {
-		return daoLibreria.
+		Libro libro = MainLibreria.context.getBean("libro", Libro.class);
+		libro.setIsbn(isbn);
+		/*
+		Example<Libro> example = Example.of(libro);
+		if (daoLibreria.findOne(example).get() != null) {
+			libro = daoLibreria.findOne(example).get();
+		}
+		
+		*/
+		try {
+			libro = daoLibreria.findTitleByIsbn(isbn).get();
+		} catch (NoSuchElementException ex) {
+			ex.printStackTrace();
+			libro = null;
+		}
+
+		return libro;
 	}
 	
 	@Transactional
 	public List<Libro> buscarPorEditorial(String editorial){
-		return daoLibreria.buscarPorEditorial(editorial);
+		List<Libro> listaLibrosPorEditorial = new ArrayList<Libro>();
+		/*
+		Libro libro = MainLibreria.context.getBean("libro", Libro.class);
+		libro.setEditorial(editorial);		
+		Example<Libro> example = Example.of(libro);
+		listaLibrosPorEditorial = daoLibreria.findAll(example);
+		*/
+		
+		listaLibrosPorEditorial = daoLibreria.findTitleByEditorial(editorial);
+		return listaLibrosPorEditorial;
 	}
 }

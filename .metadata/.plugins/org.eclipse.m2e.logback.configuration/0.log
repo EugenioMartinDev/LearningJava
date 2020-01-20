@@ -2465,3 +2465,50 @@ org.eclipse.core.runtime.CoreException: Launch configuration MainCliente (1) ref
 2020-01-20 12:26:03,408 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /46_JPADataSpringLibreriaBBDD/src/test/java
 2020-01-20 12:26:03,408 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /46_JPADataSpringLibreriaBBDD/src/test/resources
 2020-01-20 12:26:03,654 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-01-20 13:05:01,091 [Worker-143: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:05:01,093 [Worker-143: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:05:01,094 [Worker-143: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:05:01,095 [Worker-143: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:09:52,962 [Worker-139: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:09:52,965 [Worker-139: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:09:52,967 [Worker-139: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:09:52,968 [Worker-139: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:20:27,761 [Worker-152: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:20:27,763 [Worker-152: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:20:27,764 [Worker-152: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:20:27,765 [Worker-152: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:39:15,607 [Worker-158: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:39:15,610 [Worker-158: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:39:15,611 [Worker-158: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:39:15,613 [Worker-158: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:47:37,273 [Worker-165: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:47:37,276 [Worker-165: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:47:37,282 [Worker-165: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:47:37,283 [Worker-165: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:48:04,633 [Worker-167: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:48:04,636 [Worker-167: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:48:04,638 [Worker-167: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:48:04,639 [Worker-167: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:49:02,240 [Worker-166: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:49:02,242 [Worker-166: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:49:02,243 [Worker-166: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:49:02,245 [Worker-166: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:49:51,441 [Worker-161: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:49:51,444 [Worker-161: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:49:51,445 [Worker-161: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:49:51,447 [Worker-161: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:53:24,346 [Worker-168: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:53:24,348 [Worker-168: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:53:24,349 [Worker-168: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:53:24,350 [Worker-168: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:54:25,539 [Worker-161: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:54:25,540 [Worker-161: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 13:54:25,541 [Worker-161: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 13:54:25,542 [Worker-161: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 14:03:05,883 [Worker-165: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 14:03:05,885 [Worker-165: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 14:03:05,888 [Worker-165: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 14:03:05,889 [Worker-165: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 14:11:51,635 [Worker-175: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 14:11:51,637 [Worker-175: Launching MainLibreria (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 14:11:51,639 [Worker-175: Launching MainLibreria (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

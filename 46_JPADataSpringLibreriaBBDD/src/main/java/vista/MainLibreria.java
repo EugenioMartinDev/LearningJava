@@ -3,11 +3,17 @@ package vista;
 import java.util.List;
 import java.util.Scanner;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import config.Configuracion;
 import modelo.entidad.Libro;
 import modelo.negocio.GestorLibreria;
 import modelo.persistencia.DaoLibreria;
 
 public class MainLibreria {
+	
+	public static ApplicationContext context;
 
 	public static void main(String[] args) {
 		//Primera parte
@@ -15,9 +21,15 @@ public class MainLibreria {
 		//y la inyeccion de sus dependencias
 		Scanner sc = new Scanner(System.in);
 		
+		context = 
+				new AnnotationConfigApplicationContext(
+						Configuracion.class);
+		
+		GestorLibreria gl = context.getBean("gestorLibreria",GestorLibreria.class);
+		
 		//En este caso lo que tenemos que pasarle es un
 		//objeto daoLibreria
-		GestorLibreria gl = new GestorLibreria(new DaoLibreria());
+		//GestorLibreria gl = new GestorLibreria(new DaoLibreria());
 		
 		/* Esto podriamos hacerlo si quisieramos tener varias
 		 * librerias
@@ -57,7 +69,8 @@ public class MainLibreria {
 				
 				int iAnioPublicacion = Integer.parseInt(anioPublicacion);
 				
-				Libro l = new Libro();
+				//Libro l = new Libro();
+				Libro l = context.getBean("libro", Libro.class);
 				l.setTitulo(titulo);
 				l.setEditorial(editorial);
 				l.setAnioPublicacion(iAnioPublicacion);
