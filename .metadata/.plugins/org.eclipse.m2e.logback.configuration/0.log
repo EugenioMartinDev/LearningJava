@@ -1893,3 +1893,575 @@ org.eclipse.core.runtime.CoreException: Launch configuration MainVistaPersistent
 2020-01-17 09:56:30,759 [Worker-42: Launching MainCliente (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-01-17 09:56:30,759 [Worker-42: Launching MainCliente (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-01-17 09:56:30,759 [Worker-42: Launching MainCliente (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 08:14:17,993 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-01-20 08:18:25,371 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-20 08:18:27,842 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:42_CapasSpringConfigClientes:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\43_CapasSpringConfigClientes\pom.xml.
+2020-01-20 08:18:28,698 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /43_CapasSpringConfigClientes/src/main/java
+2020-01-20 08:18:28,702 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /43_CapasSpringConfigClientes/src/main/resources
+2020-01-20 08:18:28,704 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /43_CapasSpringConfigClientes/src/test/java
+2020-01-20 08:18:28,705 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /43_CapasSpringConfigClientes/src/test/resources
+2020-01-20 08:18:29,078 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2020-01-20 08:19:24,422 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:44_JPADao:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\44_JPADao\pom.xml.
+2020-01-20 08:19:24,654 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.pom
+2020-01-20 08:19:24,666 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.pom
+2020-01-20 08:19:24,704 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final.pom
+2020-01-20 08:19:24,716 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final.pom
+2020-01-20 08:19:24,743 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+2020-01-20 08:19:24,754 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+2020-01-20 08:19:24,778 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom
+2020-01-20 08:19:24,794 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom
+2020-01-20 08:19:24,825 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.pom
+2020-01-20 08:19:24,836 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.pom
+2020-01-20 08:19:24,859 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom
+2020-01-20 08:19:24,869 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/5/jvnet-parent-5.pom
+2020-01-20 08:19:24,894 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.pom
+2020-01-20 08:19:24,904 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.pom
+2020-01-20 08:19:24,939 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.pom
+2020-01-20 08:19:24,950 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.pom
+2020-01-20 08:19:24,970 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.2/byte-buddy-parent-1.10.2.pom
+2020-01-20 08:19:24,985 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.2/byte-buddy-parent-1.10.2.pom
+2020-01-20 08:19:25,011 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom
+2020-01-20 08:19:25,020 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom
+2020-01-20 08:19:25,046 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.pom
+2020-01-20 08:19:25,058 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.pom
+2020-01-20 08:19:25,079 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/25/jboss-parent-25.pom
+2020-01-20 08:19:25,092 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/25/jboss-parent-25.pom
+2020-01-20 08:19:25,121 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.pom
+2020-01-20 08:19:25,132 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.pom
+2020-01-20 08:19:25,151 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2020-01-20 08:19:25,167 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2020-01-20 08:19:25,196 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.pom
+2020-01-20 08:19:25,206 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.pom
+2020-01-20 08:19:25,231 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/35/oss-parent-35.pom
+2020-01-20 08:19:25,243 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/35/oss-parent-35.pom
+2020-01-20 08:19:25,271 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom
+2020-01-20 08:19:25,282 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom
+2020-01-20 08:19:25,307 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/all/1.2.0/all-1.2.0.pom
+2020-01-20 08:19:25,319 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/all/1.2.0/all-1.2.0.pom
+2020-01-20 08:19:25,342 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2020-01-20 08:19:25,353 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+2020-01-20 08:19:25,380 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.pom
+2020-01-20 08:19:25,391 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.pom
+2020-01-20 08:19:25,417 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.pom
+2020-01-20 08:19:25,429 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.pom
+2020-01-20 08:19:25,455 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom
+2020-01-20 08:19:25,468 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom
+2020-01-20 08:19:25,494 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api-parent/2.3.1/jaxb-api-parent-2.3.1.pom
+2020-01-20 08:19:25,506 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api-parent/2.3.1/jaxb-api-parent-2.3.1.pom
+2020-01-20 08:19:25,536 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.pom
+2020-01-20 08:19:25,548 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.pom
+2020-01-20 08:19:25,576 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.1/jaxb-runtime-parent-2.3.1.pom
+2020-01-20 08:19:25,586 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.1/jaxb-runtime-parent-2.3.1.pom
+2020-01-20 08:19:25,610 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.1/jaxb-parent-2.3.1.pom
+2020-01-20 08:19:25,647 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.1/jaxb-parent-2.3.1.pom
+2020-01-20 08:19:25,673 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.1/jaxb-bom-ext-2.3.1.pom
+2020-01-20 08:19:25,682 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.1/jaxb-bom-ext-2.3.1.pom
+2020-01-20 08:19:25,707 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.1/jaxb-bom-2.3.1.pom
+2020-01-20 08:19:25,718 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.1/jaxb-bom-2.3.1.pom
+2020-01-20 08:19:25,754 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.pom
+2020-01-20 08:19:25,768 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.pom
+2020-01-20 08:19:25,791 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.1/jaxb-txw-parent-2.3.1.pom
+2020-01-20 08:19:25,800 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.1/jaxb-txw-parent-2.3.1.pom
+2020-01-20 08:19:25,829 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.pom
+2020-01-20 08:19:25,839 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.pom
+2020-01-20 08:19:25,872 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/3.0.7/istack-commons-3.0.7.pom
+2020-01-20 08:19:25,886 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/3.0.7/istack-commons-3.0.7.pom
+2020-01-20 08:19:25,929 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.pom
+2020-01-20 08:19:25,939 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.pom
+2020-01-20 08:19:25,965 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.pom
+2020-01-20 08:19:25,975 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.pom
+2020-01-20 08:19:25,998 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/1.2.15/fastinfoset-project-1.2.15.pom
+2020-01-20 08:19:26,026 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/1.2.15/fastinfoset-project-1.2.15.pom
+2020-01-20 08:19:26,054 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+2020-01-20 08:19:26,078 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+2020-01-20 08:19:26,158 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar
+2020-01-20 08:19:26,402 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar
+2020-01-20 08:19:26,409 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final.jar
+2020-01-20 08:19:27,141 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final.jar
+2020-01-20 08:19:27,184 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar
+2020-01-20 08:19:27,196 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar
+2020-01-20 08:19:27,204 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar
+2020-01-20 08:19:27,227 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar
+2020-01-20 08:19:27,236 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar
+2020-01-20 08:19:27,316 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar
+2020-01-20 08:19:27,328 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar
+2020-01-20 08:19:27,654 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar
+2020-01-20 08:19:27,663 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.jar
+2020-01-20 08:19:27,715 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.jar
+2020-01-20 08:19:27,722 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar
+2020-01-20 08:19:27,737 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar
+2020-01-20 08:19:27,745 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.jar
+2020-01-20 08:19:27,770 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.jar
+2020-01-20 08:19:27,778 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar
+2020-01-20 08:19:27,793 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar
+2020-01-20 08:19:27,800 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar
+2020-01-20 08:19:27,812 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar
+2020-01-20 08:19:27,822 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar
+2020-01-20 08:19:27,911 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar
+2020-01-20 08:19:27,920 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar
+2020-01-20 08:19:27,956 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar
+2020-01-20 08:19:27,964 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar
+2020-01-20 08:19:27,982 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar
+2020-01-20 08:19:27,992 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar
+2020-01-20 08:19:28,105 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar
+2020-01-20 08:19:28,113 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar
+2020-01-20 08:19:28,132 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar
+2020-01-20 08:19:28,139 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar
+2020-01-20 08:19:28,151 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar
+2020-01-20 08:19:28,158 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar
+2020-01-20 08:19:28,169 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar
+2020-01-20 08:19:28,176 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar
+2020-01-20 08:19:28,213 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar
+2020-01-20 08:19:28,222 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+2020-01-20 08:19:28,240 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+2020-01-20 08:19:34,164 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /44_JPADao/src/main/java
+2020-01-20 08:19:34,165 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /44_JPADao/src/main/resources
+2020-01-20 08:19:34,166 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /44_JPADao/src/test/java
+2020-01-20 08:19:35,644 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17-sources.jar
+2020-01-20 08:19:35,847 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17-sources.jar
+2020-01-20 08:19:36,163 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:8.0.17
+2020-01-20 08:19:36,265 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final-sources.jar
+2020-01-20 08:19:36,657 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 12 sec
+2020-01-20 08:19:36,954 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final-sources.jar
+2020-01-20 08:19:37,059 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.4.10.Final
+2020-01-20 08:19:37,241 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar
+2020-01-20 08:19:37,256 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar
+2020-01-20 08:19:37,386 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.2.Final
+2020-01-20 08:19:37,552 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar
+2020-01-20 08:19:37,587 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar
+2020-01-20 08:19:37,943 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.persistence:javax.persistence-api:2.2
+2020-01-20 08:19:38,026 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA-sources.jar
+2020-01-20 08:19:38,100 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA-sources.jar
+2020-01-20 08:19:38,184 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.24.0-GA
+2020-01-20 08:19:38,260 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2-sources.jar
+2020-01-20 08:19:38,384 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2-sources.jar
+2020-01-20 08:19:38,475 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.10.2
+2020-01-20 08:19:38,541 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7-sources.jar
+2020-01-20 08:19:38,562 [Worker-16: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for antlr:antlr:2.7.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-20 08:19:38,914 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final-sources.jar
+2020-01-20 08:19:38,925 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final-sources.jar
+2020-01-20 08:19:39,033 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+2020-01-20 08:19:39,120 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final-sources.jar
+2020-01-20 08:19:39,144 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final-sources.jar
+2020-01-20 08:19:39,445 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.1.1.Final
+2020-01-20 08:19:39,517 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar
+2020-01-20 08:19:39,566 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar
+2020-01-20 08:19:39,675 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml:classmate:1.5.1
+2020-01-20 08:19:39,764 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar
+2020-01-20 08:19:39,783 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar
+2020-01-20 08:19:39,954 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:javax.activation-api:1.2.0
+2020-01-20 08:19:40,023 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1-sources.jar
+2020-01-20 08:19:40,077 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1-sources.jar
+2020-01-20 08:19:40,244 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.dom4j:dom4j:2.1.1
+2020-01-20 08:19:40,316 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final-sources.jar
+2020-01-20 08:19:40,332 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final-sources.jar
+2020-01-20 08:19:40,467 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.1.0.Final
+2020-01-20 08:19:40,536 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar
+2020-01-20 08:19:40,574 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar
+2020-01-20 08:19:40,702 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.xml.bind:jaxb-api:2.3.1
+2020-01-20 08:19:40,775 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1-sources.jar
+2020-01-20 08:19:40,927 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1-sources.jar
+2020-01-20 08:19:41,111 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:jaxb-runtime:2.3.1
+2020-01-20 08:19:41,199 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1-sources.jar
+2020-01-20 08:19:41,230 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1-sources.jar
+2020-01-20 08:19:41,451 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:txw2:2.3.1
+2020-01-20 08:19:41,519 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7-sources.jar
+2020-01-20 08:19:41,534 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7-sources.jar
+2020-01-20 08:19:41,735 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.istack:istack-commons-runtime:3.0.7
+2020-01-20 08:19:41,808 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8-sources.jar
+2020-01-20 08:19:41,821 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8-sources.jar
+2020-01-20 08:19:42,028 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.staxex:stax-ex:1.8
+2020-01-20 08:19:42,099 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15-sources.jar
+2020-01-20 08:19:42,135 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15-sources.jar
+2020-01-20 08:19:42,228 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.xml.fastinfoset:FastInfoset:1.2.15
+2020-01-20 08:19:42,299 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar
+2020-01-20 08:19:42,333 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar
+2020-01-20 08:19:42,448 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2020-01-20 08:19:42,456 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:8.0.17
+2020-01-20 08:19:42,464 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.4.10.Final
+2020-01-20 08:19:42,472 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.2.Final
+2020-01-20 08:19:42,480 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.persistence:javax.persistence-api:2.2
+2020-01-20 08:19:42,489 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.24.0-GA
+2020-01-20 08:19:42,498 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.10.2
+2020-01-20 08:19:42,576 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar
+2020-01-20 08:19:42,582 [Worker-16: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for antlr:antlr:2.7.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-20 08:19:42,612 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+2020-01-20 08:19:42,628 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.1.1.Final
+2020-01-20 08:19:42,635 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml:classmate:1.5.1
+2020-01-20 08:19:42,644 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:javax.activation-api:1.2.0
+2020-01-20 08:19:42,652 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.dom4j:dom4j:2.1.1
+2020-01-20 08:19:42,662 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.1.0.Final
+2020-01-20 08:19:42,670 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.xml.bind:jaxb-api:2.3.1
+2020-01-20 08:19:42,678 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:jaxb-runtime:2.3.1
+2020-01-20 08:19:42,685 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:txw2:2.3.1
+2020-01-20 08:19:42,692 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.istack:istack-commons-runtime:3.0.7
+2020-01-20 08:19:42,700 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.staxex:stax-ex:1.8
+2020-01-20 08:19:42,708 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.xml.fastinfoset:FastInfoset:1.2.15
+2020-01-20 08:19:42,732 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final
+2020-01-20 08:21:35,566 [Worker-24: Launching _01_CrearPersonaJPA] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 08:21:35,577 [Worker-24: Launching _01_CrearPersonaJPA] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-20 08:21:35,595 [Worker-24: Launching _01_CrearPersonaJPA] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 08:21:35,597 [Worker-24: Launching _01_CrearPersonaJPA] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\44_JPADao\src\test\resources
+2020-01-20 08:22:58,984 [Worker-16: Launching _01_CrearPersonaJPA] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 08:22:58,990 [Worker-16: Launching _01_CrearPersonaJPA] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-20 08:22:58,995 [Worker-16: Launching _01_CrearPersonaJPA] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 08:22:58,997 [Worker-16: Launching _01_CrearPersonaJPA] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\44_JPADao\src\test\resources
+2020-01-20 08:26:20,156 [Worker-26: Launching _01_CrearPersonaJPA] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 08:26:20,160 [Worker-26: Launching _01_CrearPersonaJPA] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-20 08:26:20,166 [Worker-26: Launching _01_CrearPersonaJPA] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 08:26:20,168 [Worker-26: Launching _01_CrearPersonaJPA] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\44_JPADao\src\test\resources
+2020-01-20 08:27:04,687 [Worker-27: Launching _01_CrearPersonaJPA] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 08:27:04,689 [Worker-27: Launching _01_CrearPersonaJPA] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-20 08:27:04,694 [Worker-27: Launching _01_CrearPersonaJPA] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 08:27:04,696 [Worker-27: Launching _01_CrearPersonaJPA] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\44_JPADao\src\test\resources
+2020-01-20 09:02:50,841 [Worker-34: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ManejoPeliculas (1) references closed project 42_SpringJavaConfig
+org.eclipse.core.runtime.CoreException: Launch configuration ManejoPeliculas (1) references closed project 42_SpringJavaConfig
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.500.v20190815-1535.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-20 09:02:50,841 [Worker-34: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ManejoPeliculas (1) references closed project 42_SpringJavaConfig
+org.eclipse.core.runtime.CoreException: Launch configuration ManejoPeliculas (1) references closed project 42_SpringJavaConfig
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.500.v20190815-1535.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-20 09:02:50,857 [Worker-34: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ManejoPeliculas (1) references closed project 42_SpringJavaConfig
+org.eclipse.core.runtime.CoreException: Launch configuration ManejoPeliculas (1) references closed project 42_SpringJavaConfig
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.500.v20190815-1535.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:375) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-20 09:02:59,043 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MainCliente (1) references closed project 43_CapasSpringConfigClientes
+org.eclipse.core.runtime.CoreException: Launch configuration MainCliente (1) references closed project 43_CapasSpringConfigClientes
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.500.v20190815-1535.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-20 09:02:59,043 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MainCliente (1) references closed project 43_CapasSpringConfigClientes
+org.eclipse.core.runtime.CoreException: Launch configuration MainCliente (1) references closed project 43_CapasSpringConfigClientes
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.500.v20190815-1535.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-20 09:02:59,043 [Worker-35: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MainCliente (1) references closed project 43_CapasSpringConfigClientes
+org.eclipse.core.runtime.CoreException: Launch configuration MainCliente (1) references closed project 43_CapasSpringConfigClientes
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710) ~[org.eclipse.jdt.launching_3.15.0.v20190826-1639.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.500.v20190815-1535.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:375) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186) [org.eclipse.debug.core_3.14.0.v20190812-1404.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-20 09:04:15,148 [Worker-32: Creating project "45_JPAData"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:45_JPAData:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\45_JPAData\pom.xml.
+2020-01-20 09:04:15,273 [Worker-32: Creating project "45_JPAData"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /45_JPAData/src/main/java
+2020-01-20 09:04:15,273 [Worker-32: Creating project "45_JPAData"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /45_JPAData/src/main/resources
+2020-01-20 09:04:15,273 [Worker-32: Creating project "45_JPAData"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /45_JPAData/src/test/java
+2020-01-20 09:04:15,273 [Worker-32: Creating project "45_JPAData"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /45_JPAData/src/test/resources
+2020-01-20 09:05:01,820 [Worker-30: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:42_CapasSpringConfigClientes:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\43_CapasSpringConfigClientes\pom.xml.
+2020-01-20 09:13:57,001 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-20 09:13:57,064 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:45_JPAData:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\45_JPAData\pom.xml.
+2020-01-20 09:13:57,189 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.14.RELEASE/spring-data-jpa-2.1.14.RELEASE.pom
+2020-01-20 09:13:57,204 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.14.RELEASE/spring-data-jpa-2.1.14.RELEASE.pom
+2020-01-20 09:13:57,236 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.1.14.RELEASE/spring-data-parent-2.1.14.RELEASE.pom
+2020-01-20 09:13:57,251 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.1.14.RELEASE/spring-data-parent-2.1.14.RELEASE.pom
+2020-01-20 09:13:57,282 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.1.14.RELEASE/spring-data-build-2.1.14.RELEASE.pom
+2020-01-20 09:13:57,282 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.1.14.RELEASE/spring-data-build-2.1.14.RELEASE.pom
+2020-01-20 09:13:57,298 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR14/reactor-bom-Californium-SR14.pom
+2020-01-20 09:13:57,314 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR14/reactor-bom-Californium-SR14.pom
+2020-01-20 09:13:57,329 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.1.12.RELEASE/spring-framework-bom-5.1.12.RELEASE.pom
+2020-01-20 09:13:57,329 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.1.12.RELEASE/spring-framework-bom-5.1.12.RELEASE.pom
+2020-01-20 09:13:57,345 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.10.20191020/jackson-bom-2.9.10.20191020.pom
+2020-01-20 09:13:57,361 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.10.20191020/jackson-bom-2.9.10.20191020.pom
+2020-01-20 09:13:57,376 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1.2/jackson-parent-2.9.1.2.pom
+2020-01-20 09:13:57,376 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1.2/jackson-parent-2.9.1.2.pom
+2020-01-20 09:13:57,392 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/34/oss-parent-34.pom
+2020-01-20 09:13:57,407 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/34/oss-parent-34.pom
+2020-01-20 09:13:57,439 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.14.RELEASE/spring-data-commons-2.1.14.RELEASE.pom
+2020-01-20 09:13:57,470 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.14.RELEASE/spring-data-commons-2.1.14.RELEASE.pom
+2020-01-20 09:13:57,486 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom
+2020-01-20 09:13:57,501 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom
+2020-01-20 09:13:57,517 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom
+2020-01-20 09:13:57,517 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom
+2020-01-20 09:13:57,532 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.12.RELEASE/spring-orm-5.1.12.RELEASE.pom
+2020-01-20 09:13:57,548 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.12.RELEASE/spring-orm-5.1.12.RELEASE.pom
+2020-01-20 09:13:57,548 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.12.RELEASE/spring-jdbc-5.1.12.RELEASE.pom
+2020-01-20 09:13:57,564 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.12.RELEASE/spring-jdbc-5.1.12.RELEASE.pom
+2020-01-20 09:13:57,579 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.12.RELEASE/spring-tx-5.1.12.RELEASE.pom
+2020-01-20 09:13:57,579 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.12.RELEASE/spring-tx-5.1.12.RELEASE.pom
+2020-01-20 09:13:57,595 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.5/aspectjrt-1.9.5.pom
+2020-01-20 09:13:57,610 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.5/aspectjrt-1.9.5.pom
+2020-01-20 09:13:57,860 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.14.RELEASE/spring-data-jpa-2.1.14.RELEASE.jar
+2020-01-20 09:13:57,892 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.14.RELEASE/spring-data-jpa-2.1.14.RELEASE.jar
+2020-01-20 09:13:57,907 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.14.RELEASE/spring-data-commons-2.1.14.RELEASE.jar
+2020-01-20 09:13:58,110 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.14.RELEASE/spring-data-commons-2.1.14.RELEASE.jar
+2020-01-20 09:13:58,126 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.12.RELEASE/spring-orm-5.1.12.RELEASE.jar
+2020-01-20 09:13:58,142 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.12.RELEASE/spring-orm-5.1.12.RELEASE.jar
+2020-01-20 09:13:58,157 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.12.RELEASE/spring-jdbc-5.1.12.RELEASE.jar
+2020-01-20 09:13:58,189 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.12.RELEASE/spring-jdbc-5.1.12.RELEASE.jar
+2020-01-20 09:13:58,204 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.12.RELEASE/spring-tx-5.1.12.RELEASE.jar
+2020-01-20 09:13:58,235 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.12.RELEASE/spring-tx-5.1.12.RELEASE.jar
+2020-01-20 09:13:58,235 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.5/aspectjrt-1.9.5.jar
+2020-01-20 09:13:58,251 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.5/aspectjrt-1.9.5.jar
+2020-01-20 09:13:58,267 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar
+2020-01-20 09:13:58,282 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar
+2020-01-20 09:13:59,345 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /45_JPAData/src/main/java
+2020-01-20 09:13:59,345 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /45_JPAData/src/main/resources
+2020-01-20 09:13:59,345 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /45_JPAData/src/test/java
+2020-01-20 09:13:59,345 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /45_JPAData/src/test/resources
+2020-01-20 09:13:59,720 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-01-20 09:14:00,517 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.14.RELEASE/spring-data-jpa-2.1.14.RELEASE-sources.jar
+2020-01-20 09:14:00,548 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.14.RELEASE/spring-data-jpa-2.1.14.RELEASE-sources.jar
+2020-01-20 09:14:00,642 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jpa:2.1.14.RELEASE
+2020-01-20 09:14:00,704 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.14.RELEASE/spring-data-commons-2.1.14.RELEASE-sources.jar
+2020-01-20 09:14:00,782 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.14.RELEASE/spring-data-commons-2.1.14.RELEASE-sources.jar
+2020-01-20 09:14:00,876 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.1.14.RELEASE
+2020-01-20 09:14:00,954 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.12.RELEASE/spring-orm-5.1.12.RELEASE-sources.jar
+2020-01-20 09:14:00,970 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.12.RELEASE/spring-orm-5.1.12.RELEASE-sources.jar
+2020-01-20 09:14:01,048 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:5.1.12.RELEASE
+2020-01-20 09:14:01,110 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.12.RELEASE/spring-jdbc-5.1.12.RELEASE-sources.jar
+2020-01-20 09:14:01,157 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.12.RELEASE/spring-jdbc-5.1.12.RELEASE-sources.jar
+2020-01-20 09:14:01,220 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:5.1.12.RELEASE
+2020-01-20 09:14:01,345 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.12.RELEASE/spring-tx-5.1.12.RELEASE-sources.jar
+2020-01-20 09:14:01,438 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.12.RELEASE/spring-tx-5.1.12.RELEASE-sources.jar
+2020-01-20 09:14:01,516 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:5.1.12.RELEASE
+2020-01-20 09:14:01,579 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.5/aspectjrt-1.9.5-sources.jar
+2020-01-20 09:14:01,595 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.9.5/aspectjrt-1.9.5-sources.jar
+2020-01-20 09:14:01,657 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjrt:1.9.5
+2020-01-20 09:14:01,720 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar
+2020-01-20 09:14:01,735 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar
+2020-01-20 09:14:01,829 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.26
+2020-01-20 09:14:01,845 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jpa:2.1.14.RELEASE
+2020-01-20 09:14:01,845 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.1.14.RELEASE
+2020-01-20 09:14:01,845 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:5.1.12.RELEASE
+2020-01-20 09:14:01,860 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:5.1.12.RELEASE
+2020-01-20 09:14:01,860 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:5.1.12.RELEASE
+2020-01-20 09:14:01,860 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjrt:1.9.5
+2020-01-20 09:14:01,876 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.26
+2020-01-20 10:16:04,380 [Worker-72: Launching MainInsertar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:16:04,381 [Worker-72: Launching MainInsertar] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 10:16:04,383 [Worker-72: Launching MainInsertar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:16:04,386 [Worker-72: Launching MainInsertar] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 10:19:17,020 [Worker-73: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:42_SpringJavaConfig:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\42_SpringJavaConfig\pom.xml.
+2020-01-20 10:23:40,764 [Worker-78: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:41_MVCSpringClientes:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\41_CapasSpringClientes\pom.xml.
+2020-01-20 10:23:47,653 [Worker-72: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:40_SpringLibrebriaBBDD:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\40_SpringLibrebriaBBDD\pom.xml.
+2020-01-20 10:31:27,386 [Worker-82: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pepe:34_pepe:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\34_pepe\pom.xml.
+2020-01-20 10:31:27,413 [Worker-82: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:45_JPAData:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\45_JPAData\pom.xml.
+2020-01-20 10:31:28,074 [Worker-82: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /45_JPAData/src/main/java
+2020-01-20 10:31:28,074 [Worker-82: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /45_JPAData/src/test/java
+2020-01-20 10:31:28,159 [Worker-82: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /34_pepe/src/main/java
+2020-01-20 10:31:28,159 [Worker-82: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /34_pepe/src/main/resources
+2020-01-20 10:31:28,160 [Worker-82: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /34_pepe/src/test/java
+2020-01-20 10:31:28,160 [Worker-82: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /34_pepe/src/test/resources
+2020-01-20 10:31:28,220 [Worker-82: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 1 sec
+2020-01-20 10:32:09,473 [Worker-85: Launching MainInsertar (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:32:09,474 [Worker-85: Launching MainInsertar (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\45_JPAData\src\main\resources
+2020-01-20 10:32:09,475 [Worker-85: Launching MainInsertar (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:32:09,476 [Worker-85: Launching MainInsertar (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\45_JPAData\src\test\resources
+2020-01-20 10:34:08,820 [Worker-81: Launching MainModificar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:34:08,821 [Worker-81: Launching MainModificar] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\45_JPAData\src\main\resources
+2020-01-20 10:34:08,823 [Worker-81: Launching MainModificar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:34:08,824 [Worker-81: Launching MainModificar] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\45_JPAData\src\test\resources
+2020-01-20 10:36:43,694 [Worker-82: Launching MainListar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:36:43,695 [Worker-82: Launching MainListar] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\45_JPAData\src\main\resources
+2020-01-20 10:36:43,696 [Worker-82: Launching MainListar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:36:43,697 [Worker-82: Launching MainListar] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\45_JPAData\src\test\resources
+2020-01-20 10:39:08,332 [Worker-86: Launching MainBorrar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:39:08,333 [Worker-86: Launching MainBorrar] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\45_JPAData\src\main\resources
+2020-01-20 10:39:08,335 [Worker-86: Launching MainBorrar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:39:08,336 [Worker-86: Launching MainBorrar] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\45_JPAData\src\test\resources
+2020-01-20 10:40:34,006 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-20 10:40:34,108 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:45_JPAData:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\45_JPADataPropio\pom.xml.
+2020-01-20 10:40:34,618 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /45_JPADataPropio/src/main/java
+2020-01-20 10:40:34,618 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /45_JPADataPropio/src/main/resources
+2020-01-20 10:40:34,619 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /45_JPADataPropio/src/test/java
+2020-01-20 10:40:34,619 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /45_JPADataPropio/src/test/resources
+2020-01-20 10:40:34,863 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-01-20 10:41:05,979 [Worker-88: Launching MainInsertar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:41:05,981 [Worker-88: Launching MainInsertar] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 10:41:05,982 [Worker-88: Launching MainInsertar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:41:05,984 [Worker-88: Launching MainInsertar] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 10:45:46,609 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-20 10:45:46,694 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:45_JPAData:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\45_JPADataPropio\pom.xml.
+2020-01-20 10:45:47,106 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /45_JPADataPropio/src/main/java
+2020-01-20 10:45:47,106 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /45_JPADataPropio/src/main/resources
+2020-01-20 10:45:47,107 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /45_JPADataPropio/src/test/java
+2020-01-20 10:45:47,107 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /45_JPADataPropio/src/test/resources
+2020-01-20 10:45:47,336 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-01-20 10:47:02,509 [Worker-86: Launching MainInsertar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:47:02,510 [Worker-86: Launching MainInsertar] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 10:47:02,512 [Worker-86: Launching MainInsertar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:47:02,514 [Worker-86: Launching MainInsertar] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 10:49:35,438 [Worker-81: Launching MainObtener] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:49:35,439 [Worker-81: Launching MainObtener] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\45_JPAData\src\main\resources
+2020-01-20 10:49:35,441 [Worker-81: Launching MainObtener] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:49:35,442 [Worker-81: Launching MainObtener] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eugenio\workspaceJSE\LearningJava\45_JPAData\src\test\resources
+2020-01-20 10:50:28,371 [Worker-86: Launching MainInsertar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:50:28,388 [Worker-86: Launching MainInsertar] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 10:50:28,392 [Worker-86: Launching MainInsertar] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 10:50:28,394 [Worker-86: Launching MainInsertar] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 11:35:44,394 [Worker-98: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:39_EjercicioPeliculasAnotaciones:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\39_EjercicioPeliculasAnotaciones\pom.xml.
+2020-01-20 11:35:46,758 [Worker-98: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:38_AnnotationProyectoPeliculas:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\38_AnnotationProyectoPeliculas\pom.xml.
+2020-01-20 11:35:48,294 [Worker-97: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:37_Autowired:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\37_Autowired\pom.xml.
+2020-01-20 11:35:48,423 [Worker-97: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:38_Annotation:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\38_Annotation\pom.xml.
+2020-01-20 11:57:40,974 [Worker-102: Launching MainInsertar (2)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 11:57:40,976 [Worker-102: Launching MainInsertar (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 11:57:40,978 [Worker-102: Launching MainInsertar (2)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 11:57:40,979 [Worker-102: Launching MainInsertar (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 12:01:42,606 [Worker-110: Launching MainInsertar (2)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 12:01:42,608 [Worker-110: Launching MainInsertar (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 12:01:42,610 [Worker-110: Launching MainInsertar (2)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-20 12:01:42,611 [Worker-110: Launching MainInsertar (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 12:18:26,521 [Worker-117: Creating project "46_JPADataSpringLibreriaBBDD"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:46_JPADataSpringLibreriaBBDD:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\46_JPADataSpringLibreriaBBDD\pom.xml.
+2020-01-20 12:18:26,673 [Worker-117: Creating project "46_JPADataSpringLibreriaBBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /46_JPADataSpringLibreriaBBDD/src/main/java
+2020-01-20 12:18:26,674 [Worker-117: Creating project "46_JPADataSpringLibreriaBBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /46_JPADataSpringLibreriaBBDD/src/main/resources
+2020-01-20 12:18:26,674 [Worker-117: Creating project "46_JPADataSpringLibreriaBBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /46_JPADataSpringLibreriaBBDD/src/test/java
+2020-01-20 12:18:26,675 [Worker-117: Creating project "46_JPADataSpringLibreriaBBDD"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /46_JPADataSpringLibreriaBBDD/src/test/resources
+2020-01-20 12:26:02,838 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-20 12:26:02,899 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: curso:46_JPADataSpringLibreriaBBDD:0.0.1-SNAPSHOT @ C:\eugenio\workspaceJSE\LearningJava\46_JPADataSpringLibreriaBBDD\pom.xml.
+2020-01-20 12:26:03,406 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /46_JPADataSpringLibreriaBBDD/src/main/java
+2020-01-20 12:26:03,407 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /46_JPADataSpringLibreriaBBDD/src/main/resources
+2020-01-20 12:26:03,408 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /46_JPADataSpringLibreriaBBDD/src/test/java
+2020-01-20 12:26:03,408 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /46_JPADataSpringLibreriaBBDD/src/test/resources
+2020-01-20 12:26:03,654 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec

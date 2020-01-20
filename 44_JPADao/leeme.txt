@@ -1,0 +1,5 @@
+el fichero mas importante que hay en jpa 
+es el persistence.xml,es el fichero que va usar
+el entitiyManager para hacer el mapeo con la bbdd
+El entityManager es el objeto que hace las interaccion
+con la bbdd, normalmente un CRUD
