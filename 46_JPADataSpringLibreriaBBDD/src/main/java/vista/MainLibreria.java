@@ -9,7 +9,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import config.Configuracion;
 import modelo.entidad.Libro;
 import modelo.negocio.GestorLibreria;
-import modelo.persistencia.DaoLibreria;
 
 public class MainLibreria {
 	
@@ -21,9 +20,7 @@ public class MainLibreria {
 		//y la inyeccion de sus dependencias
 		Scanner sc = new Scanner(System.in);
 		
-		context = 
-				new AnnotationConfigApplicationContext(
-						Configuracion.class);
+		context = new AnnotationConfigApplicationContext(Configuracion.class);
 		
 		GestorLibreria gl = context.getBean("gestorLibreria",GestorLibreria.class);
 		
