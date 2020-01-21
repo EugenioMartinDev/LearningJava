@@ -23,28 +23,7 @@ public class MainLibreria {
 		context = new AnnotationConfigApplicationContext(Configuracion.class);
 		
 		GestorLibreria gl = context.getBean("gestorLibreria",GestorLibreria.class);
-		
-		//En este caso lo que tenemos que pasarle es un
-		//objeto daoLibreria
-		//GestorLibreria gl = new GestorLibreria(new DaoLibreria());
-		
-		/* Esto podriamos hacerlo si quisieramos tener varias
-		 * librerias
-		Libreria l2 = new Libreria();
-		ArrayList<Libro> listaLibros2 = new ArrayList<Libro>();
-		l2.setListaLibros(listaLibros2);
-		
-		Libreria l3 = new Libreria();
-		ArrayList<Libro> listaLibros3 = new ArrayList<Libro>();
-		l2.setListaLibros(listaLibros2);
-		
-		Libreria l4 = new Libreria();
-		ArrayList<Libro> listaLibros4 = new ArrayList<Libro>();
-		l2.setListaLibros(listaLibros4);
-		
-		//si queremos hacer esto debemos de tener el setter
-		gl.setLibreria(l4);
-		*/
+
 		String opcion = "0";
 		do {
 			System.out.println("1- Alta de libro");
@@ -85,6 +64,8 @@ public class MainLibreria {
 					System.out.println("El libro tiene que tener un titulo");
 				}else if(alta == 3) {
 					System.out.println("Ya existe ese isbn");
+				}else if(alta == 4) {
+					System.out.println("Ha fallado la inserción en la BBDD");
 				}
 			}else if(opcion.equals("2")) {
 				//ahora como estamos trabajando con Interfaces
@@ -124,7 +105,7 @@ public class MainLibreria {
 						System.out.println(l);
 					}
 				}else {
-					System.out.println("No hay conincidencias por editorial");
+					System.out.println("No hay coincidencias por editorial");
 				}
 			}
 		}while(!opcion.equals("0"));

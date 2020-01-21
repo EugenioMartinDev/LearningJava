@@ -51,7 +51,7 @@ public class GestorLibreria {
 		return 0;
 	}
 	
-	@Transactional
+	//@Transactional   No haría falta. La transacción sí que es necesaria cuando se manipula la BBDD: alta, modifiacion y baja
 	public Libro buscarPorIsbn(String isbn) {
 		Libro libro = MainLibreria.context.getBean("libro", Libro.class);
 		libro.setIsbn(isbn);
@@ -62,17 +62,22 @@ public class GestorLibreria {
 		}
 		
 		*/
+		
+		libro = daoLibreria.findByIsbn(isbn);
+		
+		/* O ejecutar esto si por query
 		try {
 			libro = daoLibreria.findTitleByIsbn(isbn).get();
 		} catch (NoSuchElementException ex) {
 			ex.printStackTrace();
 			libro = null;
 		}
+		*/
 
 		return libro;
 	}
 	
-	@Transactional
+	//@Transactional   No haría falta. La transacción sí que es necesaria cuando se manipula la BBDD: alta, modifiacion y baja
 	public List<Libro> buscarPorEditorial(String editorial){
 		List<Libro> listaLibrosPorEditorial = new ArrayList<Libro>();
 		/*
@@ -82,7 +87,12 @@ public class GestorLibreria {
 		listaLibrosPorEditorial = daoLibreria.findAll(example);
 		*/
 		
+		return daoLibreria.findByEditorial(editorial);
+		
+		/* O esto si por query
 		listaLibrosPorEditorial = daoLibreria.findTitleByEditorial(editorial);
 		return listaLibrosPorEditorial;
+		*/
+		
 	}
 }

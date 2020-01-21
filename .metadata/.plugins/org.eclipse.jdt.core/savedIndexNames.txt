@@ -1,18 +1,1 @@
 INDEX VERSION 1.131+C:\eugenio\workspaceJSE\LearningJava\.metadata\.plugins\org.eclipse.jdt.core
-359384758.index
-3672697957.index
-3303606114.index
-486973146.index
-897083586.index
-3964460792.index
-1347130369.index
-2049917006.index
-1972297762.index
-4278923149.index
-2600996272.index
-428938722.index
-1922919530.index
-2221244701.index
-3811139133.index
-1046765705.index
-3826426411.index

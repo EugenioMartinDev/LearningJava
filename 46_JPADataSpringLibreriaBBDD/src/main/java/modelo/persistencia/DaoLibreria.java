@@ -13,10 +13,24 @@ import modelo.entidad.Libro;
 @Repository
 public interface DaoLibreria extends JpaRepository<Libro, Integer>{
 	
-    @Query("SELECT t FROM Libro t where t.isbn = :isbn") 
+	/**
+	 * 
+	 *  Para hacer consultas específicas, podemos hacerlas dentro de esta interfaz, y sigue una metodología
+	 *  que se suele llamar convención frente a configuración que también será uno de los principio de 
+	 *  SpringBoot
+	 */
+	
+	Libro findByIsbn(String isbn);
+	
+	/* Es lo mismo que hacer 
+     @Query("SELECT t FROM Libro t where t.isbn = :isbn") 
     Optional<Libro> findTitleByIsbn(@Param("isbn") String isbn);
+    */
     
+    List<Libro> findByEditorial(String editorial);
+    
+    /* Es lo mismo que hacer 
     @Query("SELECT t FROM Libro t where t.editorial = :editorial") 
     List<Libro> findTitleByEditorial(@Param("editorial") String editorial);
-	
+	*/
 }
