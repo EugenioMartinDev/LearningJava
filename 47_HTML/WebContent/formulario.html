@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- los formularios sirven para mandar informacion
+	del cliente (navegador) al servidor, continenen muchas
+	etiquetas -->
+	
+	<!-- lo hacemos con la etiqueta form, y el action
+	representa a la ruta del servidor que queremos ir -->
+	<form action="tabla.html">
+		Titulo: <input type="text" name="titulo" value="Titanic" required="required"/>
+		<br/>
+		Director: <input type="text" name="director" placeholder="John Wayne"/>
+		<br/>
+		Año: <input type="number" name="year"/>
+		<br/>
+		Password: <input type="password" name="password"/>
+		<br/>
+		Email: <input type="email" name="email"/>
+		<br/>
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>

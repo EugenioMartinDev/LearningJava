@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Web Ordenadores Nati</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon" sizes="62x62">
+
+</head>
+
+<audio src="matrix-intro.mp3" autoplay="true" loop="false"></audio>
+
+<body background="lluvia5.jpg"></body>
+
+<div style="text-align: center">
+	<h1>Ordenadores, PC y portátiles Nati</h1>
+	<img alt="imagenWeb" src="ordenadores.jpg" />
+</div>
+
+<br />
+
+<table>
+	<tr>
+		<td>
+			<form style="font-family: courier;" action="tabla.html">
+
+				<h3>MARCA</h3>
+				<input type="checkbox" name="marca" value="acer">Acer <br />
+				<input type="checkbox" name="marca" value="apple">Apple <br />
+				<input type="checkbox" name="marca" value="hp">HP <br />
+				<input type="checkbox" name="marca" value="dell">Dell <br />
+				<input type="checkbox" name="marca" value="lenovo">Lenovo <br />
+				<input type="checkbox" name="marca" value="toshiba">Toshiba
+				<br />
+				<input type="checkbox" name="marca" value="dell">Xiaomi <br />
+
+
+				<h3>ALMACENAMIENTO</h3>
+				<input type="checkbox" name="almacenamiento" value="1">1 TB
+				<br />
+				<input type="checkbox" name="genero" value="1.5">1.5 TB <br />
+				<input type="checkbox" name="genero" value="2">2 TB
+
+
+				<h3>MEMORIA RAM</h3>
+				<input type="checkbox" name="ram" value="2">2 <br />
+				<input type="checkbox" name="ram" value="4">4 <br />
+				<input type="checkbox" name="ram" value="8">8 <br />
+				<input type="checkbox" name="ram" value="8">12
+
+			</form>
+
+		</td>
+
+		<td>
+			<form style="font-family: courier;" action="tabla.html">
+				<h3>PROCESADOR</h3>
+				<input type="checkbox" name="proc" value="i3">Intel I3 <br />
+				<input type="checkbox" name="proc" value="i5">Intel I5 <br />
+				<input type="checkbox" name="proc" value="i7">Intel I7 <br />
+				<input type="checkbox" name="proc" value="i9">Intel I9
+
+				<h3>SISTEMA OPERATIVO</h3>
+				<input type="checkbox" name="so" value="win10">Windows 10 <br />
+				<input type="checkbox" name="so" value="mac">Mac OS <br />
+				<input type="checkbox" name="so" value="linux">Linux <br />
+				<input type="checkbox" name="so" value="sin">Sin S.O.
+
+				<h3>MODO DE ENTREGA</h3>
+				<input type="radio" name="entrega" value="domicilio">Llevar
+				a casa <br />
+				<input type="radio" name="entrega" value="recogida">Recogida
+				en tienda
+
+				<h3>FORMA DE PAGO</h3>
+				<!-- El desplegable funciona de manera parecida a los radio -->
+				<select name="puntuacion">
+					<option value="1">Pago con Tarjeta Crédito / Débito</option>
+					<option value="2">Transferencia Bancaria.</option>
+					<option value="3">Contra Reembolso</option>
+					<option value="4">PayPal</option>
+					<option value="5">Visa MasterCard</option>
+					<option value="5">Sofort</option>
+				</select>
+
+			</form>
+
+
+
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+<div style="text-align: center">
+
+	<form action="tabla.html">
+		Nombre: <input type="text" name="titulo" placeholder="ej. Rogelio"
+			required="required" /> <br /> Apellidos: <input type="text"
+			name="director" placeholder="ej. González" /> <br /> Año de
+		Nacimiento: <input type="number" name="1960" /> <br /> Email: <input
+			type="email" name="email" placeholder="ej. rogelio80@dominio.com" />
+		<br /> <br /> <input type="submit" value="Enviar">
+	</form>
+
+	<h3>Su opinión es muy importante para nosotros.¿Tiene algún
+		comentario?</h3>
+	<textarea rows="10" cols="50" name="comentarios"></textarea>
+	<br /> <br /> <input type="submit" value="Enviar">
+
+
+	<marquee direction="down" style="color: purple">
+		<h1>***********************************************************</h1>
+
+
+	</marquee>
+
+</div>
+
+
+<br />
+<br />
+
+
+
+</body>
+</html>

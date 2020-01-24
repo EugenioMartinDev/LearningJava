@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<title>Formulario de compra PC</title>
+
+<style type="text/css">
+h2{
+	text-align: center;
+	color: red;
+}
+</style>
+
+</head>
+
+<body style="background-color: #b3e6ff;">
+	<h1 style="background-color: #70dbdb; text-align: center;color:green;font-family: bookman old style">Bienvenido al formulario </h1>
+	<h2>Personaliza tu PC</h2>
+	<h2>mañana lo recibes</h2>
+	
+	<form action="tabla.html">
+		Cliente: <input type="text" name="cliente" value="PC" required="required"/>
+		<br/>
+		<br/>
+		Dirección: <input type="text" name="direccion" placeholder="GranVía"/>
+		<br/>
+		<br/>
+		Ciudad: <input type="text" name="ciudad" required="required"/>
+		<br/>
+		<br/>
+		Código Postal:  <input type="number" name="códigoPostal" required="required"/>
+		<br/>
+		<br/>
+		<h3>Elija la RAM de su PC</h3>
+		<input type="radio" name="RAM" value="4">4 Gb
+		<br/><input type="radio" name="RAM" value="8">8 Gb
+		<br/><input type="radio" name="RAM" value="16">16 Gb
+		<br/><input type="radio" name="RAM" value="32">32 Gb
+		<br/>
+		<h3>Elija velocidad de microprocesador</h3>
+			<select name="GHz">
+			<option value="1">3 GHz</option>
+			<option value="2">3,5 GHz</option>
+			<option value="3">4 GHz</option>
+			<option value="4">4,5 GHz</option>
+			<option value="5">5 GHz</option>
+		</select>
+		<h3>Elija periféricos</h3>
+		<br/><input type="checkbox" name="tags" value="Teclado">Teclado
+		<br/><input type="checkbox" name="tags" value="Ratón">Ratón	
+		<br/><input type="checkbox" name="tags" value="Monitor">Monitor
+		<br/><input type="checkbox" name="tags" value="Impresora">Impresora
+		
+		<h3>Comentarios adicionales</h3>
+		<textarea rows="10" cols="50" name="comentarios"></textarea>
+		<br/>
+		<input type="submit" value="Enviar">
+	</form>
+	
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+</body>
+</html>

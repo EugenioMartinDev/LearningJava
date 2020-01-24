@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<!-- Ejempo de incluir ccs : in block -->
+<style type="text/css">
+h2{
+	text-align: center;
+	color: red;
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- Ejemplos de incluir ccs : in line -->
+	<h1 style="text-align: center;color:purple;font-family:fantasy;">Bienvenidos a nuestro formulario</h1>
+	<h2>Este es otro párrafo más pequeño</h2>
+	<h2>Y otro párrafo adicional más pequeño</h2>
+	<h2 style="color:blue">Y un párrafo AZUL adicional más pequeño</h2>
+	
+	<form action="tabla.html">
+			<!-- type y name son clave/valor de una tabla hash interna entre cliente y servidor -->
+			Password: <input type="password" name"pwd"/>
+			<!-- El atributo required es html5. Permite validaciones en cliente. Es obligado hacerlo tb en servidor -->
+			<br/>Titulo: <input type="text" name="titulo" value="Titanic" required="required"/>
+			<!-- placeholder es html5. El valor del placeholder aparece en la caja 
+			     y cuando se selecciona y sobreescribe desaparece -->
+			<br/>Director: <input type="text" name="director" placeholder="John Wayne"/>
+			<br/>Agnio: <input type="number" name="year"/> 
+			<!-- Botón de radio -->
+			<br/><h3>Elija el género</h3>
+			<br/>Genero: <input type="radio" name="genero" value="amor"/>Pelicula Amor			
+			<br/>Genero: <input type="radio" name="genero" value="sci-fi"/>Pelicula Ciencia Ficción
+			<br/>Genero: <input type="radio" name="genero" value="western"/>Pelicula de Indios y Vaqueros
+			<br/>Genero: <input type="radio" name="genero" value="accion"/>Pelicula de Acción
+			<!-- Botón de selección -->
+			<br/><h3>Elija la puntuación</h3>
+			<br/><select name="puntuacion">
+				<option value="1">Puntuación 1</option>
+				<option value="2">Puntuación 2</option>
+				<option value="3">Puntuación 3</option>
+				<option value="4">Puntuación 4</option>
+				<option value="5">Puntuación 5</option>
+			</select>
+			<br/>Email: <input type="email"/>			
+			<!-- Botón de chequeo -->
+			<br/><h3>Elija la Etiqueta (tags)</h3>
+			<br/>Genero: <input type="checkbox" name="tags" value="violencia"/>Contiene escenas de violencia
+			<br/>Genero: <input type="checkbox" name="tags" value="sexo"/>Contiene escenas de sexo
+			<br/>Genero: <input type="checkbox" name="tags" value="subtitulo"/>Contiene subtítulos
+			<br/>Genero: <input type="checkbox" name="tags" value="3D"/>Contiene escenas de 3D
+			<!-- Area de texto -->
+			<h3>Comentarios adicionales</h3>
+			<textarea rows="5" cols="20" name="comentarios"></textarea>
+			
+			<br/><input type="submit" value="Enviar"/>
+	</form>
+</body>
+</html>

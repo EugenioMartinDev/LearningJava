@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulario</title>
+
+
+</head>
+<body background="burbujas5.jpg">
+
+<div style="Text-align: center">
+
+		<h1
+			style="color: #1cb1bd; font-family: Bodoni MT Condensed; font-size: 60px">
+			<i>Comparte tu receta</i>
+		</h1>
+	</div>
+
+	<form action="NuevaWeb.html">
+	<font color="#1cb1db" size="5">Nombre: </font><input type="text" name="Nombre" value="" placeholder="Nombre" required="required">
+	<br/>
+	<font color="#1cb1db" size="5">fecha de creacion: </font><input type="date" name="year">
+	<br/>
+	<font color="#1cb1db" size="5">Caduca en: </font><input type="date" name="year">
+	<br/>
+	
+	<h3 style="color: #1cb1db; font-family: Bookman Old Style; font-size: 30px">¿Que uso tiene tu producto?</h3>
+	<font color="#1cb1db" size="3">
+	<input type="radio" name="uso" value="Baño">Para el baño. 
+	<input type="radio" name="uso" value="BañoDucha">Para el baño y la ducha. 
+	<input type="radio" name="uso" value="Piel">Para la piel. 
+	<input type="radio" name="uso" value="Pelo">Para el pelo. 
+	
+	<h3 style="color: #1cb1db; font-family: Bookman Old Style; font-size: 30px">¿Quien puede usarlo?</h3>
+	<br/>
+	<select name="uso">
+		<option value="bebes">Bebes</option>
+		<option value="niños">Niños</option>
+		<option value="adolescentes">Adolescentes</option>
+		<option value="adultos">Adultos</option>
+		<option value="todos">Todos</option>
+	</select>
+	
+	<h3 style="color: #1cb1db; font-family: Bookman Old Style; font-size: 30px">¿Alergenos?</h3>
+	
+	<br/><input type="checkbox" name="alergeno" value="frutos secos">contiene frutos secos
+	<br/><input type="checkbox" name="alergeno" value="IngRadioactivo">contiene ingredientes radioactivos
+	<br/><input type="checkbox" name="alergeno" value="aes">contiene aceites esenciales
+	<br/><input type="checkbox" name="alergeno" value="ingfotosensibles">contiene ingredientes fotosensibles
+	
+	<h3 style="color: #1cb1db; font-family: Bookman Old Style; font-size: 30px">Describe el proceso</h3>
+	<textarea rows="30" cols="50" name="proceso"></textarea>
+	<br/>
+	<input type="submit" value="Enviar">
+	</form>
+	
+	
+
+</body>
+</html>

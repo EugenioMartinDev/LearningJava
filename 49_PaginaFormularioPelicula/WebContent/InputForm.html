@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: powderblue;
+	padding: 10px;
+	height: 600px;
+	align-content: center;
+}
+
+.grid-item {
+	text-align: center;
+}
+</style>
+<title>FORMULARIO DE ENTRADA DE PELICULAS</title>
+</head>
+<body>
+	<div class="grid-container">
+		<div class="grid-item"></div>
+		<div class="grid-item" style="text-align: center;">
+			<h3>Introducir datos de usuario</h3>
+		</div>
+		<div class="grid-item"></div>
+		<div class="grid-item"></div>
+		<div class="grid-item">
+			<form action="TablaPeliculas.html" style="text-align: center;">
+				Usuario <input type="text" name="usuario" required="required" /> <br />
+				<br />
+				<br /> Password: <input type="password" name="pwd"
+					required="required" /> <br />
+				<br />
+				<br /> Email: <input type="email" /> <br />
+				<br />
+				<br /> <input type="submit" value="Enviar" /> <input type="reset">
+				<a href="AltaUsuario.html" style="border: 1px solid black;">No
+					estoy registrado</a>
+			</form>
+		</div>
+		<div class="grid-item"></div>
+		<div class="grid-item"></div>
+		<div class="grid-item"></div>
+		<div class="grid-item"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<script type="text/javascript">
+		function mostrarMensaje(){
+			alert("Hola Ricardo!");
+		}
+		
+		function sumar(){
+			var num1 = numero1.value;
+			var num2 = numero2.value;
+			var resul = parseInt(num1) + parseInt(num2);
+			resultado.value = resul;			
+		}
+	</script>
+</head>
+<body>
+	<button onclick="mostrarMensaje()">Boton</button>
+	<br/>
+	<input type="text" id="numero1"/>
+	<input type="text" id="numero2"/>
+	<br/>
+	<button onclick="sumar()"/>Sumar</button>
+	<br/>
+	<input type="text" id="resultado"/>
+</body>
+</html>

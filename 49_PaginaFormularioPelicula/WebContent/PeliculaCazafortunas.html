@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1"
+	content="width=device-width, initial-scale=1.0">
+<style>
+#grad1 {
+	background-color: powderblue;
+	/* For browsers that do not support gradients */
+	background-image: linear-gradient(deepskyblue, powderblue);
+	/* Standard syntax (must be last) */
+}
+
+.item1 {
+	grid-area: header;
+}
+
+.item2 {
+	grid-area: foto;
+}
+
+.item3 {
+	grid-area: video;
+}
+
+.item4 {
+	grid-area: info;
+}
+
+.item5 {
+	grid-area: sinopsis;
+}
+
+.item6 {
+	grid-area: valor;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas: 'header header header header header header'
+		'foto foto video video info info'
+		'sinopsis sinopsis sinopsis sinopsis sinopsis sinopsis'
+		'valor valor valor valor valor valor';
+}
+
+.grid-container>div {
+	text-align: center;
+}
+</style>
+<title>ANALISIS DE SERIE CAZARECOMPENSAS</title>
+</head>
+<body id="grad1">
+
+	<div class="grid-container">
+		<div class="item1">
+			<h2>ANALISIS DE LA SERIE "CAZARECOMPENSAS"</h2>
+		</div>
+		<div class="item2">
+			<h3>PAGINA OFICIAL BBC</h3>
+			<a href="https://www.bbc.co.uk/programmes/p07t928d"
+				title="Página oficial de la BBC"> <img
+				src="Imagenes/Cazafortunas.jpg" alt="Gold Digger" width="400"
+				height="300" style="border: 1px solid black">
+			</a>
+		</div>
+		<div class="item3">
+			<h3>TRAILER</h3>
+			<iframe width="400" height="300"
+				src="https://www.youtube.com/embed/N4V7XNarlWA" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen> </iframe>
+		</div>
+		<div class="item4">
+			<h3>DATOS</h3>
+			<ul style="text-align: left";>
+				<li style="list-style-type: none;">Año de Producción : 2019 /
+					Duración : 52 minutos / Género : Drama</li>
+				<li style="list-style-type: none;">Título Original : Gold
+					Digger</li>
+				<li style="list-style-type: none;">Director : <a
+					href="https://www.bbc.co.uk/blogs/writersroom/authors/3ea1ebd7-4cc9-4838-8022-09f6b3a35372"
+					target="_blank">Marnie Dickens</a></li>
+				<li style="list-style-type: none;">Reparto :
+					<ul>
+						<li><a href="https://www.facebook.com/JuliaOrmondOfficial/"
+							target="_blank">Julia Ormond</a></li>
+						<li><a href="https://www.facebook.com/BenBarnesOfficial/"
+							target="_blank">Ben Barnes</a>
+						<li><a href="https://www.imdb.com/name/nm0421105/"
+							target="_blank">Alex Jennings</a></li>
+					</ul>
+				<li style="list-style-type: none;">País : Gran Bretaña</li>
+			</ul>
+		</div>
+		<div class="item5">
+			<h2>SINOPSIS</h2>
+			<div
+				style="background-color: DeepSkyBlue; color: white; padding: 10px; text-align: left;">
+				<p>Gold Digger, El Cazafortunas en España, es un drama explosivo
+					que se centra en una mujer de 60 años llamada Julia. La mujer
+					comienza una relación con un hombre 25 años más pequeño que ella,
+					por lo que da un vuelco a su vida. La ficción indaga en cómo esta
+					historia impacta en su entono familiar, que acaban sacando a la luz
+					algunos secretos del pasado.</p>
+				<p></p>
+				<i>Es una producción de Mainstreet Pictures, creada por Marnie
+					Dickens (Thirteen). El reparto se compone principalmente de Julia
+					Ormond (Temple Grandin) y Ben Barnes (Las crónicas de Narnia). </i>
+				</p>
+			</div>
+		</div>
+		<div class="item6">
+			<h2>VALORACION</h2>
+			<img src="Imagenes/Estrella.jpg" alt="Valoración alta" width="50"
+				height="50"> <img src="Imagenes/Estrella.jpg"
+				alt="Valoración alta" width="50" height="50"> <img
+				src="Imagenes/Estrella.jpg" alt="Valoración alta" width="50"
+				height="50"> <img src="Imagenes/Estrella.jpg"
+				alt="Valoración alta" width="50" height="50"> <img
+				src="Imagenes/EstrellaVacia.jpg" alt="Valoración baja" width="50"
+				height="50">
+		</div>
+	</div>
+
+
+</body>
+</html>

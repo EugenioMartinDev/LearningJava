@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ticket Shop</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<style>
+
+#ticket{
+	padding: 50px;
+
+}
+
+
+</style>
+
+</head>
+<body>
+	<img src="img\logo.png" class="rounded" alt="Reo Speedwagon Logo"/>
+	<div class="shadow-lg p-4 mb-4 bg-white">
+		<h1 class="display-4"><p class="text-info">REO Speedwagon Shop Area</p></h1>
+	</div>
+	<form id="ticket" action="ticketbought.html">
+		<section>
+			<div class="form-group">
+      			<h4>Select your country</h4>
+      			<select style="width:200px" class="form-control" id="sel1" name="sellist1">
+        			<option>Spain</option>
+        			<option>Belgium</option>
+        			<option>Russia</option>
+        			<option>Paraguay</option>
+        			<option>Chile</option>
+        			<option>Venezuela</option>
+        			<option>Panamá</option>
+        			<option>Sweeden</option>
+        			<option>Switzerland</option>
+        			<option>South Korea</option>
+        			<option>Hong Kong</option>
+        			<option>Norwegian</option>
+        			<option>Finland</option>
+        			<option>United Kingdom</option>
+        			<option>France</option>
+        			<option>Germany</option>
+        			
+      			</select>
+			</div>
+		  	<br/>
+		  	<br/>	
+			<h4>Select your special preferences</h4>
+			<div class="form-check-inline">
+	      		<label class="form-check-label" for="check1">
+	        		<input type="checkbox" class="form-check-input" id="check1" name="vip" value="vip" checked>VIP Tickets
+	      		</label>
+	    	</div>
+	    	<div class="form-check-inline">
+	      		<label class="form-check-label" for="check2">
+	        		<input type="checkbox" class="form-check-input" id="check2" name="hotel" value="hotel">Hotel reservation
+	      		</label>
+	    	</div>
+	    	<div class="form-check-inline">
+	    		<label class="form-check-label">
+	        		<input type="checkbox" class="form-check-input" id="check3" name="transport" value="transport">Shuttle Hotel-Concert-Hotel
+	      		</label>
+	    	</div>
+	    	<div class="form-check-inline">
+	    		<label class="form-check-label">
+	        		<input type="checkbox" class="form-check-input" disabled>Special gift (soon)
+	      		</label>
+	    	</div>
+		  	<br/>
+		  	<br/>
+		  	<br/>	    	
+	    	<h4>Transport type</h4>
+	    	<div class="form-check">
+		    	<label class="form-check-label" for="radio1">
+        			<input type="radio" class="form-check-input" id="radio1" name="byplane" value="byplane" checked>By plane
+      			</label>
+    		</div>
+    		<div class="form-check">
+      			<label class="form-check-label" for="radio2">
+        			<input type="radio" class="form-check-input" id="radio2" name="bybus" value="bybus">By bus
+      			</label>
+    		</div>
+    		<div class="form-check">
+      			<label class="form-check-label">
+        			<input type="radio" class="form-check-input" disabled>By train (not yet, soon)
+      			</label>
+    		</div>
+	    	
+		    <br/>
+			<br/>
+			<br/>
+			
+			<div class="form-group">
+	      		<label for="comment"><h4>How about you:</h4></label>
+	      		<textarea style="width:500px" class="form-control" id="comment" name="text"></textarea>
+			</div>
+			<button class="btn btn-success"  type="submit" value="send"/>Apply</td>
+		</section>
+	</form>
+	<form style="padding-left:50px; padding-top:0px" action="index.html">
+		<button class="btn btn-dark" type="submit" value="Back"/>Home</td>
+	</form>
+</body>
+</html>

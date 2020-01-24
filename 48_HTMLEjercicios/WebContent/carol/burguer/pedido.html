@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Pedido Nuevo</title>
+<style type="text/css">
+h2 {
+	text-align: center;
+	color: blue;
+}
+
+h3 {
+	text-align: left;
+	color: darkblue;
+}
+</style>
+
+</head>
+<body background="burgerRedim.jpg">
+	<!-- Se llama css in line -->
+	<br />
+	<h1
+		style="text-align: center; color: red; font-family: bookman old style">Bienvenido
+		a Carolie's Burger</h1>
+	<br />
+	<h2>¡¡¡Especialistas en hacer las m&aacute;s sabrosas hamburguesas
+		caseras!!!</h2>
+	<h2 style="color: red">Realice su pedido</h2>
+	<form action="tabla.html">
+		<table border=1 style="width: 100%; text-align: left">
+			<tr>
+				<th style="width: 33%"></th>
+				<th style="width: 33%"></th>
+				<th style="width: 33%"></th>
+			</tr>
+			<tr>
+				<td></td>
+				<td >
+					<h3>
+						NOMBRE: <input type="text" name="nombre" required="required" /> <br />
+						NUMERO DE MESA: <input type="number" required="required" />
+					</h3>
+					<h2>Tipo deMen&uacute;:</h2> <!-- 
+			Radio es un tipo de estructura en la cual el cliente SOLO puede elegir un valor
+			Recordar que el name sera el nombre del parametro con el que se va a enviar(clave), y el value serÃ¡ el valor del parametro que se va 
+			a enviar(valor)
+		 -->
+					<h2>Elija el tipo de men&uacute;</h2> 
+					
+					<h3>
+					<input type="radio"name="menu" value="Infatil">Infantil <br />
+					 <input type="radio" name="menu" value="PequeÃ±o">Peque&ntilde;o <br />
+					<input type="radio" name="menu" value="Mediano">Mediano <br />
+					<input type="radio" name="menu" value="Grande">Grande <br />
+					<input type="radio" name="menu" value="Gigante">Gigante
+					</h3>
+					<h2>Elija el punto de la carne</h2> <!-- El desplegable funciona de manera parecida a los radio -->
+					<h3>
+						<select name="punto de cocinado">
+							<option value="1">Extremadamente poco hecha</option>
+							<option value="2">Poco hecha</option>
+							<option value="3">Al punto</option>
+							<option value="4">Algo hecha</option>
+							<option value="5">Muy hecha</option>
+						</select>
+					</h3>
+					<h2>Men&uacute; a medida</h2>
+					<h3>
+						<input type="checkbox" name="tags" value="Patatas especiales">A&ntilde;adir
+						patatas especiales y salsa <br /> <input type="checkbox"
+							name="tags" value="Alitas">A&ntilde;adir complemento de
+						alitas <br /> <input type="checkbox" name="tags" value="Aros">A&ntilde;adir
+						complemento de aros <br /> <input type="checkbox" name="tags"
+							value="Regalo">A&ntilde;adir regalo de promoci&oacute;n
+						actual
+
+					</h3>
+					<h2>Inf&oacute;rmenos si tiene alguna alergia</h2> <textarea
+						rows="6" cols="50" name="Alergias"></textarea> <br />
+					<h2>Elija forma de pago</h2>
+					<h3>
+						<input type="radio" name="forma de pago" value="efectivo">Efectivo
+						<br /> <input type="radio" name="forma de pago" value="tarjeta">Tarjeta
+						<br /> <input type="radio" name="forma de pago"
+							value="vale descuento">Vale de descuento <br /> <input
+							type="radio" name="forma de pago" value="ticket restaurant">Ticket
+						restaurant
+					</h3> <br /> 
+					<h2>
+					<input type="submit" value="Enviar">
+</h2>
+				</td>
+				<td></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

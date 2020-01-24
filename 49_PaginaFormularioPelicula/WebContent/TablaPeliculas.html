@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+table, th, td {
+	border: 1px solid black;
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+}
+
+tr:hover {
+	background-color: highlight;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: powderblue;
+	padding: 10px;
+	height: 600px;
+	align-content: center;
+}
+
+.grid-item {
+	text-align: center;
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="grid-container">
+		<div class="grid-item"></div>
+		<div class="grid-item" style="text-align: center;">
+			<h2>Tabla de películas de usuario</h2>
+		</div>
+		<div class="grid-item"></div>
+		<div class="grid-item"></div>
+		<table>
+			<tr>
+				<th>Identidad</th>
+				<th>Titulo</th>
+				<th>Director</th>
+				<th>Género</th>
+				<th>Año de Producción</th>
+				<th>Detalle</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>El cazafortunas</td>
+				<td>Marnie Dickens</td>
+				<td>Drama</td>
+				<td>2019</td>
+				<td><a href="PeliculaCazafortunas.html" target="_blanck"><img
+						src="Imagenes/Cazafortunas.jpg" alt="Gold Digger" width="50"
+						height="50" style="border: 1px solid black" /></a></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Enigma</td>
+				<td>Michael Apted</td>
+				<td>Drama Romántica Bélica Suspense</td>
+				<td>2001</td>
+				<td><a href="Enigma.html" target="_blanck"><img
+						src="Imagenes/Enigma.jfif" alt="The Imitation Game" width="50"
+						height="50" style="border: 1px solid black" /></a></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>2001: Odisea en el espacio</td>
+				<td>Stanley Kubrick</td>
+				<td>Ciencia Ficción</td>
+				<td>1968</td>
+				<td><a href="UnderConstruction.html" target="_blanck"><img
+						src="Imagenes/2001.jpg" alt="2001: A space odissey" width="50"
+						height="50" style="border: 1px solid black" /></a></td>
+			</tr>
+		</table>
+	</div>
+	<div class="grid-item"></div>
+	<div class="grid-item"></div>
+	<div class="grid-item">
+		<br /> <br />
+		<button onclick="goBack()">Volver</button>
+
+	</div>
+	<div class="grid-item"></div>
+	</div>
+
+	<script>
+		function goBack() {
+			window.history.back();
+		}
+	</script>
+
+</body>
+</html>

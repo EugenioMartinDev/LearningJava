@@ -34,7 +34,7 @@ public class Configuracion {
 		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		ds.setUrl("jdbc:mysql://localhost:3306/jpa_data?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC");
 		ds.setUsername("root");
-		ds.setPassword("root");
+		ds.setPassword("");
 		return ds;
 	}
 
@@ -51,7 +51,7 @@ public class Configuracion {
 		
 		Properties jpaProperties = new Properties();
 		//jpaProperties.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
-		jpaProperties.put("hibernate.dialect", "org.hibernate.dialect.MySQL8Dialect");
+		jpaProperties.put("hibernate.dialect", "org.hibernate.dialect.MariaDB53Dialect");
 		jpaProperties.put("hibernate.hbm2ddl.auto", "update");//create-drop update
 		jpaProperties.put("hibernate.show_sql", "true");
 		jpaProperties.put("hibernate.format_sql", "false");
