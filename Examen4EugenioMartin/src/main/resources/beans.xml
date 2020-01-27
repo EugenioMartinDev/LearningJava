@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	
+	<context:component-scan base-package="modelo.entidad"></context:component-scan>
+	
+	<!-- RUEDAS POR CONSTRUCTOR -->
+	<bean id="rueda1Delantera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Firestone"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoX32"></constructor-arg>
+	</bean>	
+	<bean id="rueda2Delantera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Firestone"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoX32"></constructor-arg>
+	</bean>
+	<bean id="rueda3Delantera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Firestone"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoX32"></constructor-arg>
+	</bean>	
+	<bean id="rueda4Delantera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Firestone"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoX32"></constructor-arg>
+	</bean>
+	
+	<bean id="rueda1Trasera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Michelin"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoY50"></constructor-arg>
+	</bean>
+	<bean id="rueda2Trasera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Michelin"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoY50"></constructor-arg>
+	</bean>
+	<bean id="rueda3Trasera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Michelin"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoY50"></constructor-arg>
+	</bean>
+	<bean id="rueda4Trasera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Michelin"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoY50"></constructor-arg>
+	</bean>
+	<bean id="rueda5Trasera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Michelin"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoY50"></constructor-arg>
+	</bean>
+	<bean id="rueda6Trasera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Michelin"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoY50"></constructor-arg>
+	</bean>
+	<bean id="rueda7Trasera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Michelin"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoY50"></constructor-arg>
+	</bean>
+	<bean id="rueda8Trasera" class="modelo.entidad.Rueda">
+		<constructor-arg index="0" value="Michelin"></constructor-arg> 
+		<constructor-arg index="1" value="CauchoY50"></constructor-arg>
+	</bean>
+	
+	<!-- MOTORES POR PROPIEDAD -->
+	<bean id="motorA" class="modelo.entidad.Motor">
+		<property name="cv" value="923.88"></property>
+		<property name="cilindrada" value="6728.36"></property>
+	</bean>
+	<bean id="motorB" class="modelo.entidad.Motor">
+		<property name="cv" value="923.88"></property>
+		<property name="cilindrada" value="6728.36"></property>
+	</bean>
+	<bean id="motorC" class="modelo.entidad.Motor">
+		<property name="cv" value="923.88"></property>
+		<property name="cilindrada" value="6728.36"></property>
+	</bean>
+	<bean id="motorD" class="modelo.entidad.Motor">
+		<property name="cv" value="923.88"></property>
+		<property name="cilindrada" value="6728.36"></property>
+	</bean>
+	
+	<!-- AVIONES -->
+	<bean id="avion1" class="modelo.entidad.Avion" autowire="byType">
+		<property name="id" value="91001"></property>
+		<property name="marca" value="A360"></property>
+		<property name="listaAsientos" ref="listaAsientos"></property>
+		<property name="listaRuedas">
+			<list value-type="modelo.entidad.Rueda"> 	<!-- Inyeccion por id -->			
+				<ref bean="rueda1Delantera"/>
+				<ref bean="rueda2Delantera"/>
+				<ref bean="rueda1Trasera"/>
+				<ref bean="rueda2Trasera"/>
+				<ref bean="rueda3Trasera"/>
+				<ref bean="rueda4Trasera"/>
+			</list>
+		</property>
+		<property name="listaMotores">
+			<list value-type="modelo.entidad.Motor">    <!-- Inyeccion por inner bean -->
+					<bean id="motor1" class="modelo.entidad.Motor">
+						<property name="cv" value="923.88"></property>
+						<property name="cilindrada" value="6728.36"></property>
+					</bean>
+					<bean id="motor2" class="modelo.entidad.Motor">
+						<property name="cv" value="923.88"></property>
+						<property name="cilindrada" value="6728.36"></property>
+					</bean>
+					<bean id="motor3" class="modelo.entidad.Motor">
+						<property name="cv" value="923.88"></property>
+						<property name="cilindrada" value="6728.36"></property>
+					</bean>
+					<bean id="motor4" class="modelo.entidad.Motor">
+						<property name="cv" value="923.88"></property>
+						<property name="cilindrada" value="6728.36"></property>
+					</bean>
+			</list>
+		</property>
+		<property name="kilometros" value="23456892"></property>
+	</bean>
+	
+	
+	<bean id="avion2" class="modelo.entidad.Avion" autowire="byType">
+		<property name="id" value="41001"></property>
+		<property name="marca" value="A720"></property>
+		<property name="listaAsientos" ref="listaAsientos"></property>
+		<property name="listaRuedas">
+			<list value-type="modelo.entidad.Rueda"> 				
+				<ref bean="rueda3Delantera"/>
+				<ref bean="rueda4Delantera"/>
+				<ref bean="rueda5Trasera"/>
+				<ref bean="rueda6Trasera"/>
+				<ref bean="rueda7Trasera"/>
+				<ref bean="rueda8Trasera"/>
+			</list>
+		</property>
+		<property name="listaMotores">
+			<list value-type="modelo.entidad.Motor">
+					<bean id="motor5" class="modelo.entidad.Motor">
+						<property name="cv" value="923.88"></property>
+						<property name="cilindrada" value="6728.36"></property>
+					</bean>
+					<bean id="motor6" class="modelo.entidad.Motor">
+						<property name="cv" value="923.88"></property>
+						<property name="cilindrada" value="6728.36"></property>
+					</bean>
+					<bean id="motor7" class="modelo.entidad.Motor">
+						<property name="cv" value="923.88"></property>
+						<property name="cilindrada" value="6728.36"></property>
+					</bean>
+					<bean id="motor8" class="modelo.entidad.Motor">
+						<property name="cv" value="923.88"></property>
+						<property name="cilindrada" value="6728.36"></property>
+					</bean>
+			</list>
+		</property>
+		<property name="kilometros" value="843000"></property>
+	</bean>
+	
+	<!-- ASIENTOS por prototipo -->
+	<bean id="listaAsientos" class="java.util.ArrayList" scope="prototype">
+		<constructor-arg>
+			<list value-type="modelo.entidad.Asiento"> 				
+			</list>
+		</constructor-arg>
+	</bean>
+	
+		<bean id="listaAsientos2" class="java.util.ArrayList">
+		<constructor-arg>
+			<list value-type="modelo.entidad.Asiento"> 				
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	<!-- Lista de aviones para AEROPUERTO -->
+	<bean id="listaAvion1Avion2" class="java.util.ArrayList">
+		<constructor-arg>
+			<list value-type="modelo.entidad.Avion"> 	
+				<ref bean="avion1"/>
+				<ref bean="avion2"/>			
+			</list>
+		</constructor-arg>
+	</bean>
+
+
+</beans>

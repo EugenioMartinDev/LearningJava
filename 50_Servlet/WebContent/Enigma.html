@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1"
+	content="width=device-width, initial-scale=1.0">
+<style>
+#grad1 {
+	background-color: powderblue;
+	/* For browsers that do not support gradients */
+	background-image: linear-gradient(deepskyblue, powderblue);
+	/* Standard syntax (must be last) */
+}
+
+.item1 {
+	grid-area: header;
+}
+
+.item2 {
+	grid-area: foto;
+}
+
+.item3 {
+	grid-area: video;
+}
+
+.item4 {
+	grid-area: info;
+}
+
+.item5 {
+	grid-area: sinopsis;
+}
+
+.item6 {
+	grid-area: valor;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas: 'header header header header header header'
+		'foto foto video video info info'
+		'sinopsis sinopsis sinopsis sinopsis sinopsis sinopsis'
+		'valor valor valor valor valor valor';
+}
+
+.grid-container>div {
+	text-align: center;
+}
+</style>
+<title>ANALISIS DE PELICULA ENIGMA</title>
+</head>
+<body id="grad1">
+
+	<div class="grid-container">
+		<div class="item1">
+			<h2>ANALISIS DE LA PELICULA "ENIGMA"</h2>
+		</div>
+		<div class="item2">
+			<h3>PAGINA OFICIAL PELICULA</h3>
+			<a href="https://www.facebook.com/imitationgameuk/"
+				title="Página oficial de la película"> <img
+				src="Imagenes/Enigma.jfif" alt="Gold Digger" width="400"
+				height="300" style="border: 1px solid black">
+			</a>
+		</div>
+		<div class="item3">
+			<h3>TRAILER</h3>
+			<iframe width="400" height="300"
+				src="https://www.youtube.com/embed/nuPZUUED5uk" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+		<div class="item4">
+			<h3>DATOS</h3>
+			<ul style="text-align: left";>
+				<li style="list-style-type: none;">Año de Producción : 2014 /
+					Duración : 1 hora 55 minutos / Género : Drama</li>
+				<li style="list-style-type: none;">Título Original : The
+					Imitation Game</li>
+				<li style="list-style-type: none;">Director : <a
+					href="https://en.wikipedia.org/wiki/Michael_Apted" target="_blank">Michael
+						Apted</a></li>
+				<li style="list-style-type: none;">Reparto :
+					<ul>
+						<li><a href="https://www.instagram.com/cumberbatch.oficial/"
+							target="_blank">Benedict Cumberbatch</a></li>
+						<li><a
+							href="https:https://www.instagram.com/keiraknightleyofficialpage/?hl=es"
+							target="_blank">Keira Knightley</a>
+						<li><a href="https://www.instagram.com/matthew.goode/?hl=es"
+							target="_blank">Matthew Goode</a></li>
+					</ul>
+				<li style="list-style-type: none;">País : Estados Unidos</li>
+			</ul>
+		</div>
+		<div class="item5">
+			<h2>SINOPSIS</h2>
+			<div
+				style="background-color: DeepSkyBlue; color: white; padding: 10px; text-align: left;">
+				<p>Basada en 'Alan Turing: The Enigma', la biografía escrita por
+					el líder del movimiento gay, Andrew Hodges, sobre la vida del
+					británico criptógrado Alan Turing. En la película se desvela la
+					realidad que rodeó a una de las personas que hicieron posible la
+					derrota del ejército nazi en la Segunda Guerra Mundial.</p>
+				<p></p>
+				<i>Turing, quien pasó a la historia por -en teoría- ser la
+					persona responsable de descifrar los códigos secretos del ejército
+					alemán transmitidos por la máquina Enigma, no fue tratado como un
+					héroe. A pesar de suponer el mayor logro en ventaja táctica del
+					conflicto bélico, eso no prevaleció sobre sus inclinaciones
+					sexuales. De regreso a su patria natal, fue enjuiciado y procesado
+					por el gobierno británico acusado de ser homosexual. Tras ser
+					abochornado públicamente y retirarle sus condecoraciones, fue
+					castrado químicamente y abandonado en la prisión donde la depresión
+					pudo con él y terminó envenenándose a sí mismo con una manzana
+					llena de cianuro. Tras su muerte, su figura se convirtió en un
+					ejemplo para el colectivo gay y su lucha por los derechos de
+					igualdad </i>
+				</p>
+			</div>
+		</div>
+		<div class="item6">
+			<h2>VALORACION</h2>
+			<img src="Imagenes/Estrella.jpg" alt="Valoración alta" width="50"
+				height="50"> <img src="Imagenes/Estrella.jpg"
+				alt="Valoración alta" width="50" height="50"> <img
+				src="Imagenes/EstrellaVacia.jpg" alt="Valoración baja" width="50"
+				height="50"> <img src="Imagenes/EstrellaVacia.jpg"
+				alt="Valoración baja" width="50" height="50"> <img
+				src="Imagenes/EstrellaVacia.jpg" alt="Valoración baja" width="50"
+				height="50">
+		</div>
+	</div>
+
+
+</body>
+</html>
