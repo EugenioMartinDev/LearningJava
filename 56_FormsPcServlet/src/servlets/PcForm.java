@@ -66,12 +66,22 @@ public class PcForm extends HttpServlet {
 			mensaje += "<body>";
 			mensaje += "<h1>Datos introducidos en el formulario PC</h1>";
 			mensaje += "<p1>MODELO : " + pc.getModelo() + "</p>";
-			mensaje += "<p1>PROCESADOR : " + pc.getProcesador() + "</p>";
-			mensaje += "<p1>MEMORIA : " + pc.getMemoria() + "</p>";
+			mensaje += "<p1>PROCESADOR : " + gp.Xlate_Procesador(Integer.parseInt(pc.getProcesador())) + "</p>";
+			mensaje += "<p1>MEMORIA : " + gp.Xlate_Memoria(Integer.parseInt(pc.getMemoria())) + "</p>";
 			mensaje += "<p1>DISPOSITIVOS : ";
+			int indice = 1;
+			for (String device : list) {
+				mensaje += device;
+				if (indice < list.size()) {
+					mensaje += " - ";
+				}
+				indice++;
+			}
+			/*
 			for (int i=0; i<pc.getDevices().length; i++) {
 				mensaje += (i+1) + " - " + pc.getDevices()[i] + " ; ";
-			}		
+			}	
+			*/	
 			mensaje += "</p>";
 			mensaje += "<p1>COMENTARIOS : " + pc.getComentarios() + "</p>";			
 			response.getWriter().append(mensaje);
