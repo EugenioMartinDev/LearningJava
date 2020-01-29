@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		La ruta para acceder de manera absoluta al servlet
+		seria
+		http://localhost:8080/55_FormulariosRedirect/servlet/ServletInicial
+		
+		La ruta para acceder de maenra absouluta a este index.html
+		seria
+		http://localhost:8080/55_FormulariosRedirect/index.html
+		
+		Por lo tanto podemos concluir que tanto el servlet
+		como el html estan al mismo nivel de la URL
+		
+		De tal manera, el action podriamos poner ruta absoulta
+		o relativa para mandar la informacion de este formulario
+		al servlet
+		
+		De manera relativa seria simplemente poniendo 
+		"ServletInicial"
+	 -->
+	<form action="ServletInicial" method="post">
+		Nombre: <input type="text" name="nombre"/>
+		<br/>
+		Apellidos: <input type="text" name="apellidos"/>
+		<br/>
+		<input type="submit" value="Enviar"/>	
+	</form>
+</body>
+</html>
