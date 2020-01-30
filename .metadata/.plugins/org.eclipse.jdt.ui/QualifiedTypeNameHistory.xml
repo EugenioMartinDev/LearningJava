@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
-<fullyQualifiedTypeName name="java.util.concurrent.ThreadPoolExecutor"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingQueue"/>
 <fullyQualifiedTypeName name="modelo.entidad.Direccion"/>
@@ -11,7 +9,6 @@
 <fullyQualifiedTypeName name="modelo.entidadFelix.SpringMainPeliculaFelix"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="vista.MainVistaPersistente"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="utils.Constantes"/>
 <fullyQualifiedTypeName name="main.MainCliente"/>
@@ -51,7 +48,6 @@
 <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
 <fullyQualifiedTypeName name="modelo.persistencia.PeliculaDao"/>
 <fullyQualifiedTypeName name="modelo.entidad.Pelicula"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="modelo.entidad.Aeropuerto"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="modelo.entidad.Persona"/>
 <fullyQualifiedTypeName name="modelo.negocio.GestorPersonas"/>
+<fullyQualifiedTypeName name="modelo.entidad.Pc"/>
+<fullyQualifiedTypeName name="modelo.negocio.GestorPcs"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

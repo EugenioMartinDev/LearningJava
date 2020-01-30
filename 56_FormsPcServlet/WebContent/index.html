@@ -70,8 +70,11 @@ div.container {
 	<div class="grid-item2">
 	<form action="PcForm" method="post">
 		<!-- Botón de radio -->
+		Nombre: <input type="text" name="nombre" required="required"/>
+		<br/>Titulo: <input type="text" name="direccion" required="required"/>
+		<br/>Email: <input type="email" name="email"/>
 		<br/><h3>Elija el modelo de ordenador</h3>
-		<br/>Modelo: <input type="radio" name="modelo" value="Junior"/>Juvenil			
+		<br/>Modelo: <input type="radio" name="modelo" value="Junior" required/>Juvenil			
 		<br/>Modelo: <input type="radio" name="modelo" value="Familiar"/>Para toda la familia
 		<br/>Modelo: <input type="radio" name="modelo" value="Standard"/>Trabajo
 		<br/>Modelo: <input type="radio" name="modelo" value="Game"/>Juegos
@@ -99,6 +102,7 @@ div.container {
 		</select>
 		<!-- Botón de chequeo -->
 		<br/><h3>Elija los dispositivos</h3>
+		<!-- También se puede requerir este checkbox con required -->
 		<br/><input type="checkbox" name="devices" value="printer"/>Impresora
 		<br/><input type="checkbox" name="devices" value="mouse"/>Ratón
 		<br/><input type="checkbox" name="devices" value="cooler"/>Refrigeración

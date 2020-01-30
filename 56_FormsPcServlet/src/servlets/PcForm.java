@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import modelo.entidad.Pc;
+import modelo.entidad.Pedido;
 import modelo.negocio.GestorPcs;
 
 /**
@@ -38,20 +39,27 @@ public class PcForm extends HttpServlet {
 		String procesador = request.getParameter("procesador");
 		String memoria = request.getParameter("memoria");
 		String devices[] = request.getParameterValues("devices");
-		String comentarios = request.getParameter("comentarios");
+		String comentario = request.getParameter("comentarios");
 		
-		List<String> list = Arrays.asList(devices);
+		String nombre = request.getParameter("nombre");
+		String direccion = request.getParameter("direccion");
+		String email = request.getParameter("email");
 		
 		Pc pc = new Pc();
 		pc.setModelo(modelo);
 		pc.setProcesador(procesador);
 		pc.setMemoria(memoria);
 		pc.setDevices(devices);
-		pc.setComentarios(comentarios);
 
+		Pedido pedido = new Pedido();
+		pedido.setNombre(nombre);
+		pedido.setDireccion(direccion);
+		pedido.setEmail(email);
+		pedido.setPc(pc);
+		pedido.setComentario(comentario);
 		
 		GestorPcs gp = new GestorPcs();
-		boolean validada = gp.Validar(pc);
+		boolean validada = gp.Validar(pedido.getPc());
 		
 		if (validada) {
 			
@@ -65,25 +73,23 @@ public class PcForm extends HttpServlet {
 			mensaje += "</head>";
 			mensaje += "<body>";
 			mensaje += "<h1>Datos introducidos en el formulario PC</h1>";
-			mensaje += "<p1>MODELO : " + pc.getModelo() + "</p>";
-			mensaje += "<p1>PROCESADOR : " + gp.Xlate_Procesador(Integer.parseInt(pc.getProcesador())) + "</p>";
-			mensaje += "<p1>MEMORIA : " + gp.Xlate_Memoria(Integer.parseInt(pc.getMemoria())) + "</p>";
+			mensaje += "<p1>NOMBRE : " + pedido.getNombre() + "</p>";
+			mensaje += "<p1>DIRECCION : " + pedido.getDireccion() + "</p>";
+			mensaje += "<p1>EMAIL : " + pedido.getEmail() + "</p>";
+			mensaje += "<p1>MODELO : " + pedido.getPc().getModelo() + "</p>";
+			mensaje += "<p1>PROCESADOR : " + gp.Xlate_Procesador(Integer.parseInt(pedido.getPc().getProcesador())) + "</p>";
+			mensaje += "<p1>MEMORIA : " + gp.Xlate_Memoria(Integer.parseInt(pedido.getPc().getMemoria())) + "</p>";
 			mensaje += "<p1>DISPOSITIVOS : ";
-			int indice = 1;
-			for (String device : list) {
-				mensaje += device;
-				if (indice < list.size()) {
-					mensaje += " - ";
+
+			for (int i=0; i<pedido.getPc().getDevices().length; i++) {
+				mensaje += (i+1) + " - " + pedido.getPc().getDevices()[i];
+				if (i < pc.getDevices().length-1) {
+					mensaje += " ; ";
 				}
-				indice++;
-			}
-			/*
-			for (int i=0; i<pc.getDevices().length; i++) {
-				mensaje += (i+1) + " - " + pc.getDevices()[i] + " ; ";
 			}	
-			*/	
+			
 			mensaje += "</p>";
-			mensaje += "<p1>COMENTARIOS : " + pc.getComentarios() + "</p>";			
+			mensaje += "<p1>COMENTARIOS : " + pedido.getComentario() + "</p>";			
 			response.getWriter().append(mensaje);
 			response.setContentType("text/html");
 			
