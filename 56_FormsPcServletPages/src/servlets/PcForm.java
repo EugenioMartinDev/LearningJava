@@ -85,7 +85,10 @@ public class PcForm extends HttpServlet {
 			request.getRequestDispatcher("final.jsp").forward(request, response);
 			
 		} else {
-			response.sendRedirect("index.html");
+			
+			//Siempre que se envíe un formulario se debe hacer con un redirect en lugar de un forward,
+			//ya que si hacemos forward y el usuario acepta con f5, se crea una petición al servlet y NO al formulario.
+			response.sendRedirect("index.jsp?error=No ha rellenado adecuadamente el formulario");
 		}
 		
 		//response.getWriter().append("Served at: ").append(request.getContextPath());  // getWriter rellana el body -en condiciones normalels esto es un 200OK

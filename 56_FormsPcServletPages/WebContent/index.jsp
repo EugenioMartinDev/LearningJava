@@ -66,10 +66,12 @@ div.container {
 	<div class="grid-item"></div>
 	<div class="grid-item">
 		<h1>BIENVENIDO A NUESTRA TIENDA DE ORDENADORES</h1>
+		<h3 style="color:red;text-align: center">${param.error}</h3>
 	</div>
 	<div class="grid-item"></div>
 	<div class="grid-item"></div>	
 	<div class="grid-item2">
+	
 	<form action="PcForm" method="post">
 		<!-- Botón de radio -->
 		Nombre: <input type="text" name="nombre" required="required"/>

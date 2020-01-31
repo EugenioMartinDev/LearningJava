@@ -76,19 +76,58 @@
 		 direccion : ${pedido.direccion}
 		 <br/>
 		 email : ${pedido.email}
-		 </br>
+		  <br/>
 		 <h4>Ordenador pedido</h4>
 		 modelo : ${pedido.pc.modelo}
-		 </br>
+		  <br/>
 		 procesador : ${procesador}
-		 </br>
+		  <br/>
 		 memoria : ${memoria}
-		  </br>
+		   <br/>
 		 dispositivos : ${listaDispositivos}
-		  </br>
+		   <br/>
 		 comentarios : ${pedido.comentario}
 		 
 		  <hr/>
+		  
+		  <table border="1">
+		  	<tr>
+		  		<td>Nombre</td>		  	
+		  		<td>${pedido.nombre}</td>
+		  	</tr>
+		  	<tr>
+		  		<td>Direccion</td>
+		  		<td>${pedido.direccion}</td>
+		  	</tr>
+		  	<tr>
+		  		<td>email</td>
+		  		<td>${pedido.email}</td>
+		  	</tr>
+		  	<tr>
+		  		<td>Modelo</td>
+		  		<td>${pedido.pc.modelo}</td>
+		  	</tr>
+		  	<tr>
+		  		<td>Procesador</td>
+		  		<td>${pedido.pc.procesador}</td>
+		  	</tr>
+		  	<tr>
+		  		<td>Memoria</td>
+		  		<td>${pedido.pc.memoria}</td>
+		  	</tr>
+		  	<tr>
+		  		<td>dispositivos</td>
+		  		<td>
+		  		<c:forEach var="counter" begin="1" end="2">
+      				 <c:out value="${pedido.pc.devices}" />
+    			</c:forEach>
+    			</td>
+		  	</tr>
+		  	<tr>
+		  		<td>Comentarios</td>
+		  		<td>${pedido.comentario}</td>
+		  	</tr>
+		  </table>
 		 
 </body>
 </html>

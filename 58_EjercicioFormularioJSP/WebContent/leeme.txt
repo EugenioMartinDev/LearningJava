@@ -1,0 +1,3 @@
+para meter librerias en un proyecto web normal (no maven)
+seria simplemente copiar las librerias que quereis en el directorio
+webContent/WEB-INF/lib

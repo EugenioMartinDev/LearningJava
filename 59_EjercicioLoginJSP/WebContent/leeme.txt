@@ -1,0 +1,7 @@
+para meter librerias en un proyecto web normal (no maven)
+seria simplemente copiar las librerias que quereis en el directorio
+webContent/WEB-INF/lib
+
+@Herramientas y tecnologías empleadas
+
+Java JSE, Java JEE (Servlets y JSPs), Sockets, Hilos y procesos, Drivers de conexión a BBDD, JPA, Hibernate ORM, Programación por capas (MVC), Spring, Spring MVC, Spring JPA DATA, Spring BOOT, API REST, HTML, CSS, XML, JSON, GIT, Maven, SQL y MySQL, Tomcat, Eclipse IDE.
