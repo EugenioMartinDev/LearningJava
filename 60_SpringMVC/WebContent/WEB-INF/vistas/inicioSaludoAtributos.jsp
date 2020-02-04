@@ -8,13 +8,15 @@
 </head>
 <body>
 	<h1>Bienvenido a nuestra web!!</h1>
-	<h2>Yo te saludo!!| ${param.nombre }</h2>
-	<h2>que tienes una edad!!| ${param.edad }</h2>
+	<h3>Parametros</h3>
+	<h2>Yo te saludo!!! ${param.nombre }</h2>
+	<h2>Que tienes una edad de: ${param.edad }</h2>
 	
-		<h1>Bienvenido a nuestra web!!</h1>
-	<h2>Yo te saludo!!| ${p.nombre }</h2>
-	<h2>que tienes una edad!!| ${p.edad }</h2>
-	<h2>Persona ${p}</h2>
+	<h3>Atributos</h3>
+	<h2>Yo te saludo!!! ${p.nombre }</h2>
+	<h2>Que tienes una edad de: ${p.edad }</h2>
+	<h2>Persona: ${p }</h2>
+	
 	
 </body>
 </html>

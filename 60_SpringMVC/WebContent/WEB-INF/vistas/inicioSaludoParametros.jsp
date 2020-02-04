@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>Bienvenido a nuestra web!!</h1>
-	<h2>Yo te saludo!!| ${param.nombre }</h2>
-	<h2>que tienes una edad!!| ${param.edad }</h2>
+	<h2>Yo te saludo!!! ${param.nombre }</h2>
+	<h2>Que tienes una edad de: ${param.edad }</h2>
 </body>
 </html>
