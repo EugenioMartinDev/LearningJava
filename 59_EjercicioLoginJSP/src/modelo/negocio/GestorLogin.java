@@ -13,6 +13,10 @@ public class GestorLogin {
 		
 		initMapaContraseñas();
 		
+		SimpleMD5Example simpleMD5 = new SimpleMD5Example();
+		
+		String generatedContraseña = simpleMD5.GeneratedPassword(login.getContraseña());
+		
 		try {
 			if(login.getUsuario().isEmpty()) {
 				return false;
@@ -23,6 +27,12 @@ public class GestorLogin {
 			if (mapaContraseñas.get(login.getUsuario()) == null) {
 				return false;
 			}
+			if (!mapaContraseñas.get(login.getUsuario()).contentEquals(generatedContraseña)) {
+				return false;
+			}
+			
+			login.setContraseña(generatedContraseña);
+			
 			return true;
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -34,9 +44,11 @@ public class GestorLogin {
 		
 		mapaContraseñas = new HashMap<String, String>();
 		
-		mapaContraseñas.put("Jose", "1234");
-		mapaContraseñas.put("Juan", "1234");
-		mapaContraseñas.put("Pablo", "1234");
+		SimpleMD5Example simpleMD5 = new SimpleMD5Example();
+		
+		mapaContraseñas.put("Jose", simpleMD5.GeneratedPassword("1234"));
+		mapaContraseñas.put("Juan", simpleMD5.GeneratedPassword("1234"));
+		mapaContraseñas.put("Pablo", simpleMD5.GeneratedPassword("1234"));
 		
 	}
 

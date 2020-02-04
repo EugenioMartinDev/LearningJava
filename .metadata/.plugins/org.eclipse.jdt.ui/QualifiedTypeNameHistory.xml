@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingQueue"/>
-<fullyQualifiedTypeName name="modelo.entidad.Direccion"/>
-<fullyQualifiedTypeName name="modelo.entidad.Casa"/>
-<fullyQualifiedTypeName name="java.lang.Class"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="modelo.entidadFelix.SpringMainPeliculaFelix"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-<fullyQualifiedTypeName name="vista.MainVistaPersistente"/>
-<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-<fullyQualifiedTypeName name="utils.Constantes"/>
-<fullyQualifiedTypeName name="main.MainCliente"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
 <fullyQualifiedTypeName name="cfg.ConfiguracionSpring"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="modelo.entidad.Pedido"/>
 <fullyQualifiedTypeName name="modelo.entidad.Persona"/>
+<fullyQualifiedTypeName name="javax.swing.JPasswordField"/>
+<fullyQualifiedTypeName name="modelo.entidad.Login"/>
+<fullyQualifiedTypeName name="modelo.entidad.Detalle"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.security.MessageDigest"/>
+<fullyQualifiedTypeName name="java.security.NoSuchAlgorithmException"/>
+<fullyQualifiedTypeName name="modelo.negocio.SimpleMD5Example"/>
+<fullyQualifiedTypeName name="modelo.entidad.Usuario"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 </qualifiedTypeNameHistroy>

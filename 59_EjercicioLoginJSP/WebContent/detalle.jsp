@@ -8,6 +8,7 @@
 </head>
 <body>
 <center>
+	<!-- h1>Detalle de los Datos </h1>${param.usuario}  También es posible utilizar el parámetro usuario de la request primitiva -->
 	<h1>Detalle de los Datos </h1>${detalle.nombre}
 	<hr/>
 	<p>Direccion : ${detalle.direccion}</p>
