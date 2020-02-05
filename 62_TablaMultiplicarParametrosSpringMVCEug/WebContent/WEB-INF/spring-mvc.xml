@@ -12,7 +12,7 @@
 
 	<mvc:annotation-driven />
 
-	<bean id="viewResolverJSP"
+	<bean id="viewResolverJSPManolo"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/vistas/"/>
 		<property name="suffix" value=".jsp"/>
