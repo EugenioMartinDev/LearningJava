@@ -1,7 +1,6 @@
-package config;
+package login.config;
 import java.util.Properties;
 
-import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
@@ -17,17 +16,19 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 //https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa
 //le decimos a spring que esta clase va a contener @Bean
-//@Configuration
+@Configuration
 //Le decimos a spring que vamso a trabajar con un repositorio
 //jpa que esta en el sigiente paquete
-@EnableJpaRepositories(basePackages= {"modelo.persistencia"})
+@EnableJpaRepositories(basePackages= {"login.modelo.persistencia"})
 //le decimos a spring donde tiene que ir a buscar objetos
 //para dar de alta
-@ComponentScan(basePackages = { "modelo" })
+@ComponentScan(basePackages = { "login" })
 //esta etiqueta decismos a spring que use su gestor de transacacciones
 @EnableTransactionManagement
-public class Configuracion {
+public class JPADataConfig {
 
+
+	
 	@Bean
 	public DataSource dataSource() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
@@ -41,16 +42,13 @@ public class Configuracion {
 	@Bean
 	public LocalContainerEntityManagerFactoryBean 
 		entityManagerFactory(DataSource dataSource, Environment env) {
-		
 		LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = 
 			new LocalContainerEntityManagerFactoryBean();
-		
 		entityManagerFactoryBean.setDataSource(dataSource);
 		entityManagerFactoryBean.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
-		entityManagerFactoryBean.setPackagesToScan("modelo.entidad");
-		
+		entityManagerFactoryBean.setPackagesToScan("login.modelo.entidad");
+
 		Properties jpaProperties = new Properties();
-		//jpaProperties.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
 		jpaProperties.put("hibernate.dialect", "org.hibernate.dialect.MySQL8Dialect");
 		jpaProperties.put("hibernate.hbm2ddl.auto", "update");//create-drop update
 		jpaProperties.put("hibernate.show_sql", "true");
@@ -58,7 +56,7 @@ public class Configuracion {
 		entityManagerFactoryBean.setJpaProperties(jpaProperties);
 
 		return entityManagerFactoryBean;
-	}
+	}	
 	
 	@Bean
 	JpaTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
