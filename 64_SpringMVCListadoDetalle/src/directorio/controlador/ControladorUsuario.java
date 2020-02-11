@@ -25,10 +25,10 @@ public class ControladorUsuario {
 	
 	@RequestMapping("mostrarAlta")
 	public String mostrarAlta() {
-		return "alta";
+		return "altaUsuario";
 	}
 	
-	@RequestMapping("doAlta")
+	@RequestMapping("doAltaUsuario")
 	public ModelAndView hacerAlta(@RequestParam() String nombre
 			,@RequestParam() String pass
 			,@RequestParam() String email

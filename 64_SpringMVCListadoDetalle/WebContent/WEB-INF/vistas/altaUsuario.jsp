@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>Bienvenidos a nuestro registro</h1>
-	<form action="doAltaPelicula">
+	<form action="doAltaUsuario">
 	Nombre: <input type="text" name="nombre"/>
 	<br/>
 	Password: <input type="password" name="pass"/>

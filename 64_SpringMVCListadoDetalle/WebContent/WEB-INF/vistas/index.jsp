@@ -7,16 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Bienvenido a su escritorio!!! ${param.usuario }</h1>
+	<h1>Bienvenido a su escritorio!!! ${param.nombre }</h1>
 	<h2>${param.mensaje }</h2>
 	
 	<p>Elija listar el directorio de películas o dar de alta una nueva película</p>
 	
-	<a href="listado">Listado de películas</a>
+	<a href="listadoPeliculas?nombre=${param.nombre }">Listado de películas</a>
 	
 	<br/>
 	
-	<a href="altaPeliculas">Alta de películas</a>
+	<a href="altaPeliculas?nombre=${param.nombre }">Alta de películas</a>
 	
 </body>
 </html>

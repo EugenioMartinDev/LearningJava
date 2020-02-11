@@ -4,15 +4,18 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.MapsId;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.GenericGenerator;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
 @Scope("prototype")
 @Entity
-@Table(name="listadoPeliculas")
+@Table(name="directorioPeliculas")
 public class Pelicula {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,6 +35,7 @@ public class Pelicula {
 	public void setId(int id) {
 		this.id = id;
 	}
+	
 	/**
 	 * @return the titulo
 	 */
@@ -72,6 +76,8 @@ public class Pelicula {
 	public String toString() {
 		return "Pelicula [id=" + id + ", titulo=" + titulo + ", year=" + year + ", recaudacion=" + recaudacion + "]";
 	}
+
+
 	
 	
 
