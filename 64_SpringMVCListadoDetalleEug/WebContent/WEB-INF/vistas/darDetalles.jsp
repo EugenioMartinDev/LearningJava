@@ -7,6 +7,20 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+th {
+  height: 50px;
+}
+</style>
 <body>
 	<h1>Detalle de Pelicula</h1>
 	<table>
@@ -16,9 +30,9 @@
 		<th>RECAUDACION</th>
 	</tr>
         <tr>
-        <td>${param.titulo }</td>
-        <td>${param.year }</td>
-        <td>${param.recaudacion }</td>
+        <td>${pelicula.titulo }</td>
+        <td>${pelicula.year }</td>
+        <td>${pelicula.recaudacion }</td>
         </tr>
 	</table>
 	<hr/>

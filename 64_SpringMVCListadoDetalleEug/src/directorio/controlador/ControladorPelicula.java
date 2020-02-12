@@ -116,22 +116,20 @@ public class ControladorPelicula {
 		
 		int iIdentity = Integer.parseInt(identity);
 		
-		Peli pelicula = gp.getPelicula(iIdentity);		
+		Peli pelicula = gp.getPelicula(iIdentity);
+		
+		System.out.println("Peli en controlador " + pelicula);
 
+		mav.getModelMap().addAttribute("pelicula", pelicula);		
 		mav.getModelMap().addAttribute("titulo", pelicula.getTitulo());
 		mav.getModelMap().addAttribute("year", pelicula.getYear());
 		mav.getModelMap().addAttribute("recaudacion", pelicula.getRecaudacion());
-		mav.setViewName("redirect:showDetalles");
+		mav.setViewName("darDetalles");
 		
 		return mav;
 		
 	}
-	
-	@RequestMapping("showDetalles")
-	public String mostrarDetalles() {
-		return "darDetalles";
-	}
-	
+
 	
 	@RequestMapping("volverListado")
 	public String volverListado() {

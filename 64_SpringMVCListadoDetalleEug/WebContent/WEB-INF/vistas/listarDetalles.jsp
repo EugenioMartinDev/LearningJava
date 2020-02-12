@@ -7,8 +7,22 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<style>
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 25%;
+}
+
+
+</style>
 <body>
 	<h1>Listado de peliculas</h1>
+	<hr/>
+	<input type="button" value="Volver a usuario" onclick="location.href = 'volverUsuario'" />
+	<hr/>
+	<input type="button" value="Volver a alta de pelicula" onclick="location.href = 'volverAltaPelicula'" />
+	<hr/>
 	<table>
       <c:forEach items="${listaPeliculasBase}" var="peliculaBase">
         <tr>
@@ -17,9 +31,5 @@
         </tr>
       </c:forEach>
 	</table>
-	<hr/>
-	<input type="button" value="Volver a usuario" onclick="location.href = 'volverUsuario'" />
-	<hr/>
-	<input type="button" value="Volver a alta de pelicula" onclick="location.href = 'volverAltaPelicula'" />
 </body>
 </html>
