@@ -12,11 +12,11 @@
 	
 	<p>Elija listar el directorio de películas o dar de alta una nueva película</p>
 	
-	<a href="listadoPeliculas?usuario=${param.nombre }">Listado de películas</a>
+	<a href="listadoPeliculas?nombre=${param.nombre }">Listado de películas</a>
 	
 	<br/>
 	
-	<a href="altaPeliculas?usuario=${param.nombre }">Alta de películas</a>
+	<a href="altaPeliculas?nombre=${param.nombre }">Alta de películas</a>
 	
 </body>
 </html>

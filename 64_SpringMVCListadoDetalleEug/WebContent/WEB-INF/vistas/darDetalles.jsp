@@ -22,7 +22,7 @@ th {
 }
 </style>
 <body>
-	<h1>Detalle de Pelicula</h1>
+	<h1>Detalle de Pelicula para ${nombre }</h1>
 	<table>
 	<tr>
 		<th>TITULO</th>
@@ -36,6 +36,7 @@ th {
         </tr>
 	</table>
 	<hr/>
-	<input type="button" value="Volver a listado" onclick="location.href = 'volverListado'" />
+	
+	<input type="button" value="Volver a listado" onclick="location.href = 'volverListado?nombre=${nombre}';" />
 </body>
 </html>

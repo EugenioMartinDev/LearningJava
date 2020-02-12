@@ -76,8 +76,9 @@ public class ControladorUsuario {
 	
 	@RequestMapping("inicio")
 	public ModelAndView mostrarInicio(
+			@RequestParam() String nombre,
 			ModelAndView mav) {
-		mav.getModelMap().addAttribute("nombre", usuario.getNombre());
+		mav.getModelMap().addAttribute("nombre", nombre);
 		mav.setViewName("index");
 		return mav;
 	}

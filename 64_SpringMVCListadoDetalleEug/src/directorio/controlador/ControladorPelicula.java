@@ -29,8 +29,14 @@ public class ControladorPelicula {
 		
 	
 	@RequestMapping("altaPeliculas")
-	public String mostrarAltaPelicula() {
-		return "altaPelicula";
+	public ModelAndView mostrarAltaPelicula(
+			@RequestParam() String nombre,
+			ModelAndView mav) {
+	
+		mav.getModelMap().addAttribute("nombre", nombre);
+		mav.setViewName("altaPelicula");
+		
+		return mav;
 	}
 	
 	@RequestMapping("doAltaPelicula")
@@ -38,6 +44,7 @@ public class ControladorPelicula {
 			@RequestParam() String titulo,
 			@RequestParam() String year,
 			@RequestParam() Double recaudacion,
+			@RequestParam() String nombre,
 			ModelAndView mav) {
 		
 		pelicula.setTitulo(titulo);
@@ -47,7 +54,8 @@ public class ControladorPelicula {
 	    //pelicula.setPeliculaBase(peliculaBase);
 		
 		String mensaje = gp.alta(pelicula);
-		mav.getModelMap().addAttribute("mensaje", mensaje);		
+		mav.getModelMap().addAttribute("mensaje", mensaje);	
+		mav.getModelMap().addAttribute("nombre", nombre);	
 		mav.setViewName("redirect:inicio");
 		
 		return mav;
@@ -57,6 +65,7 @@ public class ControladorPelicula {
 
 	@RequestMapping("listadoPeliculas")
 	public ModelAndView listarPeliculas(
+			@RequestParam() String nombre,
 			ModelAndView mav){
 		
 		//List<PeliculaBase> listaPeliculasBase = gp.listar();
@@ -81,6 +90,7 @@ public class ControladorPelicula {
 		}
 
 		mav.getModelMap().addAttribute("mensaje", mensaje);
+		mav.getModelMap().addAttribute("nombre", nombre);
 		mav.addObject("listaPeliculasBase", listaPeliculasBase);
 		/*
 		ArrayList<Integer> idList = new ArrayList<Integer>();
@@ -112,6 +122,7 @@ public class ControladorPelicula {
 	@RequestMapping("detalle")
 	public ModelAndView listarPeliculasDetalle(
 			@RequestParam() String identity,
+			@RequestParam() String nombre,
 			ModelAndView mav){
 		
 		int iIdentity = Integer.parseInt(identity);
@@ -121,9 +132,7 @@ public class ControladorPelicula {
 		System.out.println("Peli en controlador " + pelicula);
 
 		mav.getModelMap().addAttribute("pelicula", pelicula);		
-		mav.getModelMap().addAttribute("titulo", pelicula.getTitulo());
-		mav.getModelMap().addAttribute("year", pelicula.getYear());
-		mav.getModelMap().addAttribute("recaudacion", pelicula.getRecaudacion());
+		mav.getModelMap().addAttribute("nombre", nombre);
 		mav.setViewName("darDetalles");
 		
 		return mav;
@@ -132,9 +141,14 @@ public class ControladorPelicula {
 
 	
 	@RequestMapping("volverListado")
-	public String volverListado() {
+	public ModelAndView volverListado(
+			@RequestParam() String nombre,
+			ModelAndView mav) {
+		
+		mav.getModelMap().addAttribute("nombre", nombre);
+		mav.setViewName("redirect:listadoPeliculas");
 
-		return "redirect:listadoPeliculas";
+		return mav;
 	}
 	
 	@RequestMapping("volverUsuario")
@@ -144,9 +158,14 @@ public class ControladorPelicula {
 	}
 	
 	@RequestMapping("volverAltaPelicula")
-	public String volverAltaPelicula() {
+	public ModelAndView volverAltaPelicula(
+			@RequestParam() String nombre,
+			ModelAndView mav) {
+		
+		mav.getModelMap().addAttribute("nombre", nombre);
+		mav.setViewName("redirect:altaPeliculas");
 
-		return "redirect:altaPeliculas";
+		return mav;
 	}
 }
 

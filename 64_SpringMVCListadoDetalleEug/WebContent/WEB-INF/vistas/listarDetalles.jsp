@@ -17,17 +17,17 @@ table {
 
 </style>
 <body>
-	<h1>Listado de peliculas</h1>
+	<h1>Listado de peliculas para ${nombre }</h1>
 	<hr/>
 	<input type="button" value="Volver a usuario" onclick="location.href = 'volverUsuario'" />
 	<hr/>
-	<input type="button" value="Volver a alta de pelicula" onclick="location.href = 'volverAltaPelicula'" />
+	<input type="button" value="Volver a alta de pelicula" onclick="location.href = 'volverAltaPelicula?nombre=${nombre}'" />
 	<hr/>
 	<table>
       <c:forEach items="${listaPeliculasBase}" var="peliculaBase">
         <tr>
           <td>${peliculaBase.titulo}</a><td>
-          <td><a href="detalle?identity=${peliculaBase.id }">Detalle<a/><td>
+          <td><a href="detalle?identity=${peliculaBase.id }&nombre=${nombre}">Detalle<a/><td>
         </tr>
       </c:forEach>
 	</table>
