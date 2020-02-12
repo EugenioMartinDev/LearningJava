@@ -7,9 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Bienvenido a su escritorio!!! ${param.usuario }</h1>
-	
-	<a href="peliculas/listar">Ir a listar</a>
-	<a href="peliculas/alta">Ir a alta</a>
+	<h1>Detalle de la pelicula</h1>
+	<h3>${pelicula.id}</h3>
+	<h3>${pelicula.titulo}</h3>
+	<h3>${pelicula.director}</h3>
+	<h3>${pelicula.genero}</h3>
+	<h3>${pelicula.year}</h3>	
 </body>
 </html>
