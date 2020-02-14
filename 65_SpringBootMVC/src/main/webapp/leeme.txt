@@ -1,0 +1,2 @@
+la carpeta webapp seria como la webcontent, es decir
+la raiz de nuestra web
