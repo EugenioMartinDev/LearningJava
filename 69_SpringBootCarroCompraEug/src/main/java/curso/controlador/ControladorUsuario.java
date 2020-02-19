@@ -66,7 +66,7 @@ public class ControladorUsuario {
 		boolean validado = gu.login();
 		
 		if(validado) {
-			mav.setViewName("redirect:seleccionProductos");
+			mav.setViewName("redirect:seleccionCategoria");
 			mav.getModelMap().addAttribute("nombre",nombre);
 		}else {
 			mav.setViewName("redirect:login");

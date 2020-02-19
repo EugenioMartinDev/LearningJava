@@ -34,6 +34,8 @@ public class GestorUsuario {
 		if(uAux == null) {
 			return false;
 		}else {
+			usuario.setDireccion(uAux.getDireccion());
+			usuario.setEmail(uAux.getEmail());
 			usuario.setRegistrado(true);
 			return true;	
 		}		

@@ -7,6 +7,31 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<style type="text/css">
+  table.presentacion {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+
+  table.scroll{
+    margin-left:auto; 
+    margin-right:auto;
+    border: 1px solid black;
+  }
+  
+  
+table.scroll thead, table.scroll tbody{display: block;}
+
+
+table.scroll tbody{
+	height: 350px;
+	width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+</style>
 <body>
 	<h1>Listado de Productos</h1>
 	
