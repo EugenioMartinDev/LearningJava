@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.annotation.SessionScope;
 
 @XmlRootElement
-@SessionScope
 @Component
 public class Libros {
 

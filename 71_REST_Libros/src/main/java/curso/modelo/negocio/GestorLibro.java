@@ -38,22 +38,29 @@ public class GestorLibro {
 		
 		System.out.println(libro);
 		
-		//1.- Validar todos los campos no vacíos
-		if (libro.getAutor().isEmpty()
+		//1.- Validar todos los campos no vacíos		
+		if (libro.getAutor() == null
 				||
-			libro.getEditorial().isEmpty()
-			||
-			libro.getTitulo().isEmpty()
-			||
-			libro.getIsbn().isEmpty()
-			||
-			libro.getYear() == null) {
+				libro.getAutor().isEmpty()
+				||
+				libro.getEditorial() == null
+				||
+				libro.getEditorial().isEmpty()
+				||
+				libro.getTitulo() == null
+				||
+				libro.getTitulo().isEmpty()
+				||
+				libro.getIsbn() == null
+				||
+				libro.getIsbn().isEmpty()
+				||
+				libro.getYear() == null) {
 			
 			return false;		
 		}
 
-		//2.- Campo isbn único
-		
+		//2.- Campo isbn único		
 		String isbn = libro.getIsbn();
 		
 		Libro l = daoLibro.findByIsbn(isbn);
@@ -80,35 +87,36 @@ public class GestorLibro {
 		
 		if (year > Calendar.getInstance().get(Calendar.YEAR)) {
 			return false;
-		}
-		
-		
+		}		
 		return validado;
 	}
 	
 	
-	public boolean modificar(Libro libro) {
-		
-		if (findLibro(libro)) {
+	public boolean modificar(Libro libro) {	
+		Libro foundLibro = findLibro(libro);
+		if (foundLibro != null) {
+			if (libro.getTitulo() == null) libro.setTitulo(foundLibro.getTitulo());
+			if (libro.getEditorial() == null) libro.setEditorial(foundLibro.getEditorial());
+			if (libro.getAutor() == null) libro.setAutor(foundLibro.getAutor());
+			if (libro.getIsbn() == null) libro.setIsbn(foundLibro.getIsbn());
+			if (libro.getYear() == null) libro.setYear(foundLibro.getYear());
 			daoLibro.save(libro);
 			return true;
 		} else {
 			return false;
-		}
-		
+		}		
 	}
 	
-	public Libro obtener(Libro libro) {
-		
-		if (findLibro(libro)) {
-			return libro;
+	public Libro obtener(Libro libro) {	
+		Libro l = findLibro(libro);
+		if (l != null) {
+			return l;
 		} else {
 			return null;
 		}
 	}
 	
-	public Libros listar() {
-		
+	public Libros listar() {	
 		Libros libros = new Libros();
 		
 		List<Libro> listaLibros = daoLibro.findAll();
@@ -123,9 +131,8 @@ public class GestorLibro {
 						
 	}
 	
-	public boolean borrar(Libro libro) {
-		
-		if (findLibro(libro)) {
+	public boolean borrar(Libro libro) {		
+		if (findLibro(libro) != null) {
 			daoLibro.deleteById(libro.getId());
 			return true;
 		}		
@@ -133,13 +140,16 @@ public class GestorLibro {
 	}
 	
 	
-	private boolean findLibro(Libro libro) {
+	private Libro findLibro(Libro libro) {
+		
+		System.out.println(libro);
 		
 		Optional l = daoLibro.findById(libro.getId());		
 		if (l.isPresent()) {
-			return true;
+			System.out.println(l.get());
+			return (Libro)l.get();
 		} 
-		return false;
+		return null;
 	}
 	
 }

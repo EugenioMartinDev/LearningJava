@@ -41,7 +41,7 @@ public class ControladorLibro {
 	@PostMapping(path = "libro", consumes = MediaType.APPLICATION_JSON_VALUE,
 			produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Libro> alta(@RequestBody Libro l){
-		if (gl.alta(l) == null) {
+		if (gl.alta(l) != null) {
 			return new ResponseEntity<Libro>(l,HttpStatus.CREATED);
 		} else {
 			return new ResponseEntity<Libro>(HttpStatus.NOT_ACCEPTABLE);
@@ -54,7 +54,8 @@ public class ControladorLibro {
 	@GetMapping(path ="libro/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Libro> obtener(@PathVariable("id") Integer id){
 		libro.setId(id);
-		if (gl.obtener(libro) != null) {
+		libro = gl.obtener(libro);
+		if (libro != null) {
 			return new ResponseEntity<Libro>(libro,HttpStatus.OK);
 		} else {
 			return new ResponseEntity<Libro>(HttpStatus.NOT_FOUND);

@@ -13,7 +13,6 @@ import org.springframework.web.context.annotation.SessionScope;
 @Entity
 @Table(name="libros")
 @XmlRootElement
-@SessionScope
 @Component
 public class Libro {
 
