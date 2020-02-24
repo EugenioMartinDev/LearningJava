@@ -14,6 +14,7 @@ import org.springframework.web.context.annotation.SessionScope;
 @Table(name="libros")
 @XmlRootElement
 @Component
+@SessionScope
 public class Libro {
 
 	@Id

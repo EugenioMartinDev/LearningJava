@@ -6,9 +6,11 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.annotation.SessionScope;
 
 @XmlRootElement
 @Component
+@SessionScope
 public class Libros {
 
 	//Se incluye esta notación para que cada elemento tenga el nombre libro en lugar de listaLibros.

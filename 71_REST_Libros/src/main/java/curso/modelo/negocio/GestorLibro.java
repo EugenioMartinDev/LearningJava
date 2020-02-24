@@ -5,6 +5,8 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Optional;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +20,7 @@ public class GestorLibro {
 	@Autowired
 	private DaoLibro daoLibro;
 	
+	@Transactional
 	public Libro alta(Libro libro) {
 		
 		boolean validado = validar(libro);
@@ -90,7 +93,7 @@ public class GestorLibro {
 		return validado;
 	}
 	
-	
+	@Transactional
 	public boolean modificar(Libro libro) {	
 		Libro foundLibro = findLibro(libro);
 		if (foundLibro != null) {

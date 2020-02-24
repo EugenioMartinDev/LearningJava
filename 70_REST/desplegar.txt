@@ -1,0 +1,53 @@
+Para desplegar una aplicacion web java debemos de generar
+un fichero ".war". Este fichero va a contener todas las clases
+y los recursos (html, css, etc) que hayamos generado en 
+nuestro proyecto. Esta extension es como un servidor de aplicaciones
+JAVA reconoce que es una aplicacon web.
+
+Nostros vamos a utilizar TOMCAT como sevidor
+
+Para generar un .war en una aplicacion que NO es MAVEN,
+simplente seria boton derecho sobre el proyecto y exportar
+como war
+
+Para generar un .war en una aplicacion MAVEN debemos de:
+	1- Primero de todo debemos de tener configurado un JDK
+	en el proyecto. Pasos a seguir:
+		a)Windows->Preference->Java->Instaled JREs
+		b)En caso de que se este usando un JRE cambiarlo a
+		JDK editandolo, se puede cambiar tambien el nombre.
+		Se selecciona la carpeta donde esta todo el JDK, la carpeta
+		raiz
+	2- Hay que ejecutar MAVEN para que nos cree el war, para ello
+	boton derecho sobre el proyecto y Run as -> Maven Install
+	3- El war se habra generado en la carpeta "target" con la 
+	extension ".war"
+	
+Una vez generado el war debemos de ponerle en nuestro TOMCAT
+para ello compiaremos los .war y los desplegaremos en la carpeta
+"webapp" de nuestro TOMCAT
+
+El ultimo paso sera arancar el TOMCAT. pero es posible que tengamos
+que configurar la variable de entorno JAVA_HOME, ya que TOMCAT
+es una aplicacion JAVA
+
+Para configurar el JAVA_HOME como variable de entorno depende del sistema
+operativo y de su version, serch for the life.
+Para Windows 10 version de 24/02/2020
+	1- boton derecho sobre icono windows->sistema->informacion del sistema
+	2- Configuracion avanzada del sistema
+	3- Variables de entorno
+	4- Boton nueva
+	5- Poner como clave JAVA_HOME y como valor
+	poner la carpeta del JDK Ej: C:\Program Files\Java\jdk1.8.0_221
+	
+Una vez configurada la variable de entorno JAVA_HOME ya podemos
+arrancar TOMCAT
+
+Para arrancar TOMCAT debemos de irnos a la carpeta bin
+de donde hayamos instalado TOMCAT y ejecutar startup, .bat
+en caso de windows .sh en caso de linux. Se recomienda
+acceder a esta carpeta medinte la consola de comandos "CMD"
+
+Para parar TOMCAT podemos ejecutar shutdown, .bat en caso
+de windows .sh en caso de linux

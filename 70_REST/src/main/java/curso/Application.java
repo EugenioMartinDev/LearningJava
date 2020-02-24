@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 import curso.modelo.entidad.Pelicula;
-import curso.modelo.persistencia.DaoPelicula;
+import curso.modelo.persistancia.DaoPelicula;
 
 @SpringBootApplication
 public class Application {
@@ -13,15 +13,15 @@ public class Application {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(Application.class, args);
 		
+		DaoPelicula dp = context.getBean("daoPelicula", DaoPelicula.class);
+		
 		Pelicula p = new Pelicula();
+		p.setTitulo("Cocodrilo Dundee");
+		p.setGenero("accion");
+		p.setDirector("Pedro almodovar");
+		p.setYear(1985);
 		
-		p.setDirector("Jose");
-		p.setTitulo("La mesa");
-		p.setYear(1027);
-		
-		DaoPelicula dao = context.getBean("daoPelicula", DaoPelicula.class);
-		
-		dao.save(p);
+		dp.save(p);
 	}
 
 }
