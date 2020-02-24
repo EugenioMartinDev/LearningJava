@@ -1,7 +1,5 @@
 package curso.controlador;
 
-import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -38,7 +36,7 @@ public class ControladorLibro {
 	}
 
 	// BODY {"titulo":"La guerra de los mundos","director":"Manolo","genero":"accion","year":1980}
-	@PostMapping(path = "libro", consumes = MediaType.APPLICATION_JSON_VALUE,
+	@PostMapping(path = "libro", consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
 			produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Libro> alta(@RequestBody Libro l){
 		if (gl.alta(l) != null) {
